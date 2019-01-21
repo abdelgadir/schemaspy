@@ -1,0 +1,21 @@
+
+;org.schemaspy.model.TableColumn#getParents()Ljava/util/Set;
+__unknown_file ("1*Ó
+1e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaê ê(∑
+¥
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaê ê(
+%0java.util.Map"__id*0*.!
+org.schemaspy.model.TableColumn"	
+parents«ƒ
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaê ê(
+%1java.util.Set"%java.util.Map#keySet()Ljava/util/Set;*
+
+%0java.util.Map2keySet()"~
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaê ê( 
+
+%1java.util.SetB#!
+org.schemaspy.model.TableColumn

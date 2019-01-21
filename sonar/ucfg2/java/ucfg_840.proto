@@ -1,0 +1,68 @@
+
+/org.schemaspy.view.DotNode#getColumnMaxWidth()I
+__unknown_file ("6*Ñ
+1`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÁ Á("j
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÁ Á(
+""*Ž
+2`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java» »(ž
+›
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java» »()
+columnorg.schemaspy.model.TableColumn"__id*
+""*
+4
+1*Ê
+4`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java¼ ¼(#òï
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java¼$ ¼(4
+%5java.lang.String";org.schemaspy.model.TableColumn#getName()Ljava/lang/String;*+
+)
+columnorg.schemaspy.model.TableColumn2	getName()è
+å
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java¼ ¼(5	
+%6int"<org.schemaspy.view.DotNode#getTextWidth(Ljava/lang/String;)I*"
+org.schemaspy.view.DotNode*
+
+%5java.lang.String*
+2*‹
+5`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java»" »('·
+´
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java»" »('
+%3org.schemaspy.model.Table"__id*)*'
+org.schemaspy.view.DotNode"
+tableäá
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java»" »(4
+%4java.util.List"6org.schemaspy.model.Table#getColumns()Ljava/util/List;*!
+
+%3org.schemaspy.model.Table2getColumns()*
+2*ô
+6`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaº º(#·
+´
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaº$ º()
+%0org.schemaspy.model.Table"__id*)*'
+org.schemaspy.view.DotNode"
+tableâß
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaº$ º(3
+%1java.lang.String"5org.schemaspy.model.Table#getName()Ljava/lang/String;*!
+
+%0org.schemaspy.model.Table2	getName()è
+å
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaº º(4	
+%2int"<org.schemaspy.view.DotNode#getTextWidth(Ljava/lang/String;)I*"
+org.schemaspy.view.DotNode*
+
+%1java.lang.String*
+5B
+org.schemaspy.view.DotNode

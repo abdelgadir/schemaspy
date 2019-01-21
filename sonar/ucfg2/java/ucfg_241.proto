@@ -1,0 +1,38 @@
+
+*org.schemaspy.model.CombinedMap#isEmpty()Z
+__unknown_file ("3*×
+1c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.java< <(0"m
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.java< <(0
+""*Ø
+2c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.java<! <(%²
+¯
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.java<! <(%
+%2java.util.Map"__id*-*+!
+org.schemaspy.model.CombinedMap"
+map2³°
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.java<! <(/
+%3boolean"java.util.Map#isEmpty()Z*
+
+%2java.util.Map2	isEmpty()*
+1*Û
+3c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.java< <(²
+¯
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.java< <(
+%0java.util.Map"__id*-*+!
+org.schemaspy.model.CombinedMap"
+map1³°
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.java< <(
+%1boolean"java.util.Map#isEmpty()Z*
+
+%0java.util.Map2	isEmpty()*
+2
+1B#!
+org.schemaspy.model.CombinedMap

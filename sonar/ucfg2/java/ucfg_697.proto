@@ -1,0 +1,16 @@
+
+Qorg.schemaspy.service.SqlService#getDatabaseMetaData()Ljava/sql/DatabaseMetaData;
+__unknown_file ("1*Ä
+1d
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/service/SqlService.javaj j(Ì
+É
+d
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/service/SqlService.javaj j(
+%0java.sql.DatabaseMetaData"__id*:*8"
+ org.schemaspy.service.SqlService"
+databaseMetaData"‰
+d
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/service/SqlService.javaj j( !
+
+%0java.sql.DatabaseMetaDataB$"
+ org.schemaspy.service.SqlService

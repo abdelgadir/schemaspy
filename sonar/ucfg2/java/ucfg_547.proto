@@ -1,0 +1,124 @@
+
+Norg.schemaspy.model.xml.SchemaMeta#parse(Ljava/io/File;)Lorg/w3c/dom/Document;
+__unknown_file ("17*˘
+1h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.java® ®("â
+h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.java® ®(
+
+docorg.w3c.dom.Document*∆
+13h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaï ï(5œ
+Ã
+h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaï ï(5/
+
+docBuilder!javax.xml.parsers.DocumentBuilder"__id*)
+'
+%4!javax.xml.parsers.DocumentBuilder*
+11*¸
+3h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.java£ £(á
+Ñ
+h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.java£ £(
+%17void"Dorg.schemaspy.model.xml.SchemaMeta#validate(Lorg/w3c/dom/Document;)V*&$
+"org.schemaspy.model.xml.SchemaMeta*
+
+docorg.w3c.dom.Document*
+1*£
+5h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaú ú((Æ
+´
+h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaú ú((
+docorg.w3c.dom.Document"__id*
+
+%9org.w3c.dom.Document*
+3*º
+16h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaï ï( ≈¬
+h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaï ï(5'
+%4!javax.xml.parsers.DocumentBuilder"`javax.xml.parsers.DocumentBuilderFactory#newDocumentBuilder()Ljavax/xml/parsers/DocumentBuilder;*5
+3
+factory(javax.xml.parsers.DocumentBuilderFactory2newDocumentBuilder()*
+13*¶
+17h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaç ç(#¨
+©
+h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaç ç(#/
+
+docBuilder!javax.xml.parsers.DocumentBuilder"__id*
+""ò
+ï
+h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaé é(
+docorg.w3c.dom.Document"__id*
+""≠
+™
+h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaè) è(M.
+%0(javax.xml.parsers.DocumentBuilderFactory"`javax.xml.parsers.DocumentBuilderFactory#newInstance()Ljavax/xml/parsers/DocumentBuilderFactory;*,"*
+(javax.xml.parsers.DocumentBuilderFactory⁄
+◊
+h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaè è(N3
+factory(javax.xml.parsers.DocumentBuilderFactory"__id*0
+.
+%0(javax.xml.parsers.DocumentBuilderFactoryéã
+h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaê ê('
+
+%1void">javax.xml.parsers.DocumentBuilderFactory#setNamespaceAware(Z)V*5
+3
+factory(javax.xml.parsers.DocumentBuilderFactory*
+""2setNamespaceAware(Z)≤Ø
+h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaë ë(9
+
+%2void"Pjavax.xml.parsers.DocumentBuilderFactory#setIgnoringElementContentWhitespace(Z)V*5
+3
+factory(javax.xml.parsers.DocumentBuilderFactory*
+""2&setIgnoringElementContentWhitespace(Z)íè
+h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaí í()
+
+%3void"@javax.xml.parsers.DocumentBuilderFactory#setIgnoringComments(Z)V*5
+3
+factory(javax.xml.parsers.DocumentBuilderFactory*
+""2setIgnoringComments(Z)*
+16*∞
+10h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaú ú(∫∑
+h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaú ú((
+%9org.w3c.dom.Document"Mjavax.xml.parsers.DocumentBuilder#parse(Ljava/io/File;)Lorg/w3c/dom/Document;*1
+/
+
+docBuilder!javax.xml.parsers.DocumentBuilder*
+
+filejava.io.File2parse(Ljava/io/File;)*
+5*ﬁ
+11h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaõ õ(ø
+º
+h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaõ õ(
+%7org.slf4j.Logger"__id*2*0$
+"org.schemaspy.model.xml.SchemaMeta"
+LOGGER•¢
+h
+\/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/SchemaMeta.javaõ õ(+
+
+%8void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%7org.slf4j.Logger*
+
+Parsing {}*
+
+filejava.io.File2*info(Ljava/lang/String;Ljava/lang/Object;)*
+10:
+filejava.io.FileB&$
+"org.schemaspy.model.xml.SchemaMeta

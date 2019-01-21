@@ -1,0 +1,24 @@
+
+Vorg.schemaspy.model.Table#getIndex(Ljava/lang/String;)Lorg/schemaspy/model/TableIndex;
+__unknown_file ("1*ý
+1_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaŽ Ž(Ã
+À
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaŽ Ž(+
+%0%org.schemaspy.util.CaseInsensitiveMap"__id***(
+org.schemaspy.model.Table"	
+indexesÄÁ
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaŽ Ž(%$
+%1org.schemaspy.model.TableIndex"Oorg.schemaspy.util.CaseInsensitiveMap#get(Ljava/lang/Object;)Ljava/lang/Object;*-
++
+%0%org.schemaspy.util.CaseInsensitiveMap*
+
+	indexNamejava.lang.String2get(Ljava/lang/Object;)"‰
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaŽ Ž(&&
+$
+%1org.schemaspy.model.TableIndex:
+	indexNamejava.lang.StringB
+org.schemaspy.model.Table

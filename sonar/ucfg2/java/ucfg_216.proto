@@ -1,0 +1,57 @@
+
+Xorg.schemaspy.db.config.PropertiesResolver#fromURL(Ljava/net/URL;)Ljava/util/Properties;
+__unknown_file ("8*Œ
+1n
+d/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/db/config/PropertiesResolver.javaQ Q("–
+n
+d/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/db/config/PropertiesResolver.javaQ Q($
+"
+
+propertiesjava.util.Properties*Ó
+5n
+d/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/db/config/PropertiesResolver.javaK K(;º
+·
+n
+d/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/db/config/PropertiesResolver.javaK K(;"
+inputStreamjava.io.InputStream"__id*
+
+%2java.io.InputStream›˜
+n
+d/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/db/config/PropertiesResolver.javaL L(,
+
+%3void"1java.util.Properties#load(Ljava/io/InputStream;)V*$
+"
+
+propertiesjava.util.Properties*$
+"
+inputStreamjava.io.InputStream2load(Ljava/io/InputStream;)*
+1*Þ
+6n
+d/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/db/config/PropertiesResolver.javaK+ K(.ãà
+n
+d/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/db/config/PropertiesResolver.javaK+ K(;
+%2java.io.InputStream".java.net.URL#openStream()Ljava/io/InputStream;*
+
+urljava.net.URL2openStream()*
+5*˜
+8n
+d/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/db/config/PropertiesResolver.javaI  I(0¥¢
+n
+d/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/db/config/PropertiesResolver.javaI$ I(.
+%0java.util.Properties"java.util.Properties·
+´
+n
+d/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/db/config/PropertiesResolver.javaI  I(0
+%1"java.util.Properties#<init>()V*
+
+%0java.util.Properties»
+¸
+n
+d/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/db/config/PropertiesResolver.javaI I(1"
+
+propertiesjava.util.Properties"__id*
+
+%0java.util.Properties*
+6:
+urljava.net.URLB.,
+*org.schemaspy.db.config.PropertiesResolver

@@ -1,0 +1,43 @@
+
+Forg.schemaspy.view.MustacheTableColumn#getNullable()Ljava/lang/String;
+__unknown_file ("4*ø
+1j
+`/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableColumn.javax x(."†
+j
+`/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableColumn.javax x(.
+
+%2java.lang.String*ž
+2j
+`/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableColumn.javax+ x(-§
+¤
+j
+`/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableColumn.javax+ x(-
+%2java.lang.String"__id*
+
+%4java.lang.String*
+1*ž
+3j
+`/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableColumn.javax% x((§
+¤
+j
+`/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableColumn.javax% x((
+%2java.lang.String"__id*
+
+%3java.lang.String*
+1*µ
+4j
+`/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableColumn.javax x(Ô
+Ñ
+j
+`/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableColumn.javax x(%
+%0org.schemaspy.model.TableColumn"__id*6*4(
+&org.schemaspy.view.MustacheTableColumn"
+columnäá
+j
+`/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableColumn.javax x("
+%1boolean"-org.schemaspy.model.TableColumn#isNullable()Z*'
+%
+%0org.schemaspy.model.TableColumn2isNullable()*
+2
+3B*(
+&org.schemaspy.view.MustacheTableColumn

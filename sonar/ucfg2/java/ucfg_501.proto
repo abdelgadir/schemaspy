@@ -1,0 +1,24 @@
+
+€org.schemaspy.model.TableColumn#getParentConstraint(Lorg/schemaspy/model/TableColumn;)Lorg/schemaspy/model/ForeignKeyConstraint;
+__unknown_file ("1*ó
+1e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java— —(·
+´
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java— —(
+%0java.util.Map"__id*0*.!
+org.schemaspy.model.TableColumn"	
+parents°­
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java— —(".
+%1(org.schemaspy.model.ForeignKeyConstraint"7java.util.Map#get(Ljava/lang/Object;)Ljava/lang/Object;*
+
+%0java.util.Map*+
+)
+parentorg.schemaspy.model.TableColumn2get(Ljava/lang/Object;)"™
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java— —(#0
+.
+%1(org.schemaspy.model.ForeignKeyConstraint:)
+parentorg.schemaspy.model.TableColumnB#!
+org.schemaspy.model.TableColumn

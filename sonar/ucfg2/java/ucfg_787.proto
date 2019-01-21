@@ -1,0 +1,24 @@
+
+Jorg.schemaspy.util.Markdown#pagePath(Ljava/lang/String;)Ljava/lang/String;
+__unknown_file ("1*Ÿ
+1_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.javaF F(¯
+¬
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.javaF F(
+%0java.util.HashMap"__id***(
+org.schemaspy.util.Markdown"
+pages‰†
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.javaF F(
+%1java.lang.String";java.util.HashMap#get(Ljava/lang/Object;)Ljava/lang/Object;*
+
+%0java.util.HashMap*
+
+pagejava.lang.String2get(Ljava/lang/Object;)"{
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.javaF F(
+
+%1java.lang.String:
+pagejava.lang.StringB"
+org.schemaspy.util.Markdown

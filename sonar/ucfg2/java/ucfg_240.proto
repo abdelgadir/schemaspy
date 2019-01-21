@@ -1,0 +1,31 @@
+
+'org.schemaspy.model.CombinedMap#size()I
+__unknown_file ("1*™
+1c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.java7 7(²
+¯
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.java7 7(
+%0java.util.Map"__id*-*+!
+org.schemaspy.model.CombinedMap"
+map1©¦
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.java7 7(	
+%1int"java.util.Map#size()I*
+
+%0java.util.Map2size()²
+¯
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.java7 7(!
+%2java.util.Map"__id*-*+!
+org.schemaspy.model.CombinedMap"
+map2©¦
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.java7 7((	
+%3int"java.util.Map#size()I*
+
+%2java.util.Map2size()"m
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.java7 7()
+""B#!
+org.schemaspy.model.CombinedMap

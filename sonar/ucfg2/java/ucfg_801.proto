@@ -1,0 +1,23 @@
+
+Forg.schemaspy.view.DotConnector#pointsTo(Lorg/schemaspy/model/Table;)Z
+__unknown_file ("1*º
+1c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotConnector.java@ @("Å
+Â
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotConnector.java@* @(5
+%0org.schemaspy.model.Table"__id*4*2!
+org.schemaspy.view.DotConnector"
+parentTable˜•
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotConnector.java@ @(6
+%1boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*2
+0
+possibleParentTableorg.schemaspy.model.Table*!
+
+%0org.schemaspy.model.Table2equals(Ljava/lang/Object;)"m
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotConnector.java@ @(7
+"":0
+possibleParentTableorg.schemaspy.model.TableB#!
+org.schemaspy.view.DotConnector

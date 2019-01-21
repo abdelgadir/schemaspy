@@ -1,0 +1,47 @@
+
+&org.schemaspy.Config#isSingleSignOn()Z
+__unknown_file ("3*Ú
+1Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÇ Ç(™
+ß
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÇ Ç(
+%3java.lang.Boolean"__id***(
+org.schemaspy.Config"
+singleSignOn"d
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÇ Ç(
+""*á
+2Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÄ Ä("¢
+ü
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÄ Ä("
+%1java.util.List"__id*%*#
+org.schemaspy.Config"	
+optionsÿ’
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÄ Ä(1
+%2boolean"*java.util.List#remove(Ljava/lang/Object;)Z*
+
+%1java.util.List*
+-sso2remove(Ljava/lang/Object;)†
+ù
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÄ Ä(1(
+org.schemaspy.Config"
+singleSignOn"__id*
+
+%2boolean*
+1*î
+3Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaˇ ˇ(™
+ß
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaˇ ˇ(
+%0java.lang.Boolean"__id***(
+org.schemaspy.Config"
+singleSignOn*
+2
+1B
+org.schemaspy.Config

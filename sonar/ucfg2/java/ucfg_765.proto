@@ -1,0 +1,87 @@
+
+@org.schemaspy.util.DbSpecificOption#toString()Ljava/lang/String;
+__unknown_file ("1*Å
+1g
+]/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/DbSpecificOption.java= =(Ê„
+g
+]/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/DbSpecificOption.java= =(
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*'%
+#org.schemaspy.util.DbSpecificOption2
+getClass()·ﬁ
+g
+]/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/DbSpecificOption.java= =()
+%1java.lang.String"1java.lang.Class#getSimpleName()Ljava/lang/String;*
+
+%0java.lang.Class2getSimpleName()∂
+≥
+g
+]/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/DbSpecificOption.java= =(6
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+
+ name: '˘ˆ
+g
+]/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/DbSpecificOption.java=9 =(B
+%3java.lang.String"?org.schemaspy.util.DbSpecificOption#getName()Ljava/lang/String;*'%
+#org.schemaspy.util.DbSpecificOption2	getName()¬
+ø
+g
+]/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/DbSpecificOption.java= =(B
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.String∏
+µ
+g
+]/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/DbSpecificOption.java= =(Q
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+
+' value: '˚¯
+g
+]/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/DbSpecificOption.java=T =(^
+%6java.lang.String"@org.schemaspy.util.DbSpecificOption#getValue()Ljava/lang/String;*'%
+#org.schemaspy.util.DbSpecificOption2
+getValue()¬
+ø
+g
+]/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/DbSpecificOption.java= =(^
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.lang.Stringæ
+ª
+g
+]/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/DbSpecificOption.java= =(s
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+' description: 'àÖ
+h
+]/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/DbSpecificOption.java=v =(Ü
+%9java.lang.String"Forg.schemaspy.util.DbSpecificOption#getDescription()Ljava/lang/String;*'%
+#org.schemaspy.util.DbSpecificOption2getDescription()ƒ
+¡
+h
+]/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/DbSpecificOption.java= =(Ü
+%10java.lang.String"__concat*
+
+%8java.lang.String*
+
+%9java.lang.String≤
+Ø
+h
+]/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/DbSpecificOption.java= =(å
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+'"Ö
+h
+]/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/DbSpecificOption.java= =(ç
+
+%11java.lang.StringB'%
+#org.schemaspy.util.DbSpecificOption

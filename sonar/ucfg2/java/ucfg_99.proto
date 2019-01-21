@@ -1,0 +1,15 @@
+
+Jorg.schemaspy.Config$MissingRequiredParameterException#isDbTypeSpecific()Z
+__unknown_file ("1*Œ
+1Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaý	 ý	(!Ä
+Á
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaý	 ý	(!
+%0boolean"__id*N*L8
+6org.schemaspy.Config$MissingRequiredParameterException"
+dbTypeSpecific"d
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaý	 ý	("
+""B:8
+6org.schemaspy.Config$MissingRequiredParameterException

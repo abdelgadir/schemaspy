@@ -1,0 +1,46 @@
+
+,org.schemaspy.model.TableColumn#isPrimary()Z
+__unknown_file ("3*Û
+1e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java¡ ¡("o
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java¡ ¡(
+""*ž
+2e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaŸ Ÿ(Á
+¾
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaŸ Ÿ(
+%2org.schemaspy.model.Table"__id*.*,!
+org.schemaspy.model.TableColumn"
+table÷ô
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaŸ Ÿ(,
+%3java.util.List"=org.schemaspy.model.Table#getPrimaryColumns()Ljava/util/List;*!
+
+%2org.schemaspy.model.Table2getPrimaryColumns()‚ÿ
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaŸ Ÿ(;
+%4boolean",java.util.List#contains(Ljava/lang/Object;)Z*
+
+%3java.util.List*#!
+org.schemaspy.model.TableColumn2contains(Ljava/lang/Object;)"o
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaŸ Ÿ(<
+""*°
+3e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaž ž(Á
+¾
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaž ž(
+%0org.schemaspy.model.Table"__id*.*,!
+org.schemaspy.model.TableColumn"
+table÷ô
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaž ž(%
+%1java.util.List"=org.schemaspy.model.Table#getPrimaryColumns()Ljava/util/List;*!
+
+%0org.schemaspy.model.Table2getPrimaryColumns()*
+2
+1B#!
+org.schemaspy.model.TableColumn

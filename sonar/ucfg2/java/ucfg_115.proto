@@ -1,0 +1,18 @@
+
+Korg.schemaspy.DbAnalyzer#sortTablesByName(Ljava/util/List;)Ljava/util/List;
+__unknown_file ("1*Ã
+1^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.java’ ’(ßÜ
+^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.java’ ’(%
+
+%0void",java.util.List#sort(Ljava/util/Comparator;)V*
+
+tablesjava.util.List*
+""2sort(Ljava/util/Comparator;)"|
+^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.java” ”(
+
+tablesjava.util.List:
+tablesjava.util.ListB"
+org.schemaspy.DbAnalyzer

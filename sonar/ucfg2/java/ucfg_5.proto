@@ -1,0 +1,47 @@
+
+3org.schemaspy.Config#isImpliedConstraintsEnabled()Z
+__unknown_file ("3*ÿ
+1Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÉ É((·
+´
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÉ É((
+%3java.lang.Boolean"__id*7*5
+org.schemaspy.Config"
+includeImpliedConstraints"d
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÉ É()
+""*‘
+2Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÇ) Ç(0¢
+Ÿ
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÇ) Ç(0
+%1java.util.List"__id*%*#
+org.schemaspy.Config"	
+optionsÞÛ
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÇ) Ç(E
+%2boolean"*java.util.List#remove(Ljava/lang/Object;)Z*
+
+%1java.util.List*
+
+-noimplied2remove(Ljava/lang/Object;)¤
+¡
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÇ Ç(E5
+org.schemaspy.Config"
+includeImpliedConstraints"__id*
+""*
+1*¡
+3Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÆ Æ(%·
+´
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÆ Æ(%
+%0java.lang.Boolean"__id*7*5
+org.schemaspy.Config"
+includeImpliedConstraints*
+2
+1B
+org.schemaspy.Config

@@ -1,0 +1,91 @@
+
+Corg.schemaspy.Config#getColumnExclusions()Ljava/util/regex/Pattern;
+__unknown_file ("7*•
+1Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¥ ¥(´
+±
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¥ ¥(
+%5java.util.regex.Pattern"__id*.*,
+org.schemaspy.Config"
+columnExclusions"}
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¥ ¥( 
+
+%5java.util.regex.Pattern*¬
+2Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¢ ¢(&Ž
+‹
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¢ ¢(=
+%4java.util.regex.Pattern"Ljava.util.regex.Pattern#compile(Ljava/lang/String;)Ljava/util/regex/Pattern;*"
+java.util.regex.Pattern*#
+!
+strExclusionsjava.lang.String´
+±
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¢ ¢(=,
+org.schemaspy.Config"
+columnExclusions"__id*
+
+%4java.util.regex.Pattern*
+1*Á
+3Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java    (8µ
+²
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java    (8
+%3java.lang.String"__id*6*4
+org.schemaspy.Config"
+DEFAULT_COLUMN_EXCLUSION¢
+Ÿ
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java   (8!
+strExclusionsjava.lang.String"__id*
+
+%3java.lang.String*
+2*û
+5Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaž  ž(&ì
+é
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaž  ž(K
+%2java.lang.String"=java.lang.System#getenv(Ljava/lang/String;)Ljava/lang/String;*"
+java.lang.System*
+schemaspy.columnExclusions¢
+Ÿ
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaž ž(K!
+strExclusionsjava.lang.String"__id*
+
+%2java.lang.String*
+2
+3*ñ
+6Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaœ# œ(,ß
+Ü
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaœ# œ(2
+%1java.lang.String"Dorg.schemaspy.Config#pullParam(Ljava/lang/String;)Ljava/lang/String;*
+org.schemaspy.Config*
+-X¢
+Ÿ
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaœ œ(3!
+strExclusionsjava.lang.String"__id*
+
+%1java.lang.String*	
+2
+3
+5*ž
+7Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java› ›(´
+±
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java› ›(
+%0java.util.regex.Pattern"__id*.*,
+org.schemaspy.Config"
+columnExclusions*
+6
+1B
+org.schemaspy.Config

@@ -1,0 +1,19 @@
+
+Morg.schemaspy.DbAnalyzer#sortColumnsByTable(Ljava/util/List;)Ljava/util/List;
+__unknown_file ("1*≈
+1^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.javaò ò(‡›
+^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.javaò ù(
+
+
+%0void",java.util.List#sort(Ljava/util/Comparator;)V*
+
+columnsjava.util.List*
+""2sort(Ljava/util/Comparator;)"}
+^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.javaü ü(
+
+columnsjava.util.List:
+columnsjava.util.ListB"
+org.schemaspy.DbAnalyzer

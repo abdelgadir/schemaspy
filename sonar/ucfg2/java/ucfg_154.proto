@@ -1,0 +1,55 @@
+
+Morg.schemaspy.TableOrderer#sortTrimmedLevel(Ljava/util/List;)Ljava/util/List;
+__unknown_file ("1*¶
+1`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/TableOrderer.java¶ Á(	ÃÀ
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/TableOrderer.javaÃ. Ã(<0
+%0*org.schemaspy.TableOrderer$1TrimComparator"*org.schemaspy.TableOrderer$1TrimComparatorñ
+î
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/TableOrderer.javaÃ* Ã(>
+%1"Porg.schemaspy.TableOrderer$1TrimComparator#<init>(Lorg/schemaspy/TableOrderer;)V*2
+0
+%0*org.schemaspy.TableOrderer$1TrimComparator‘Ž
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/TableOrderer.javaÃ  Ã()
+%2java.util.TreeSet"java.util.TreeSetí
+ê
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/TableOrderer.javaÃ Ã(?
+%3"1java.util.TreeSet#<init>(Ljava/util/Comparator;)V*
+
+%2java.util.TreeSet*2
+0
+%0*org.schemaspy.TableOrderer$1TrimComparatorŸ
+œ
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/TableOrderer.javaÃ Ã(@
+sorterjava.util.Set"__id*
+
+%2java.util.TreeSetú÷
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/TableOrderer.javaÄ Ä(
+%4boolean"-java.util.Set#addAll(Ljava/util/Collection;)Z*
+
+sorterjava.util.Set*
+
+tablesjava.util.List2addAll(Ljava/util/Collection;)•’
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/TableOrderer.javaÅ Å(
+%5java.util.ArrayList"java.util.ArrayListØ
+Õ
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/TableOrderer.javaÅ Å(&
+%6"3java.util.ArrayList#<init>(Ljava/util/Collection;)V*
+
+%5java.util.ArrayList*
+
+sorterjava.util.Set"
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/TableOrderer.javaÅ Å('
+
+%5java.util.ArrayList:
+tablesjava.util.ListB"
+org.schemaspy.TableOrderer

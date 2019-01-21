@@ -1,0 +1,66 @@
+
+Norg.schemaspy.util.Writers#newPrintWriter(Ljava/io/File;)Ljava/io/PrintWriter;
+__unknown_file ("1*°
+1^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Writers.java! !($ «
+^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Writers.java!7 !(D
+%0java.nio.file.Path")java.io.File#toPath()Ljava/nio/file/Path;*
+
+filejava.io.File2toPath()ª
+∏
+^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Writers.java!F !(\
+%1java.nio.charset.Charset"__id*0*.#
+!java.nio.charset.StandardCharsets"
+UTF_8¬
+ø
+^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Writers.java!^ !(v&
+%2 java.nio.file.StandardOpenOption"__id*/*-"
+ java.nio.file.StandardOpenOption"
+WRITEƒ
+¡
+_
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Writers.java!x !(ë&
+%3 java.nio.file.StandardOpenOption"__id*0*."
+ java.nio.file.StandardOpenOption"
+CREATE–
+Õ
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Writers.java!ì !(∑&
+%4 java.nio.file.StandardOpenOption"__id*;*9"
+ java.nio.file.StandardOpenOption"
+TRUNCATE_EXISTING‚
+ﬂ
+_
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Writers.java! !(∏
+%5java.io.BufferedWriter"àjava.nio.file.Files#newBufferedWriter(Ljava/nio/file/Path;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)Ljava/io/BufferedWriter;*"
+java.nio.file.Files*
+
+%0java.nio.file.Path* 
+
+%1java.nio.charset.Charset*(
+&
+%2 java.nio.file.StandardOpenOption*(
+&
+%3 java.nio.file.StandardOpenOption*(
+&
+%4 java.nio.file.StandardOpenOptionìê
+^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Writers.java! !(
+%6java.io.PrintWriter"java.io.PrintWriter÷
+”
+_
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Writers.java! !(π
+%7"-java.io.PrintWriter#<init>(Ljava/io/Writer;)V*
+
+%6java.io.PrintWriter*
+
+%5java.io.BufferedWriter"~
+_
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Writers.java! !(∫
+
+%6java.io.PrintWriter:
+filejava.io.FileB"
+org.schemaspy.util.Writers

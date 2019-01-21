@@ -1,0 +1,68 @@
+
+]org.schemaspy.output.xml.dom.XmlTableFormatter#asBinary(Ljava/lang/String;)Ljava/lang/String;
+__unknown_file ("5*Ñ
+1t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaü ü(ıÚ
+t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaü ü(
+%6java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;* 
+
+bufjava.lang.StringBuilder2
+toString()"ê
+t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaü ü(
+
+%6java.lang.String*œ
+3t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaù ù(ã
+à
+t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaù ù(*
+%4java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*
+%02X*
+""Ω∫
+t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaù ù(+
+%5java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%4java.lang.String2append(Ljava/lang/String;)*
+3
+1*¡	
+5t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaö ö(—
+Œ
+t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaö$ ö(:
+%0java.nio.charset.Charset"__id*0*.#
+!java.nio.charset.StandardCharsets"
+UTF_8£†
+t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaö ö(;
+%1$Array"7java.lang.String#getBytes(Ljava/nio/charset/Charset;)[B*
+
+strjava.lang.String* 
+
+%0java.nio.charset.Charset2$getBytes(Ljava/nio/charset/Charset;)±Æ
+t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaõ  õ(-
+%2java.lang.StringBuilder"java.lang.StringBuilderÃ
+…
+t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaõ õ(?
+%3""java.lang.StringBuilder#<init>(I)V*
+
+%2java.lang.StringBuilder*
+""¿
+Ω
+t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaõ õ(@
+bufjava.lang.StringBuilder"__id*
+
+%2java.lang.StringBuilder*
+3
+1:
+strjava.lang.StringB2"0
+.org.schemaspy.output.xml.dom.XmlTableFormatter

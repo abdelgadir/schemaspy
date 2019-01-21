@@ -1,0 +1,24 @@
+
+qorg.schemaspy.service.DatabaseService#getOptionalString(Ljava/sql/ResultSet;Ljava/lang/String;)Ljava/lang/String;
+__unknown_file ("3*ú
+2k
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/service/DatabaseService.java… …(,"‡
+k
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/service/DatabaseService.java… …(,
+
+%0java.lang.String*¡
+3k
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/service/DatabaseService.java… …(©¦
+k
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/service/DatabaseService.java… …(+
+%0java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*
+
+rsjava.sql.ResultSet* 
+
+
+columnNamejava.lang.String2getString(Ljava/lang/String;)*
+2:
+rsjava.sql.ResultSet:
+
+columnNamejava.lang.StringB)"'
+%org.schemaspy.service.DatabaseService

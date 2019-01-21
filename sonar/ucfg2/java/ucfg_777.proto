@@ -1,0 +1,65 @@
+
+Korg.schemaspy.util.Inflection#replace(Ljava/lang/String;)Ljava/lang/String;
+__unknown_file ("3*Ý
+1c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java¥ ¥(¶
+³
+c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java¥ ¥(&
+%2java.lang.String"__id*.*,
+org.schemaspy.util.Inflection"	
+pattern•
+’
+c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java¥ ¥(.
+%3java.util.regex.Pattern"Mjava.util.regex.Pattern#compile(Ljava/lang/String;I)Ljava/util/regex/Pattern;*"
+java.util.regex.Pattern*
+
+%2java.lang.String*
+""»¸
+c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java¥ ¥(<
+%4java.util.regex.Matcher"Rjava.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;*
+
+%3java.util.regex.Pattern*
+
+wordjava.lang.String2!matcher(Ljava/lang/CharSequence;)º
+·
+c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java¥H ¥(S
+%5java.lang.String"__id*2*0
+org.schemaspy.util.Inflection"
+replacement¥¢
+c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java¥ ¥(T
+%6java.lang.String"Hjava.util.regex.Matcher#replaceAll(Ljava/lang/String;)Ljava/lang/String;*
+
+%4java.util.regex.Matcher*
+
+%5java.lang.String2replaceAll(Ljava/lang/String;)"
+c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java¥ ¥(U
+
+%6java.lang.String*œ
+2c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java£ £(¬
+©
+c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java£ £(4	
+%1int"__id*1*/
+java.util.regex.Pattern"
+CASE_INSENSITIVE*
+1*£
+3c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java¡ ¡(°
+­
+c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java¢ ¢(
+%0boolean"__id*1*/
+org.schemaspy.util.Inflection"
+
+ignoreCase*
+2
+1:
+wordjava.lang.StringB!
+org.schemaspy.util.Inflection

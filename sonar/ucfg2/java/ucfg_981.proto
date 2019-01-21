@@ -1,0 +1,16 @@
+
+Aorg.schemaspy.view.WriteStats#getExcludedColumns()Ljava/util/Set;
+__unknown_file ("1*ž
+1a
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/WriteStats.javaG G(¹
+¶
+a
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/WriteStats.javaG G(
+%0java.util.Set"__id*6*4
+org.schemaspy.view.WriteStats"
+excludedColumns"z
+a
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/WriteStats.javaG G(
+
+%0java.util.SetB!
+org.schemaspy.view.WriteStats

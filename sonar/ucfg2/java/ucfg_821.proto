@@ -1,0 +1,30 @@
+
+¥org.schemaspy.view.DotFormatter#writeRealRelationships(Lorg/schemaspy/model/Table;ZLorg/schemaspy/view/WriteStats;Ljava/io/PrintWriter;Ljava/io/File;)Ljava/util/Set;
+__unknown_file ("1*Ë
+1c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java< <(!â
+ß
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java< <(^
+%0java.util.Set"¢org.schemaspy.view.DotFormatter#writeRelationships(Lorg/schemaspy/model/Table;ZLorg/schemaspy/view/WriteStats;ZLjava/io/PrintWriter;Ljava/io/File;)Ljava/util/Set;*#!
+org.schemaspy.view.DotFormatter*$
+"
+tableorg.schemaspy.model.Table*
+""*(
+&
+statsorg.schemaspy.view.WriteStats*
+""*
+
+dotjava.io.PrintWriter*
+
+	outputDirjava.io.File"|
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java< <(_
+
+%0java.util.Set:"
+tableorg.schemaspy.model.Table:
+"":&
+statsorg.schemaspy.view.WriteStats:
+dotjava.io.PrintWriter:
+	outputDirjava.io.FileB#!
+org.schemaspy.view.DotFormatter

@@ -1,0 +1,16 @@
+
+Torg.schemaspy.model.Table#getForeignKeysMap()Lorg/schemaspy/util/CaseInsensitiveMap;
+__unknown_file ("1*»
+1]
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javae e(Å
+Â
+]
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javae e(+
+%0%org.schemaspy.util.CaseInsensitiveMap"__id*.*,
+org.schemaspy.model.Table"
+foreignKeys"Ž
+]
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javae e(-
++
+%0%org.schemaspy.util.CaseInsensitiveMapB
+org.schemaspy.model.Table

@@ -1,0 +1,30 @@
+
+xorg.schemaspy.model.Database#getRemoteTableKey(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+__unknown_file ("1*‚
+1b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.javaí í(Ê„
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.javaí! í(*
+%0java.lang.String"8org.schemaspy.model.Database#getName()Ljava/lang/String;* 
+org.schemaspy.model.Database2	getName()è
+å
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.javaí í(<
+%1java.lang.String"Åorg.schemaspy.model.Table#getFullName(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*"
+org.schemaspy.model.Table*
+
+%0java.lang.String*
+
+catjava.lang.String*
+
+schjava.lang.String*
+
+tablejava.lang.String"~
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.javaí í(=
+
+%1java.lang.String:
+catjava.lang.String:
+schjava.lang.String:
+tablejava.lang.StringB 
+org.schemaspy.model.Database

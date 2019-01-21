@@ -1,0 +1,545 @@
+
+norg.schemaspy.view.DotNode#columnToString(Lorg/schemaspy/model/TableColumn;Ljava/util/Set;I)Ljava/lang/String;
+__unknown_file ("11*¢
+
+1`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÓ Ó(≠
+™
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÓ Ó(
+%71java.lang.String"__id*'*%
+org.schemaspy.util.Html"
+TR_END∑
+¥
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÓ! Ó(.
+%72java.lang.String"__id*1*/
+org.schemaspy.view.DotNode"
+lineSeparatoræ
+ª
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÓ Ó(.
+%73java.lang.String"__concat*
+
+%71java.lang.String*
+
+%72java.lang.String´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÓ Ó(/
+%74java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%73java.lang.String2append(Ljava/lang/String;)‚ﬂ
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÔ Ô(
+%75java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;* 
+
+bufjava.lang.StringBuilder2
+toString()"}
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÔ Ô(
+
+%75java.lang.String*◊
+2`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÊ Ê(°û
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÊ Ê(%
+%57java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+<TD PORT=\"2append(Ljava/lang/String;)Û
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÁ" Á(2
+%58java.lang.String";org.schemaspy.model.TableColumn#getName()Ljava/lang/String;*+
+)
+columnorg.schemaspy.model.TableColumn2	getName()Ü
+É
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÁ Á(3
+%59java.lang.String"Korg.schemaspy.view.DotNode#escapeHtml(Ljava/lang/String;)Ljava/lang/String;*"
+org.schemaspy.view.DotNode*
+
+%58java.lang.String´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÁ Á(4
+%60java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%59java.lang.String2append(Ljava/lang/String;)≠™
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaË Ë(1
+%61java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+.type\" ALIGN=\"LEFT\">2append(Ljava/lang/String;)ÖÇ
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÈ È(0
+%62java.lang.String"Dorg.schemaspy.model.TableColumn#getShortTypeName()Ljava/lang/String;*+
+)
+columnorg.schemaspy.model.TableColumn2getShortTypeName()⁄◊
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÈ È(>
+%63java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;*
+
+%62java.lang.String2toLowerCase()´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÈ È(?
+%64java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%63java.lang.String2append(Ljava/lang/String;)óî
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÍ Í(
+%65java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+[2append(Ljava/lang/String;)ÉÄ
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÎ Î(/
+%66java.lang.String"Corg.schemaspy.model.TableColumn#getDetailedSize()Ljava/lang/String;*+
+)
+columnorg.schemaspy.model.TableColumn2getDetailedSize()´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÎ Î(0
+%67java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%66java.lang.String2append(Ljava/lang/String;)≠
+™
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÏ Ï((
+%68java.lang.String"__id*'*%
+org.schemaspy.util.Html"
+TD_END™
+ß
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÏ Ï((
+%69java.lang.String"__concat*
+]*
+
+%68java.lang.String´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÏ Ï()
+%70java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%69java.lang.String2append(Ljava/lang/String;)*
+1*¯ 
+3`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java› ›(≠
+™
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java› ›(
+%40java.lang.String"__id*'*%
+org.schemaspy.util.Html"
+TD_END´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java› ›(
+%41java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%40java.lang.String2append(Ljava/lang/String;)ƒ
+¡
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaﬁ ﬁ(N
+%42java.lang.String"__concat*20
+.<TD ALIGN=\"LEFT\" FIXEDSIZE=\"TRUE\" WIDTH=\"*
+""∫
+∑
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaﬁ ﬁ(d
+%43java.lang.String"__concat*
+
+%42java.lang.String*
+\" HEIGHT=\"16\">´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaﬁ ﬁ(e
+%44java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%43java.lang.String2append(Ljava/lang/String;)Û
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaﬂ ﬂ(.
+%45java.lang.String";org.schemaspy.model.TableColumn#getName()Ljava/lang/String;*+
+)
+columnorg.schemaspy.model.TableColumn2	getName()Ü
+É
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaﬂ ﬂ(/
+%46java.lang.String"Korg.schemaspy.view.DotNode#escapeHtml(Ljava/lang/String;)Ljava/lang/String;*"
+org.schemaspy.view.DotNode*
+
+%45java.lang.String´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaﬂ ﬂ(0
+%47java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%46java.lang.String2append(Ljava/lang/String;)≠
+™
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java‡ ‡(
+%48java.lang.String"__id*'*%
+org.schemaspy.util.Html"
+TD_END´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java‡ ‡(
+%49java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%48java.lang.String2append(Ljava/lang/String;)≠
+™
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java· ·(
+%50java.lang.String"__id*'*%
+org.schemaspy.util.Html"
+TR_END´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java· ·(
+%51java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%50java.lang.String2append(Ljava/lang/String;)ûõ
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java‚ ‚(
+%52java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+</TABLE>2append(Ljava/lang/String;)≠
+™
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java„ „(
+%53java.lang.String"__id*'*%
+org.schemaspy.util.Html"
+TD_END´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java„ „(
+%54java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%53java.lang.String2append(Ljava/lang/String;)»
+≈
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÂ Â(/
+%55(org.schemaspy.view.DotNode$DotNodeConfig"__id***(
+org.schemaspy.view.DotNode"
+config≈
+¬
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÂ Â($
+%56boolean"__id*H*F
+/
+%55(org.schemaspy.view.DotNode$DotNodeConfig"
+showColumnDetails*
+2
+1*Ã
+4`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java€ €(≥
+∞
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java€' €(0
+%36java.lang.String"__id*-*+
+org.schemaspy.view.DotNode"
+	outputDir¥
+±
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java€ €(0
+%37java.lang.String"__concat*
+<IMG SRC=\"*
+
+%36java.lang.Stringƒ
+¡
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java€ €(P
+%38java.lang.String"__concat*
+
+%37java.lang.String*
+/images/foreignKeys.png\"/>´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java€ €(Q
+%39java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%38java.lang.String2append(Ljava/lang/String;)*
+3*”
+5`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java⁄ ⁄(„‡
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java⁄ ⁄((
+%35boolean"/org.schemaspy.model.TableColumn#isForeignKey()Z*+
+)
+columnorg.schemaspy.model.TableColumn2isForeignKey()*
+3
+4*Ã
+6`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaŸ Ÿ(≥
+∞
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaŸ' Ÿ(0
+%31java.lang.String"__id*-*+
+org.schemaspy.view.DotNode"
+	outputDir¥
+±
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaŸ Ÿ(0
+%32java.lang.String"__concat*
+<IMG SRC=\"*
+
+%31java.lang.Stringƒ
+¡
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaŸ Ÿ(P
+%33java.lang.String"__concat*
+
+%32java.lang.String*
+/images/primaryKeys.png\"/>´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaŸ Ÿ(Q
+%34java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%33java.lang.String2append(Ljava/lang/String;)*
+3*…
+7`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java‘ ‘(•¢
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java‘ ‘(%
+%26java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+ALIGN=\"LEFT\">2append(Ljava/lang/String;)À»
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java’ ’(K
+%27java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*97
+5<TABLE BORDER=\"0\" CELLSPACING=\"0\" ALIGN=\"LEFT\">2append(Ljava/lang/String;)©¶
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java÷ ÷()
+%28java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+<TR ALIGN=\"LEFT\">2append(Ljava/lang/String;)◊‘
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java◊ ◊(W
+%29java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*EC
+A<TD ALIGN=\"LEFT\" FIXEDSIZE=\"TRUE\" WIDTH=\"15\" HEIGHT=\"16\">2append(Ljava/lang/String;)›⁄
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÿ ÿ(
+%30boolean",org.schemaspy.model.TableColumn#isPrimary()Z*+
+)
+columnorg.schemaspy.model.TableColumn2isPrimary()*
+5
+6*œ	
+8`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java” ”(∫
+∑
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java”& ”()$
+%21org.schemaspy.view.StyleSheet"__id*'*%
+org.schemaspy.view.DotNode"
+CSSíè
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java”& ”(F
+%22java.lang.String"Lorg.schemaspy.view.StyleSheet#getIndexedColumnBackground()Ljava/lang/String;*&
+$
+%21org.schemaspy.view.StyleSheet2getIndexedColumnBackground()≥
+∞
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java” ”(F
+%23java.lang.String"__concat*
+
+BGCOLOR=\"*
+
+%22java.lang.String¨
+©
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java” ”(N
+%24java.lang.String"__concat*
+
+%23java.lang.String*
+\" ´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java” ”(O
+%25java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%24java.lang.String2append(Ljava/lang/String;)*
+7*˛
+9`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java“ “(éã
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java“ “(.
+%20boolean"+java.util.Set#contains(Ljava/lang/Object;)Z*
+
+indexColumnsjava.util.Set*+
+)
+columnorg.schemaspy.model.TableColumn2contains(Ljava/lang/Object;)*
+7
+8*‹	
+10`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java— —(∫
+∑
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java—& —()$
+%15org.schemaspy.view.StyleSheet"__id*'*%
+org.schemaspy.view.DotNode"
+CSSûõ
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java—& —(L
+%16java.lang.String"Rorg.schemaspy.view.StyleSheet#getExcludedColumnBackgroundColor()Ljava/lang/String;*&
+$
+%15org.schemaspy.view.StyleSheet2"getExcludedColumnBackgroundColor()≥
+∞
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java— —(L
+%17java.lang.String"__concat*
+
+BGCOLOR=\"*
+
+%16java.lang.String¨
+©
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java— —(T
+%18java.lang.String"__concat*
+
+%17java.lang.String*
+\" ´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java— —(U
+%19java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%18java.lang.String2append(Ljava/lang/String;)*
+7*É
+11`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÕ Õ(/ùö
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÕ  Õ(-
+%0java.lang.StringBuilder"java.lang.StringBuilderØ
+¨
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÕ Õ(/
+%1"!java.lang.StringBuilder#<init>()V*
+
+%0java.lang.StringBuilder¨
+©
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaÕ Õ(0
+bufjava.lang.StringBuilder"__id*
+
+%0java.lang.StringBuilder±
+Æ
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaŒ Œ(
+%2java.lang.String"__id*,**
+org.schemaspy.view.DotNode"
+
+INDENT_6Æ
+´
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaŒ Œ(+
+%3java.lang.String"__id*)*'
+org.schemaspy.util.Html"
+
+TR_STARTª
+∏
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaŒ Œ(+
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.String©¶
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaŒ Œ(,
+%5java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%4java.lang.String2append(Ljava/lang/String;)ÚÔ
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaœ. œ(>
+%6java.lang.String";org.schemaspy.model.TableColumn#getName()Ljava/lang/String;*+
+)
+columnorg.schemaspy.model.TableColumn2	getName()Ñ
+Å
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaœ# œ(?
+%7java.lang.String"Korg.schemaspy.view.DotNode#escapeHtml(Ljava/lang/String;)Ljava/lang/String;*"
+org.schemaspy.view.DotNode*
+
+%6java.lang.String≤
+Ø
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaœ œ(?
+%8java.lang.String"__concat*
+<TD PORT=\"*
+
+%7java.lang.String™
+ß
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaœ œ(G
+%9java.lang.String"__concat*
+
+%8java.lang.String*
+\" ¥
+±
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaœJ œ(T
+%10java.lang.String"__id*.*,
+org.schemaspy.view.DotNode"
+
+columnSpanΩ
+∫
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaœ œ(T
+%11java.lang.String"__concat*
+
+%9java.lang.String*
+
+%10java.lang.String´®
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.javaœ œ(U
+%12java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+bufjava.lang.StringBuilder*
+
+%11java.lang.String2append(Ljava/lang/String;)∂
+≥
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java– –(
+%13java.util.Set"__id*3*1
+org.schemaspy.view.DotNode"
+excludedColumnsÖÇ
+`
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotNode.java– –(,
+%14boolean"+java.util.Set#contains(Ljava/lang/Object;)Z*
+
+%13java.util.Set*+
+)
+columnorg.schemaspy.model.TableColumn2contains(Ljava/lang/Object;)*
+9
+10:)
+columnorg.schemaspy.model.TableColumn:
+indexColumnsjava.util.Set:
+""B
+org.schemaspy.view.DotNode

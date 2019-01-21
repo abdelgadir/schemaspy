@@ -1,0 +1,55 @@
+
+Forg.schemaspy.model.ConsoleProgressListener#startedGatheringDetails()J
+__unknown_file ("3*ï
+1o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ConsoleProgressListener.java= =("y
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ConsoleProgressListener.java= =(
+""*¼
+2o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ConsoleProgressListener.java: :(	´
+±
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ConsoleProgressListener.java: :(
+%4java.io.PrintStream"__id**
+java.lang.System"
+out‰†
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ConsoleProgressListener.java: :(2
+
+%5void".java.io.PrintStream#print(Ljava/lang/String;)V*
+
+%4java.io.PrintStream*
+Gathering schema details...2print(Ljava/lang/String;)*
+1* 
+3o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ConsoleProgressListener.java6 6(#½
+º
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ConsoleProgressListener.java6 6(7
+
+%0long"%java.lang.System#currentTimeMillis()J*"
+java.lang.SystemÆ
+Ã
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ConsoleProgressListener.java7 7(!
+
+%1long"__id*>*<-
++org.schemaspy.model.ConsoleProgressListener"
+	startedAtÏ
+Ì
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ConsoleProgressListener.java7$ 7(6
+
+%2long"__id*G*E-
++org.schemaspy.model.ConsoleProgressListener"
+startedGatheringAtÆ
+Ã
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ConsoleProgressListener.java9 9(
+%3boolean"__id*;*9-
++org.schemaspy.model.ConsoleProgressListener"
+render*
+2
+1B/-
++org.schemaspy.model.ConsoleProgressListener

@@ -1,0 +1,83 @@
+
+vorg.schemaspy.model.Table#remove(Lorg/schemaspy/model/ForeignKeyConstraint;)Lorg/schemaspy/model/ForeignKeyConstraint;
+__unknown_file ("4"1*Ç
+1_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaØ Ø("õ
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaØ Ø(8
+6
+
+constraint(org.schemaspy.model.ForeignKeyConstraint*ñ
+3_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java©* ©(4ìê
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java©* ©(F
+%2java.util.List"Jorg.schemaspy.model.ForeignKeyConstraint#getChildColumns()Ljava/util/List;*8
+6
+
+constraint(org.schemaspy.model.ForeignKeyConstraint2getChildColumns()‹Ÿ
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java©* ©(M%
+%3org.schemaspy.model.TableColumn"'java.util.List#get(I)Ljava/lang/Object;*
+
+%2java.util.List*
+""2get(I)√
+¿
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java© ©(N.
+childColumnorg.schemaspy.model.TableColumn"__id*'
+%
+%3org.schemaspy.model.TableColumnïí
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java™+ ™(H
+%4java.util.List"Korg.schemaspy.model.ForeignKeyConstraint#getParentColumns()Ljava/util/List;*8
+6
+
+constraint(org.schemaspy.model.ForeignKeyConstraint2getParentColumns()‹Ÿ
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java™+ ™(O%
+%5org.schemaspy.model.TableColumn"'java.util.List#get(I)Ljava/lang/Object;*
+
+%4java.util.List*
+""2get(I)ƒ
+¡
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java™ ™(P/
+parentColumnorg.schemaspy.model.TableColumn"__id*'
+%
+%5org.schemaspy.model.TableColumnÿ’
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java´ ´(6
+
+%6void"Porg.schemaspy.model.TableColumn#removeParent(Lorg/schemaspy/model/TableColumn;)V*0
+.
+childColumnorg.schemaspy.model.TableColumn*1
+/
+parentColumnorg.schemaspy.model.TableColumn2/removeParent(Lorg/schemaspy/model/TableColumn;)÷”
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java¨ ¨(5
+
+%7void"Oorg.schemaspy.model.TableColumn#removeChild(Lorg/schemaspy/model/TableColumn;)V*1
+/
+parentColumnorg.schemaspy.model.TableColumn*0
+.
+childColumnorg.schemaspy.model.TableColumn2.removeChild(Lorg/schemaspy/model/TableColumn;)*
+4*¨
+4_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java® ®(ìê
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java®  ®(<
+%0java.util.List"Jorg.schemaspy.model.ForeignKeyConstraint#getChildColumns()Ljava/util/List;*8
+6
+
+constraint(org.schemaspy.model.ForeignKeyConstraint2getChildColumns()ß§
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java®  ®(C	
+%1int"java.util.List#size()I*
+
+%0java.util.List2size()*
+3
+1:6
+
+constraint(org.schemaspy.model.ForeignKeyConstraintB
+org.schemaspy.model.Table

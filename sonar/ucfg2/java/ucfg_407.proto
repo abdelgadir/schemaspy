@@ -1,0 +1,55 @@
+
+6org.schemaspy.model.Schema#equals(Ljava/lang/Object;)Z
+__unknown_file ("paramAnnotations*Õ
+1^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Schema.javaF
+ F("h
+^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Schema.javaF F(
+""*»
+2^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Schema.javaD D(◊‘
+^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Schema.javaD
+ D(
+%1java.lang.String"6org.schemaspy.model.Schema#getName()Ljava/lang/String;*
+
+ojava.lang.Object2	getName()´
+®
+^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Schema.javaD' D(+
+%2java.lang.String"__id*(*&
+org.schemaspy.model.Schema"
+nameÌ
+^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Schema.javaD
+ D(,
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%1java.lang.String*
+
+%2java.lang.String2equals(Ljava/lang/Object;)"h
+^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Schema.javaD D(-
+""*∂
+paramAnnotations^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Schema.javaB B( ¶
+£
+^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Schema.javaA A(
+
+%0"
+__annotate*
+java.lang.Override*
+
+ojava.lang.Objectê
+ç
+^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Schema.javaB B(
+ojava.lang.Object"__annotation*
+
+%0*
+2
+1:
+ojava.lang.ObjectB
+org.schemaspy.model.Schema

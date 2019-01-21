@@ -1,0 +1,43 @@
+
+vorg.schemaspy.WiringConfiguration#tableService(Lorg/schemaspy/service/SqlService;)Lorg/schemaspy/service/TableService;
+__unknown_file ("paramAnnotations*Ü
+1e
+[/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/WiringConfiguration.java1  1(*¸µ
+e
+[/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/WiringConfiguration.java1 1((
+%0"org.schemaspy.service.TableService""org.schemaspy.service.TableServicež
+›
+e
+[/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/WiringConfiguration.java1 1(+
+%1"Norg.schemaspy.service.TableService#<init>(Lorg/schemaspy/service/SqlService;)V**
+(
+%0"org.schemaspy.service.TableService*0
+.
+
+sqlService org.schemaspy.service.SqlService"“
+e
+[/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/WiringConfiguration.java1 1(,*
+(
+%0"org.schemaspy.service.TableService*“
+paramAnnotationse
+[/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/WiringConfiguration.java0$ 0(;ß
+Ü
+e
+[/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/WiringConfiguration.java/ /(	
+%2"
+__annotate*/-
++org.springframework.context.annotation.Bean*0
+.
+
+sqlService org.schemaspy.service.SqlService°
+­
+e
+[/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/WiringConfiguration.java00 0(:.
+
+sqlService org.schemaspy.service.SqlService"__annotation*
+
+%2*
+1:.
+
+sqlService org.schemaspy.service.SqlServiceB%#
+!org.schemaspy.WiringConfiguration

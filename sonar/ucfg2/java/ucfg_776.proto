@@ -1,0 +1,56 @@
+
+8org.schemaspy.util.Inflection#match(Ljava/lang/String;)Z
+__unknown_file ("3*ª	
+1c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java˜ ˜(¶
+³
+c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java˜ ˜(&
+%2java.lang.String"__id*.*,
+org.schemaspy.util.Inflection"	
+pattern•
+’
+c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java˜ ˜(.
+%3java.util.regex.Pattern"Mjava.util.regex.Pattern#compile(Ljava/lang/String;I)Ljava/util/regex/Pattern;*"
+java.util.regex.Pattern*
+
+%2java.lang.String*
+""»¸
+c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java˜ ˜(<
+%4java.util.regex.Matcher"Rjava.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;*
+
+%3java.util.regex.Pattern*
+
+wordjava.lang.String2!matcher(Ljava/lang/CharSequence;)Á¾
+c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java˜ ˜(C
+%5boolean"java.util.regex.Matcher#find()Z*
+
+%4java.util.regex.Matcher2find()"m
+c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java˜ ˜(D
+""*œ
+2c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java– –(¬
+©
+c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java– –(4	
+%1int"__id*1*/
+java.util.regex.Pattern"
+CASE_INSENSITIVE*
+1*£
+3c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java” ”(°
+­
+c
+W/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Inflection.java• •(
+%0boolean"__id*1*/
+org.schemaspy.util.Inflection"
+
+ignoreCase*
+2
+1:
+wordjava.lang.StringB!
+org.schemaspy.util.Inflection

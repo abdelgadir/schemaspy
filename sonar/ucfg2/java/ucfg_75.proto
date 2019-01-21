@@ -1,0 +1,46 @@
+
+$org.schemaspy.Config#isLowQuality()Z
+__unknown_file ("3*ñ
+1Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaˆ ˆ(©
+¦
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaˆ ˆ(
+%3java.lang.Boolean"__id*)*'
+org.schemaspy.Config"
+highQuality"d
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaˆ ˆ(
+""*ü
+2Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java† †("¢
+Ÿ
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java† †("
+%1java.util.List"__id*%*#
+org.schemaspy.Config"	
+options×Ô
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java† †(0
+%2boolean"*java.util.List#remove(Ljava/lang/Object;)Z*
+
+%1java.util.List*
+-lq2remove(Ljava/lang/Object;)–
+“
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java† †(0'
+org.schemaspy.Config"
+highQuality"__id*
+""*
+1*“
+3Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java… …(©
+¦
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java… …(
+%0java.lang.Boolean"__id*)*'
+org.schemaspy.Config"
+highQuality*
+2
+1B
+org.schemaspy.Config

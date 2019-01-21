@@ -1,0 +1,49 @@
+
+Corg.schemaspy.model.Database#getDatabaseProduct()Ljava/lang/String;
+__unknown_file ("1*Ú
+1b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.java… …(Á
+¾
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.java… …("
+%0org.schemaspy.model.DbmsMeta"__id*.*,
+org.schemaspy.model.Database"
+
+dbmsMetaøõ
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.java… …((
+%1java.lang.String"?org.schemaspy.model.DbmsMeta#getProductName()Ljava/lang/String;*$
+"
+%0org.schemaspy.model.DbmsMeta2getProductName()¬
+©
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.java… …(0
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+ - Á
+¾
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.java…3 …(;"
+%3org.schemaspy.model.DbmsMeta"__id*.*,
+org.schemaspy.model.Database"
+
+dbmsMetaþû
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.java…3 …(O
+%4java.lang.String"Borg.schemaspy.model.DbmsMeta#getProductVersion()Ljava/lang/String;*$
+"
+%3org.schemaspy.model.DbmsMeta2getProductVersion()½
+º
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.java… …(O
+%5java.lang.String"__concat*
+
+%2java.lang.String*
+
+%4java.lang.String"~
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.java… …(P
+
+%5java.lang.StringB 
+org.schemaspy.model.Database

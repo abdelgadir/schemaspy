@@ -1,0 +1,24 @@
+
+Horg.schemaspy.cli.ConfigFileArgument#getConfigFile()Ljava/util/Optional;
+__unknown_file ("1*Á
+1h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/cli/ConfigFileArgument.java6 6(Å
+Â
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/cli/ConfigFileArgument.java6# 6(-
+%0java.lang.String"__id*8*6&
+$org.schemaspy.cli.ConfigFileArgument"
+
+configFile€
+ý
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/cli/ConfigFileArgument.java6 6(.
+%1java.util.Optional"Ejava.util.Optional#ofNullable(Ljava/lang/Object;)Ljava/util/Optional;*"
+java.util.Optional*
+
+%0java.lang.String"†
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/cli/ConfigFileArgument.java6 6(/
+
+%1java.util.OptionalB(&
+$org.schemaspy.cli.ConfigFileArgument

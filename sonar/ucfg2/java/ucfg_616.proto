@@ -1,0 +1,46 @@
+
+aorg.schemaspy.output.diagram.vizjs.VizJSDot#fixPathsAndUrls(Ljava/lang/String;)Ljava/lang/String;
+__unknown_file ("1*Â
+1o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/vizjs/VizJSDot.javaZ Z(%ïì
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/vizjs/VizJSDot.javaZ Z(f
+%0java.lang.String"Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*
+
+	dotSourcejava.lang.String*'%
+#(<IMG SRC=\\\").*(images.*)(\\\"/>)*
+$1../../$2$320replaceAll(Ljava/lang/String;Ljava/lang/String;)´
+±
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/vizjs/VizJSDot.javaZ Z(g
+
+fixedImagejava.lang.String"__id*
+
+%0java.lang.Stringëè
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/vizjs/VizJSDot.java[% [(k
+%1java.lang.String"Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;* 
+
+
+fixedImagejava.lang.String*
+(URL=\")([^tables])(.*)(\")*
+$1tables/$2$3$420replaceAll(Ljava/lang/String;Ljava/lang/String;)½
+º
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/vizjs/VizJSDot.java[ [(l'
+addedTableIfMissingjava.lang.String"__id*
+
+%1java.lang.Stringæã
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/vizjs/VizJSDot.java\ \(P
+%2java.lang.String"Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*)
+'
+addedTableIfMissingjava.lang.String*
+(URL=\")(.*)(\")*
+$1../../$2$320replaceAll(Ljava/lang/String;Ljava/lang/String;)"‹
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/vizjs/VizJSDot.java\ \(Q
+
+%2java.lang.String:
+	dotSourcejava.lang.StringB/-
++org.schemaspy.output.diagram.vizjs.VizJSDot

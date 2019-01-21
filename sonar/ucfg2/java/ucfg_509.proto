@@ -1,0 +1,51 @@
+
+Corg.schemaspy.model.TableColumn#matches(Ljava/util/regex/Pattern;)Z
+__unknown_file ("1*¾
+1e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaî î(ƒ€
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaî î('
+%0org.schemaspy.model.Table"Eorg.schemaspy.model.TableColumn#getTable()Lorg/schemaspy/model/Table;*#!
+org.schemaspy.model.TableColumn2
+getTable()çä
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaî î(1
+%1java.lang.String"5org.schemaspy.model.Table#getName()Ljava/lang/String;*!
+
+%0org.schemaspy.model.Table2	getName()®
+«
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaî î(7
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+""ïì
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaî: î(C
+%3java.lang.String";org.schemaspy.model.TableColumn#getName()Ljava/lang/String;*#!
+org.schemaspy.model.TableColumn2	getName()À
+½
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaî î(C
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.String¾»
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaî î(D
+%5java.util.regex.Matcher"Rjava.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;*"
+ 
+regexjava.util.regex.Pattern*
+
+%4java.lang.String2!matcher(Ljava/lang/CharSequence;)ÉÆ
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaî î(N
+%6boolean""java.util.regex.Matcher#matches()Z*
+
+%5java.util.regex.Matcher2	matches()"o
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.javaî î(O
+"": 
+regexjava.util.regex.PatternB#!
+org.schemaspy.model.TableColumn

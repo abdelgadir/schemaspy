@@ -1,0 +1,67 @@
+
+eorg.schemaspy.model.TableColumn#removeAParentFKConstraint()Lorg/schemaspy/model/ForeignKeyConstraint;
+__unknown_file ("4*Û
+1e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java¦ ¦("o
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java¦ ¦(
+""*Ÿ
+2e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java   (&ª
+§
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java   (&0
+relatedColumnorg.schemaspy.model.TableColumn"__id*
+""*
+3
+1*¸
+
+3e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java¡. ¡(5·
+´
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java¡. ¡(5
+%2java.util.Map"__id*0*.!
+org.schemaspy.model.TableColumn"	
+parents½º
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java¡. ¡(K.
+%3(org.schemaspy.model.ForeignKeyConstraint":java.util.Map#remove(Ljava/lang/Object;)Ljava/lang/Object;*
+
+%2java.util.Map*2
+0
+relatedColumnorg.schemaspy.model.TableColumn2remove(Ljava/lang/Object;)Ú
+×
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java¡ ¡(L6
+
+constraint(org.schemaspy.model.ForeignKeyConstraint"__id*0
+.
+%3(org.schemaspy.model.ForeignKeyConstraintÐÍ
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java¢ ¢(+
+
+%4void"Oorg.schemaspy.model.TableColumn#removeChild(Lorg/schemaspy/model/TableColumn;)V*2
+0
+relatedColumnorg.schemaspy.model.TableColumn*#!
+org.schemaspy.model.TableColumn2.removeChild(Lorg/schemaspy/model/TableColumn;)"¡
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java£ £(8
+6
+
+constraint(org.schemaspy.model.ForeignKeyConstraint*ó
+4e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java )  (0·
+´
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java )  (0
+%0java.util.Map"__id*0*.!
+org.schemaspy.model.TableColumn"	
+parentsÇÄ
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableColumn.java )  (9
+%1java.util.Set"%java.util.Map#keySet()Ljava/util/Set;*
+
+%0java.util.Map2keySet()*
+2B#!
+org.schemaspy.model.TableColumn

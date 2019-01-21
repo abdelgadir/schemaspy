@@ -1,0 +1,46 @@
+
+#org.schemaspy.model.Table#isRoot()Z
+__unknown_file ("5*œ
+1_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaÕ Õ("i
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaÕ Õ(
+""*å
+2_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java« «(ù
+ö
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java« «()
+columnorg.schemaspy.model.TableColumn"__id*
+""*
+4
+1*œ
+3_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java… …("i
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java… …(
+""*–
+4_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java» »(·ﬁ
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java» »(%
+%2boolean"/org.schemaspy.model.TableColumn#isForeignKey()Z*+
+)
+columnorg.schemaspy.model.TableColumn2isForeignKey()*
+2
+3*ù
+5_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java«" «()√
+¿
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java«" «()+
+%0%org.schemaspy.util.CaseInsensitiveMap"__id***(
+org.schemaspy.model.Table"	
+columnsÎË
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java«" «(2
+%1java.util.Collection"0java.util.HashMap#values()Ljava/util/Collection;*-
++
+%0%org.schemaspy.util.CaseInsensitiveMap2values()*
+2B
+org.schemaspy.model.Table

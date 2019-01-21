@@ -1,0 +1,35 @@
+
+Korg.schemaspy.util.ManifestUtils#getImplementationBuild()Ljava/lang/String;
+__unknown_file ("1*è	
+1d
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/ManifestUtils.java? ?(Í
+Ê
+d
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/ManifestUtils.java?# ?(5
+%0java.util.jar.Attributes"__id*<*:"
+ org.schemaspy.util.ManifestUtils"
+manifestAttributes¤¡
+d
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/ManifestUtils.java?# ?(V
+%1java.lang.String"Gjava.util.jar.Attributes#getValue(Ljava/lang/String;)Ljava/lang/String;* 
+
+%0java.util.jar.Attributes*
+Implementation-Build2getValue(Ljava/lang/String;)ü
+ù
+d
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/ManifestUtils.java? ?(W
+%2java.util.Optional"Ejava.util.Optional#ofNullable(Ljava/lang/Object;)Ljava/util/Optional;*"
+java.util.Optional*
+
+%1java.lang.Stringƒ€
+d
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/ManifestUtils.java? ?(e
+%3java.lang.String"?java.util.Optional#orElse(Ljava/lang/Object;)Ljava/lang/Object;*
+
+%2java.util.Optional*
+IDE2orElse(Ljava/lang/Object;)"€
+d
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/ManifestUtils.java? ?(f
+
+%3java.lang.StringB$""
+ org.schemaspy.util.ManifestUtils

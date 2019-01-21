@@ -1,0 +1,49 @@
+
+oorg.schemaspy.model.Table#addColumn(Lorg/schemaspy/model/xml/TableColumnMeta;)Lorg/schemaspy/model/TableColumn;
+__unknown_file ("1*‹
+1_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java‚- ‚(1¬©
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java‚! ‚(,%
+%0org.schemaspy.model.TableColumn"org.schemaspy.model.TableColumn×
+Ô
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java‚ ‚(;
+%1"morg.schemaspy.model.TableColumn#<init>(Lorg/schemaspy/model/Table;Lorg/schemaspy/model/xml/TableColumnMeta;)V*'
+%
+%0org.schemaspy.model.TableColumn*
+org.schemaspy.model.Table*4
+2
+colMeta'org.schemaspy.model.xml.TableColumnMeta¾
+»
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java‚ ‚(<)
+columnorg.schemaspy.model.TableColumn"__id*'
+%
+%0org.schemaspy.model.TableColumnÃ
+À
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java„ „(+
+%2%org.schemaspy.util.CaseInsensitiveMap"__id***(
+org.schemaspy.model.Table"	
+columnsñî
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java„ „($
+%3java.lang.String";org.schemaspy.model.TableColumn#getName()Ljava/lang/String;*+
+)
+columnorg.schemaspy.model.TableColumn2	getName()Œ
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java„ „(-%
+%4org.schemaspy.model.TableColumn"aorg.schemaspy.util.CaseInsensitiveMap#put(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;*-
++
+%2%org.schemaspy.util.CaseInsensitiveMap*
+
+%3java.lang.String*+
+)
+columnorg.schemaspy.model.TableColumn2)put(Ljava/lang/String;Ljava/lang/Object;)"Ž
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java† †(+
+)
+columnorg.schemaspy.model.TableColumn:2
+colMeta'org.schemaspy.model.xml.TableColumnMetaB
+org.schemaspy.model.Table

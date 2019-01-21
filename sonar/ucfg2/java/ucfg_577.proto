@@ -1,0 +1,21 @@
+
+Xorg.schemaspy.output.diagram.DiagramFactory#getImplementationDetails()Ljava/lang/String;
+__unknown_file ("1*µ
+1o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/DiagramFactory.java0 0(ô
+ñ
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/DiagramFactory.java0 0(2
+%0,org.schemaspy.output.diagram.DiagramProducer"__id*D*B-
++org.schemaspy.output.diagram.DiagramFactory"
+diagramProducer¹¶
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/DiagramFactory.java0 0(9
+%1java.lang.String"Yorg.schemaspy.output.diagram.DiagramProducer#getImplementationDetails()Ljava/lang/String;*4
+2
+%0,org.schemaspy.output.diagram.DiagramProducer2getImplementationDetails()"‹
+o
+e/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/DiagramFactory.java0 0(:
+
+%1java.lang.StringB/-
++org.schemaspy.output.diagram.DiagramFactory

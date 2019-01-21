@@ -1,0 +1,17 @@
+
+Sorg.schemaspy.model.ForeignKeyConstraint#getChildTable()Lorg/schemaspy/model/Table;
+__unknown_file ("1*ä
+1n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.java   (Ø
+Õ
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.java   (
+%0org.schemaspy.model.Table"__id*<*:*
+(org.schemaspy.model.ForeignKeyConstraint"
+
+childTable"“
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.java   (!
+
+%0org.schemaspy.model.TableB,*
+(org.schemaspy.model.ForeignKeyConstraint

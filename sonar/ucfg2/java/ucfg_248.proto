@@ -1,0 +1,59 @@
+
+<org.schemaspy.model.CombinedMap#getCombined()Ljava/util/Map;
+__unknown_file ("1*¿
+1c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.javag: g(>ÉÆ
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.javag: g(@	
+%0int"'org.schemaspy.model.CombinedMap#size()I*#!
+org.schemaspy.model.CombinedMap2size()¼¹
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.javag% g(9+
+%1%org.schemaspy.util.CaseInsensitiveMap"%org.schemaspy.util.CaseInsensitiveMapÜ
+Ù
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.javag! g(A
+%2"0org.schemaspy.util.CaseInsensitiveMap#<init>(I)V*-
++
+%1%org.schemaspy.util.CaseInsensitiveMap*
+	
+%0int³
+°
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.javag g(B
+alljava.util.Map"__id*-
++
+%1%org.schemaspy.util.CaseInsensitiveMap²
+¯
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.javah h(
+%3java.util.Map"__id*-*+!
+org.schemaspy.model.CombinedMap"
+map1äá
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.javah h(
+
+%4void"&java.util.Map#putAll(Ljava/util/Map;)V*
+
+alljava.util.Map*
+
+%3java.util.Map2putAll(Ljava/util/Map;)²
+¯
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.javai i(
+%5java.util.Map"__id*-*+!
+org.schemaspy.model.CombinedMap"
+map2äá
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.javai i(
+
+%6void"&java.util.Map#putAll(Ljava/util/Map;)V*
+
+alljava.util.Map*
+
+%5java.util.Map2putAll(Ljava/util/Map;)"}
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/CombinedMap.javaj j(
+
+alljava.util.MapB#!
+org.schemaspy.model.CombinedMap

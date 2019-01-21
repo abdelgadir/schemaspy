@@ -1,0 +1,23 @@
+
+sorg.schemaspy.SchemaAnalyzer#addOutputProducer(Lorg/schemaspy/output/OutputProducer;)Lorg/schemaspy/SchemaAnalyzer;
+__unknown_file ("1*±
+1`
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javad d(¸
+µ
+`
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javad d(
+%0java.util.List"__id*5*3
+org.schemaspy.SchemaAnalyzer"
+outputProducers‡„
+`
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javad d(+
+%1boolean"'java.util.List#add(Ljava/lang/Object;)Z*
+
+%0java.util.List*7
+5
+outputProducer#org.schemaspy.output.OutputProducer2add(Ljava/lang/Object;)"„
+`
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javae e( 
+org.schemaspy.SchemaAnalyzer:5
+outputProducer#org.schemaspy.output.OutputProducerB 
+org.schemaspy.SchemaAnalyzer

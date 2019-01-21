@@ -1,0 +1,18 @@
+
+\org.schemaspy.analyzer.ImpliedConstraintsFinder#find(Ljava/util/Collection;)Ljava/util/List;
+__unknown_file ("1*±
+1s
+i/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/analyzer/ImpliedConstraintsFinder.java (¶
+£
+s
+i/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/analyzer/ImpliedConstraintsFinder.java (7
+%0java.util.List"Vorg.schemaspy.DbAnalyzer#getImpliedConstraints(Ljava/util/Collection;)Ljava/util/List;*"
+org.schemaspy.DbAnalyzer* 
+
+tablesjava.util.Collection"ç
+s
+i/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/analyzer/ImpliedConstraintsFinder.java (8
+
+%0java.util.List:
+tablesjava.util.CollectionB31
+/org.schemaspy.analyzer.ImpliedConstraintsFinder

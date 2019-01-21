@@ -1,0 +1,39 @@
+
+Qorg.schemaspy.output.diagram.graphviz.GraphvizVersion#equals(Ljava/lang/Object;)Z
+__unknown_file ("paramAnnotations*Ñ
+1y
+o/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/graphviz/GraphvizVersion.javaS S("É
+y
+o/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/graphviz/GraphvizVersion.javaS S(
+""*ß
+2y
+o/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/graphviz/GraphvizVersion.javaR R(†ù
+y
+o/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/graphviz/GraphvizVersion.javaR R(4	
+%1int"yorg.schemaspy.output.diagram.graphviz.GraphvizVersion#compareTo(Lorg/schemaspy/output/diagram/graphviz/GraphvizVersion;)I*97
+5org.schemaspy.output.diagram.graphviz.GraphvizVersion*
+
+otherjava.lang.Object2BcompareTo(Lorg/schemaspy/output/diagram/graphviz/GraphvizVersion;)"É
+y
+o/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/graphviz/GraphvizVersion.javaR R(:
+""*è
+paramAnnotationsy
+o/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/graphviz/GraphvizVersion.javaP P('≈
+¬
+y
+o/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/graphviz/GraphvizVersion.javaO O(
+%0"
+__annotate*
+java.lang.Override*
+
+otherjava.lang.ObjectØ
+¨
+y
+o/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/graphviz/GraphvizVersion.javaP! P(&
+otherjava.lang.Object"__annotation*
+
+%0*
+2
+1:
+otherjava.lang.ObjectB97
+5org.schemaspy.output.diagram.graphviz.GraphvizVersion

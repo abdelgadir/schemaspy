@@ -1,0 +1,21 @@
+
+>org.schemaspy.model.Database#getTables()Ljava/util/Collection;
+__unknown_file ("1*ì
+1`
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.javaY Y(®
+«
+`
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.javaY Y(
+%0java.util.Map"__id*,**
+org.schemaspy.model.Database"
+tablesÐÍ
+`
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.javaY Y(
+%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*
+
+%0java.util.Map2values()"€
+`
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Database.javaY Y(
+
+%1java.util.CollectionB 
+org.schemaspy.model.Database

@@ -1,0 +1,74 @@
+
+Korg.schemaspy.DbAnalyzer#getOrphans(Ljava/util/Collection;)Ljava/util/List;
+__unknown_file ("7*·
+1^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.java… …(Å
+˛
+^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.java… …((
+%5java.util.List"Korg.schemaspy.DbAnalyzer#sortTablesByName(Ljava/util/List;)Ljava/util/List;*"
+org.schemaspy.DbAnalyzer*
+
+orphansjava.util.List"x
+^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.java… …()
+
+%5java.util.List*É
+2^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.java√ √(ï
+í
+^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.java√ √("
+tableorg.schemaspy.model.Table"__id*
+""*
+5
+1*‚
+3^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.java≈ ≈(˜Ù
+^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.java≈ ≈("
+%4boolean"'java.util.List#add(Ljava/lang/Object;)Z*
+
+orphansjava.util.List*$
+"
+tableorg.schemaspy.model.Table2add(Ljava/lang/Object;)*
+2*µ
+4^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.javaƒ* ƒ(/«ƒ
+^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.javaƒ* ƒ(8
+%3boolean"#org.schemaspy.model.Table#isView()Z*$
+"
+tableorg.schemaspy.model.Table2isView()*
+2
+3*√
+5^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.javaƒ ƒ(’“
+^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.javaƒ ƒ(%
+%2boolean"&org.schemaspy.model.Table#isOrphan(Z)Z*$
+"
+tableorg.schemaspy.model.Table*
+""2isOrphan(Z)*
+2
+4* 
+7^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.java¡ ¡(/ìê
+^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.java¡" ¡(-
+%0java.util.ArrayList"java.util.ArrayList•
+¢
+^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.java¡ ¡(/
+%1"java.util.ArrayList#<init>()V*
+
+%0java.util.ArrayList°
+û
+^
+R/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/DbAnalyzer.java¡ ¡(0
+orphansjava.util.List"__id*
+
+%0java.util.ArrayList*
+2:
+tablesjava.util.CollectionB"
+org.schemaspy.DbAnalyzer

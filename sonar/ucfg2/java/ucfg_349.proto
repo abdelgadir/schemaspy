@@ -1,0 +1,36 @@
+
+<org.schemaspy.model.ForeignKeyConstraint#isRestrictDelete()Z
+__unknown_file ("3*í
+1n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaÆ Æ(`"x
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaÆ Æ(`
+""*²
+2n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaÆ9 Æ(Føõ
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaÆ9 Æ(H	
+%2int"9org.schemaspy.model.ForeignKeyConstraint#getDeleteRule()I*,*
+(org.schemaspy.model.ForeignKeyConstraint2getDeleteRule()¼
+¹
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaÆL Æ(_	
+%3int"__id*6*4
+java.sql.DatabaseMetaData"
+importedKeyRestrict*
+1*µ
+3n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaÆ Æ(øõ
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaÆ Æ(	
+%0int"9org.schemaspy.model.ForeignKeyConstraint#getDeleteRule()I*,*
+(org.schemaspy.model.ForeignKeyConstraint2getDeleteRule()¼
+¹
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaÆ" Æ(5	
+%1int"__id*6*4
+java.sql.DatabaseMetaData"
+importedKeyNoAction*
+2
+1B,*
+(org.schemaspy.model.ForeignKeyConstraint

@@ -1,0 +1,27 @@
+
+^org.schemaspy.output.diagram.graphviz.GraphvizDot#getImplementationDetails()Ljava/lang/String;
+__unknown_file ("1*”	
+1u
+k/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/graphviz/GraphvizDot.javag g(ƒ€
+u
+k/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/graphviz/GraphvizDot.javag! g(5;
+%05org.schemaspy.output.diagram.graphviz.GraphvizVersion"}org.schemaspy.output.diagram.graphviz.GraphvizDot#getGraphvizVersion()Lorg/schemaspy/output/diagram/graphviz/GraphvizVersion;*53
+1org.schemaspy.output.diagram.graphviz.GraphvizDot2getGraphvizVersion()±®
+u
+k/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/graphviz/GraphvizDot.javag! g(@
+%1java.lang.String"Rorg.schemaspy.output.diagram.graphviz.GraphvizVersion#toString()Ljava/lang/String;*=
+;
+%05org.schemaspy.output.diagram.graphviz.GraphvizVersion2
+toString()É
+Æ
+u
+k/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/graphviz/GraphvizDot.javag g(@
+%2java.lang.String"__concat*
+Graphviz dot *
+
+%1java.lang.String"‘
+u
+k/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/diagram/graphviz/GraphvizDot.javag g(A
+
+%2java.lang.StringB53
+1org.schemaspy.output.diagram.graphviz.GraphvizDot

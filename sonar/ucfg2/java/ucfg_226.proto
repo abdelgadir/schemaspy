@@ -1,0 +1,20 @@
+
+?org.schemaspy.logging.StackTraceOmitter#hasOmittedStackTrace()Z
+__unknown_file ("1*Ã
+1k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java/ /( ë
+è
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java/ /( /
+%0)java.util.concurrent.atomic.AtomicBoolean"__id*B*@)
+'org.schemaspy.logging.StackTraceOmitter"
+omittedStackTraceëè
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java/ /(&
+%1boolean"0java.util.concurrent.atomic.AtomicBoolean#get()Z*1
+/
+%0)java.util.concurrent.atomic.AtomicBoolean2get()"u
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java/ /('
+""B+")
+'org.schemaspy.logging.StackTraceOmitter

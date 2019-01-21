@@ -1,0 +1,301 @@
+
+sorg.schemaspy.SchemaAnalyzer#dumpNoTablesMessage(Ljava/lang/String;Ljava/lang/String;Ljava/sql/DatabaseMetaData;Z)V
+__unknown_file ("13*™
+1b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaú ú(´
+±
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaú ú(
+%30org.slf4j.Logger"__id*,**
+org.schemaspy.SchemaAnalyzer"
+LOGGERÊ
+Ç
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaü ü(.
+%31java.lang.String"2java.lang.System#lineSeparator()Ljava/lang/String;*"
+java.lang.Systemïì
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaý ý(1
+%32java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*$
+"
+populatedSchemasjava.util.List2stream()Ê
+Ç
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaýM ý(c
+%33java.lang.String"2java.lang.System#lineSeparator()Ljava/lang/String;*"
+java.lang.System¡
+ž
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaý: ý(d!
+%34java.util.stream.Collector"Yjava.util.stream.Collectors#joining(Ljava/lang/CharSequence;)Ljava/util/stream/Collector;*"
+java.util.stream.Collectors*
+
+%33java.lang.String¿¼
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaý ý(e
+%35java.lang.String"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;* 
+
+%32java.util.stream.Stream*#
+!
+%34java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)þ
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaú ý(f
+%36void"=org.slf4j.Logger#info(Ljava/lang/String;[Ljava/lang/Object;)V*
+
+%30org.slf4j.Logger*20
+.Schemas with tables/views visible to '{}':{}{}*
+
+userjava.lang.String*
+
+%31java.lang.String*
+
+%35java.lang.String2+info(Ljava/lang/String;[Ljava/lang/Object;)*
+0*‚
+12b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaÚ Ú( ’
+
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaÚ Ú(1
+%2java.util.List"Porg.schemaspy.DbAnalyzer#getSchemas(Ljava/sql/DatabaseMetaData;)Ljava/util/List;*"
+org.schemaspy.DbAnalyzer*#
+!
+metajava.sql.DatabaseMetaData*
+9*Á
+2b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaø ø(´
+±
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaø ø(
+%28org.slf4j.Logger"__id*,**
+org.schemaspy.SchemaAnalyzer"
+LOGGER›˜
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaø ø(^
+%29void"+org.slf4j.Logger#error(Ljava/lang/String;)V*
+
+%28org.slf4j.Logger*B@
+>Unable to determine if any of the schemas contain tables/views2error(Ljava/lang/String;)*
+0*‚
+13b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.java× ×(³
+°
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.java× ×(
+%0org.slf4j.Logger"__id*,**
+org.schemaspy.SchemaAnalyzer"
+LOGGERÈÅ
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.java× ×(L
+
+%1void"<org.slf4j.Logger#warn(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%0org.slf4j.Logger*1/
+-No tables or views were found in schema '{}'.*
+
+schemajava.lang.String2*warn(Ljava/lang/String;Ljava/lang/Object;)
+
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaØ Ø(
+schemasjava.util.List"__id*
+""*
+12*þ
+3b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaí í(´
+±
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaí í(
+%15org.slf4j.Logger"__id*,**
+org.schemaspy.SchemaAnalyzer"
+LOGGER©
+¦
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaî ï(X
+%16java.lang.String"__concat*US
+QThe schema '{}' could not be read/found, schema is specified using the -s option.*FD
+BMake sure user '{}' has the correct privileges to read the schema.á
+Þ
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaî ð(L
+%17java.lang.String"__concat*
+
+%16java.lang.String*:8
+6Also not that schema names are usually case sensitive.ôñ
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaí ñ(!
+%18void"Oorg.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%15org.slf4j.Logger*
+
+%17java.lang.String*
+
+schemajava.lang.String*
+
+userjava.lang.String2=error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)´
+±
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaò ò(
+%19org.slf4j.Logger"__id*,**
+org.schemaspy.SchemaAnalyzer"
+LOGGERÊ
+Ç
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaô ô(*
+%20java.lang.String"2java.lang.System#lineSeparator()Ljava/lang/String;*"
+java.lang.Systemæã
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaõ õ($
+%21java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+schemasjava.util.List2stream()Ê
+Ç
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaõ@ õ(V
+%22java.lang.String"2java.lang.System#lineSeparator()Ljava/lang/String;*"
+java.lang.System¡
+ž
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaõ- õ(W!
+%23java.util.stream.Collector"Yjava.util.stream.Collectors#joining(Ljava/lang/CharSequence;)Ljava/util/stream/Collector;*"
+java.util.stream.Collectors*
+
+%22java.lang.String¿¼
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaõ õ(X
+%24java.lang.String"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;* 
+
+%21java.util.stream.Stream*#
+!
+%23java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)œ™
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaò õ(Y
+%25void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%19org.slf4j.Logger*GE
+CAvailable schemas(Some of these may be user or system schemas):{}{}*
+
+%20java.lang.String*
+
+%24java.lang.String2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)œ
+™
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaö, ö(P
+%26java.util.List"Yorg.schemaspy.DbAnalyzer#getPopulatedSchemas(Ljava/sql/DatabaseMetaData;)Ljava/util/List;*"
+org.schemaspy.DbAnalyzer*#
+!
+metajava.sql.DatabaseMetaDataª
+§
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaö ö(Q"
+populatedSchemasjava.util.List"__id*
+
+%26java.util.ListÃÀ
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.java÷ ÷(*
+%27boolean"java.util.List#isEmpty()Z*$
+"
+populatedSchemasjava.util.List2	isEmpty()*
+2
+1*¬
+4b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaè è(´
+±
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaè è(
+%12org.slf4j.Logger"__id*,**
+org.schemaspy.SchemaAnalyzer"
+LOGGER‘
+Ž
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaé ê(O
+%13java.lang.String"__concat*JH
+FAnother possibility is that the regular expression that you specified *97
+5for what to include (via -i) didn't match any tables.òï
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaè ê(P
+%14void"+org.slf4j.Logger#error(Ljava/lang/String;)V*
+
+%12org.slf4j.Logger*
+
+%13java.lang.String2error(Ljava/lang/String;)*
+0*ß
+5b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaã ã(³
+°
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaã ã(
+%9org.slf4j.Logger"__id*,**
+org.schemaspy.SchemaAnalyzer"
+LOGGERƒ
+€
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaä å(A
+%10java.lang.String"__concat*FD
+BThe schema exists in the database, but the user you specified '{}'*/-
++might not have rights to read its contents.±®
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaã æ(
+%11void"=org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%9org.slf4j.Logger*
+
+%10java.lang.String*
+
+userjava.lang.String2+error(Ljava/lang/String;Ljava/lang/Object;)*
+4
+0*ï
+6b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaâ â(ýú
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaâ â(+
+%8boolean",java.util.List#contains(Ljava/lang/Object;)Z*
+
+schemasjava.util.List*
+
+schemajava.lang.String2contains(Ljava/lang/Object;)*
+3
+5*ž
+7b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaá á(³
+°
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaá á(
+%6org.slf4j.Logger"__id*,**
+org.schemaspy.SchemaAnalyzer"
+LOGGERùö
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaá á(:
+
+%7void"+org.slf4j.Logger#error(Ljava/lang/String;)V*
+
+%6org.slf4j.Logger*" 
+Failed to retrieve any schemas2error(Ljava/lang/String;)*
+0*Ë
+8b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaà à(Ù
+Ö
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaà à(#
+%5boolean"-java.util.Objects#isNull(Ljava/lang/Object;)Z*"
+java.util.Objects*
+
+schemasjava.util.List*
+6
+7*
+9b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaÚ Ú(1 
+
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.javaÚ Ú(1
+schemasjava.util.List"__id*
+
+%2java.util.List*
+8*€
+0 "y
+b
+V/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/SchemaAnalyzer.java€ €(
+implicit return:
+schemajava.lang.String:
+userjava.lang.String:!
+metajava.sql.DatabaseMetaData:
+""B "
+org.schemaspy.SchemaAnalyzer

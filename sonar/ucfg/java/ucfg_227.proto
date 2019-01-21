@@ -1,0 +1,123 @@
+
+morg.schemaspy.logging.StackTraceOmitter#convert(Lch/qos/logback/classic/spi/ILoggingEvent;)Ljava/lang/String;
+__unknown_file (event"paramAnnotations*¡
+1k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java: :(¶
+³
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java: :()
+%12"__id*7*5#
+!ch.qos.logback.core.CoreConstants"
+EMPTY_STRING"v
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java: :(*
+
+%12*ò
+2k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java8 8(ë
+è
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java8 8(,
+%8"hch.qos.logback.classic.spi.ILoggingEvent#getThrowableProxy()Lch/qos/logback/classic/spi/IThrowableProxy;*	
+
+eventÉ
+Æ
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java8 8(9
+%9"Ich.qos.logback.classic.spi.IThrowableProxy#getMessage()Ljava/lang/String;*
+
+%8¸
+µ
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java8< 8(X
+%10"__id*9*7#
+!ch.qos.logback.core.CoreConstants"
+LINE_SEPARATOR’
+
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java8 8(X
+%11"__concat*
+
+%9*
+
+%10"v
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java8 8(Y
+
+%11*­
+3k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java6 6(À
+½
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java6 6(
+%4"__id*B*@)
+'org.schemaspy.logging.StackTraceOmitter"
+omittedStackTrace¹
+¶
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java6 6(#
+%5"1java.util.concurrent.atomic.AtomicBoolean#set(Z)V*
+
+%4*
+""ë
+è
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java7 7(5
+%6"hch.qos.logback.classic.spi.ILoggingEvent#getThrowableProxy()Lch/qos/logback/classic/spi/IThrowableProxy;*	
+
+eventÅ
+Â
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java7 7(6
+%7".java.util.Objects#nonNull(Ljava/lang/Object;)Z*"
+java.util.Objects*
+
+%6*
+2
+1*ñ
+4k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java5 5(‡
+„
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java5 5('
+%3"|ch.qos.logback.classic.pattern.ThrowableProxyConverter#convert(Lch/qos/logback/classic/spi/ILoggingEvent;)Ljava/lang/String;*
+""*	
+
+event"u
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java5 5((
+
+%3*à
+5k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java4 4(À
+½
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java4 4(
+%0"__id*B*@)
+'org.schemaspy.logging.StackTraceOmitter"
+SCHEMA_SPY_LOGGER¢
+Ÿ
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java4 4(.
+%1""org.slf4j.Logger#isDebugEnabled()Z*
+
+%0*
+3
+4*¾
+paramAnnotationsk
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java3 3(.¥
+¢
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java2 2(
+%2"
+__annotate*
+java.lang.Override*	
+
+event
+Œ
+k
+a/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/logging/StackTraceOmitter.java3( 3(-
+event"__annotation*
+
+%2*
+5

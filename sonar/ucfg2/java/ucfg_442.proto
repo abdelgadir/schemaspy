@@ -1,0 +1,22 @@
+
+eorg.schemaspy.model.Table#removeSelfReferencingConstraint()Lorg/schemaspy/model/ForeignKeyConstraint;
+__unknown_file ("1*ô
+1_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaœ œ(—
+”
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaœ œ(4.
+%0(org.schemaspy.model.ForeignKeyConstraint"borg.schemaspy.model.Table#getSelfReferencingConstraint()Lorg/schemaspy/model/ForeignKeyConstraint;*
+org.schemaspy.model.TableÝ
+Ú
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaœ œ(5.
+%1(org.schemaspy.model.ForeignKeyConstraint"vorg.schemaspy.model.Table#remove(Lorg/schemaspy/model/ForeignKeyConstraint;)Lorg/schemaspy/model/ForeignKeyConstraint;*
+org.schemaspy.model.Table*0
+.
+%0(org.schemaspy.model.ForeignKeyConstraint"“
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaœ œ(60
+.
+%1(org.schemaspy.model.ForeignKeyConstraintB
+org.schemaspy.model.Table

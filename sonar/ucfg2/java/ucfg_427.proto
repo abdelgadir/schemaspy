@@ -1,0 +1,16 @@
+
+=org.schemaspy.model.Table#getPrimaryColumns()Ljava/util/List;
+__unknown_file ("1*’
+1_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaú ú(°
+­
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaú ú(
+%0java.util.List"__id*.*,
+org.schemaspy.model.Table"
+primaryKeys"y
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaú ú(
+
+%0java.util.ListB
+org.schemaspy.model.Table

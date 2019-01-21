@@ -1,0 +1,76 @@
+
+Dorg.schemaspy.model.ForeignKeyConstraint#equals(Ljava/lang/Object;)Z
+__unknown_file ("paramAnnotations*’
+1n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaø ø(Ù
+Ö
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaø ø(
+%3org.schemaspy.model.Table"__id*=*;*
+(org.schemaspy.model.ForeignKeyConstraint"
+parentTableÆ
+Ã
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaø# ø(K
+%4org.schemaspy.model.Table"__id***(
+
+objjava.lang.Object"
+parentTable"x
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaø ø(L
+""*í
+2n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaõ õ("x
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaõ õ(
+""*ž
+3n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaô ô(Ø
+Õ
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaô ô(
+%1org.schemaspy.model.Table"__id*<*:*
+(org.schemaspy.model.ForeignKeyConstraint"
+
+childTableÅ
+Â
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaô ô(E
+%2org.schemaspy.model.Table"__id*)*'
+
+objjava.lang.Object"
+
+childTable*
+2
+1*í
+4n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaò ò("x
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaò ò(
+""*í
+6n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaï ï("x
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaï ï(
+""*í
+paramAnnotationsn
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaí í(+¸
+µ
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaì ì(
+%0"
+__annotate*
+java.lang.Override*
+
+objjava.lang.Object¢
+Ÿ
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.javaí' í(*
+objjava.lang.Object"__annotation*
+
+%0*	
+3
+4
+6:
+objjava.lang.ObjectB,*
+(org.schemaspy.model.ForeignKeyConstraint

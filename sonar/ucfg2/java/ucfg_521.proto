@@ -1,0 +1,36 @@
+
+:org.schemaspy.model.TableIndex#getType()Ljava/lang/String;
+__unknown_file ("5*Þ
+1b
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableIndex.javaS S("u
+b
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableIndex.javaS S(
+Performance*á
+2b
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableIndex.javaR R(#"x
+b
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableIndex.javaR R($
+Must be unique*Ä
+3b
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableIndex.javaQ Q(ÒÏ
+b
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableIndex.javaQ Q(
+%1boolean"*org.schemaspy.model.TableIndex#isUnique()Z*" 
+org.schemaspy.model.TableIndex2
+isUnique()*
+2
+1*Þ
+4b
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableIndex.javaP P( "u
+b
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableIndex.javaP P(!
+Primary key*Ì
+5b
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableIndex.javaO O(Ú×
+b
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableIndex.javaO O(
+%0boolean".org.schemaspy.model.TableIndex#isPrimaryKey()Z*" 
+org.schemaspy.model.TableIndex2isPrimaryKey()*
+3
+4B" 
+org.schemaspy.model.TableIndex

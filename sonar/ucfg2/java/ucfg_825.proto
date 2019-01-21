@@ -1,0 +1,315 @@
+
+Vorg.schemaspy.view.DotFormatter#writeHeader(Ljava/lang/String;ZLjava/io/PrintWriter;)V
+__unknown_file ("8*Ö1
+1e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaî î(þû
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaî î(+
+%15void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+    nodesep=\"0.18\"2println(Ljava/lang/String;)þû
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaï ï(+
+%16void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+    ranksep=\"0.46\"2println(Ljava/lang/String;)Û
+Ø
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javað( ð(<
+%17org.schemaspy.Config"8org.schemaspy.Config#getInstance()Lorg/schemaspy/Config;*"
+org.schemaspy.ConfigßÜ
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javað( ð(F
+%18java.lang.String"0org.schemaspy.Config#getFont()Ljava/lang/String;*
+
+%17org.schemaspy.Config2	getFont()½
+º
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javað ð(F
+%19java.lang.String"__concat*
+    fontname=\"*
+
+%18java.lang.String°
+­
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javað ð(M
+%20java.lang.String"__concat*
+
+%19java.lang.String*
+\"ÿü
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javað ð(N
+%21void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+
+%20java.lang.String2println(Ljava/lang/String;)¯
+¬
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javañ( ñ(0
+
+%22int"__id*1*/!
+org.schemaspy.view.DotFormatter"
+
+fontSize°
+­
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javañ ñ(0
+%23java.lang.String"__concat*
+    fontsize=\"*
+
+
+%22int°
+­
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javañ ñ(7
+%24java.lang.String"__concat*
+
+%23java.lang.String*
+\"ÿü
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javañ ñ(8
+%25void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+
+%24java.lang.String2println(Ljava/lang/String;)þ
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaò ò(.
+%26void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+    ration=\"compress\"2println(Ljava/lang/String;)îë
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaó ó(
+%27void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+  ];2println(Ljava/lang/String;)òï
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaô ô(
+%28void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+
+  node [2println(Ljava/lang/String;)Û
+Ø
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaõ( õ(<
+%29org.schemaspy.Config"8org.schemaspy.Config#getInstance()Lorg/schemaspy/Config;*"
+org.schemaspy.ConfigßÜ
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaõ( õ(F
+%30java.lang.String"0org.schemaspy.Config#getFont()Ljava/lang/String;*
+
+%29org.schemaspy.Config2	getFont()½
+º
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaõ õ(F
+%31java.lang.String"__concat*
+    fontname=\"*
+
+%30java.lang.String°
+­
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaõ õ(M
+%32java.lang.String"__concat*
+
+%31java.lang.String*
+\"ÿü
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaõ õ(N
+%33void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+
+%32java.lang.String2println(Ljava/lang/String;)¯
+¬
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaö( ö(0
+
+%34int"__id*1*/!
+org.schemaspy.view.DotFormatter"
+
+fontSize°
+­
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaö ö(0
+%35java.lang.String"__concat*
+    fontsize=\"*
+
+
+%34int°
+­
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaö ö(7
+%36java.lang.String"__concat*
+
+%35java.lang.String*
+\"ÿü
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaö ö(8
+%37void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+
+%36java.lang.String2println(Ljava/lang/String;)þ
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java÷ ÷(.
+%38void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+    shape=\"plaintext\"2println(Ljava/lang/String;)îë
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaø ø(
+%39void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+  ];2println(Ljava/lang/String;)òï
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaù ù(
+%40void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+
+  edge [2println(Ljava/lang/String;)ÿü
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaú ú(,
+%41void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+    arrowsize=\"0.8\"2println(Ljava/lang/String;)îë
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaû û(
+%42void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+  ];2println(Ljava/lang/String;)*
+0*ï
+2e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaì ì(ýú
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaì ì(.
+%14void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+    labeljust=\"l\"2println(Ljava/lang/String;)*
+1*ƒ
+3e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaë ë(‘Ž
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaë ë(F
+%13void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*+)
+'    label=\"\\nGenerated by SchemaSpy\"2println(Ljava/lang/String;)*
+2*¨
+4e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaé é(¶³
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaé é(k
+%12void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*PN
+L    label=\"\\nLayout is significantly better without '-rankdirbug' option\"2println(Ljava/lang/String;)*
+2*í	
+6e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaæ æ(þ
+û
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaæ' æ(?#
+%7org.schemaspy.view.StyleSheet"Jorg.schemaspy.view.StyleSheet#getInstance()Lorg/schemaspy/view/StyleSheet;*!"
+org.schemaspy.view.StyleSheetƒ€
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaæ' æ(S
+%8java.lang.String"Corg.schemaspy.view.StyleSheet#getBodyBackground()Ljava/lang/String;*%
+#
+%7org.schemaspy.view.StyleSheet2getBodyBackground()º
+·
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaæ æ(S
+%9java.lang.String"__concat*
+    bgcolor=\"*
+
+%8java.lang.String¯
+¬
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaæ æ(Z
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+\"ÿü
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaæ æ([
+%11void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+
+%10java.lang.String2println(Ljava/lang/String;)*	
+3
+4
+1*í
+7e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaå å(ûø
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaå å(-
+
+%6void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+    rankdir=\"RL\"2println(Ljava/lang/String;)*
+6*—
+8e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaá á(¿
+¼
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaá á(.
+%0java.lang.String"__concat*
+
+digraph \"*!
+
+diagramNamejava.lang.String°
+­
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaá á(7
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+\" {ýú
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaá á(8
+
+%2void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+
+%1java.lang.String2println(Ljava/lang/String;)òï
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaâ â( 
+
+%3void"0java.io.PrintWriter#println(Ljava/lang/String;)V*
+
+dotjava.io.PrintWriter*
+	  graph [2println(Ljava/lang/String;)Ú
+×
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaã ã(1
+%4org.schemaspy.Config"8org.schemaspy.Config#getInstance()Lorg/schemaspy/Config;*"
+org.schemaspy.ConfigÛØ
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaã ã(G
+%5boolean"+org.schemaspy.Config#isRankDirBugEnabled()Z*
+
+%4org.schemaspy.Config2isRankDirBugEnabled()*
+6
+7*
+0 "z
+c
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaü ü(
+implicit return:
+diagramNamejava.lang.String:
+"":
+dotjava.io.PrintWriterB#!
+org.schemaspy.view.DotFormatter

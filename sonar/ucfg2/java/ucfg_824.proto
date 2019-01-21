@@ -1,0 +1,288 @@
+
+rorg.schemaspy.view.DotFormatter#getImmediateRelatives(Lorg/schemaspy/model/Table;ZZLjava/util/Set;)Ljava/util/Set;
+__unknown_file ("32*à
+23e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java¿H ¿(Sèå
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java¿H ¿(`
+%7boolean"-org.schemaspy.model.TableColumn#isExcluded()Z*0
+.
+childColumnorg.schemaspy.model.TableColumn2isExcluded()*
+17
+21*á
+13e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaËI Ë(Uêç
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaËI Ë(b
+%14boolean"-org.schemaspy.model.TableColumn#isExcluded()Z*1
+/
+parentColumnorg.schemaspy.model.TableColumn2isExcluded()*
+7
+11*ê
+25e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java¿ ¿(îë
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java¿ ¿(/
+%6boolean"0org.schemaspy.model.TableColumn#isAllExcluded()Z*0
+.
+childColumnorg.schemaspy.model.TableColumn2isAllExcluded()*
+17
+21
+23*ë
+15e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaË Ë( ðí
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaË Ë(0
+%13boolean"0org.schemaspy.model.TableColumn#isAllExcluded()Z*1
+/
+parentColumnorg.schemaspy.model.TableColumn2isAllExcluded()*
+13
+7
+11*í
+26e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java¾+ ¾(1ùö
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java¾+ ¾(?
+%5java.util.Set"<org.schemaspy.model.TableColumn#getChildren()Ljava/util/Set;*+
+)
+columnorg.schemaspy.model.TableColumn2getChildren()*
+17*ë
+16e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÊ, Ê(2øõ
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÊ, Ê(?
+%12java.util.Set";org.schemaspy.model.TableColumn#getParents()Ljava/util/Set;*+
+)
+columnorg.schemaspy.model.TableColumn2getParents()*
+7* 
+17e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java¾ ¾((¨
+¥
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java¾ ¾((.
+childColumnorg.schemaspy.model.TableColumn"__id*
+""*
+25
+16*Ú
+28e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaº? º(Eãà
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaº? º(R
+%4boolean"-org.schemaspy.model.TableColumn#isExcluded()Z*+
+)
+columnorg.schemaspy.model.TableColumn2isExcluded()*
+26
+6*—
+18e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÇ Ç(-£ 
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÇ Ç(=
+%11boolean"&java.util.Set#add(Ljava/lang/Object;)Z*,
+*
+skippedImpliedConstraintsjava.util.Set*8
+6
+
+constraint(org.schemaspy.model.ForeignKeyConstraint2add(Ljava/lang/Object;)*
+17*„
+19e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÅ Å("
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÅ Å(3
+%10boolean"&java.util.Set#add(Ljava/lang/Object;)Z*!
+
+relatedColumnsjava.util.Set*0
+.
+childColumnorg.schemaspy.model.TableColumn2add(Ljava/lang/Object;)*
+17*‚
+1e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÛ Û(‰†
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÛ Û(#
+%23boolean")java.util.Set#remove(Ljava/lang/Object;)Z* 
+
+relatedTablesjava.util.Set*$
+"
+tableorg.schemaspy.model.Table2remove(Ljava/lang/Object;)"‰
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÝ Ý( 
+
+relatedTablesjava.util.Set*˜
+2e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaØ Ø(£
+ 
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaØ Ø()
+columnorg.schemaspy.model.TableColumn"__id*
+""*
+3
+1*‚
+3e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÙ Ù(Œ‰
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÙ Ù(/ 
+%21org.schemaspy.model.Table"Eorg.schemaspy.model.TableColumn#getTable()Lorg/schemaspy/model/Table;*+
+)
+columnorg.schemaspy.model.TableColumn2
+getTable()þ
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÙ Ù(0
+%22boolean"&java.util.Set#add(Ljava/lang/Object;)Z* 
+
+relatedTablesjava.util.Set*"
+ 
+%21org.schemaspy.model.Table2add(Ljava/lang/Object;)*
+2*å
+5e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java×# ×(2—”
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java×' ×(0
+%19java.util.HashSet"java.util.HashSetª
+§
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java×# ×(2
+%20"java.util.HashSet#<init>()V*
+
+%19java.util.HashSet¬
+©
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java× ×(3
+relatedTablesjava.util.Set"__id*
+
+%19java.util.HashSet*
+2*™
+6e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java¹ ¹(£
+ 
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java¹ ¹()
+columnorg.schemaspy.model.TableColumn"__id*
+""*
+5
+30*Ÿ
+7e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÊ Ê()©
+¦
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÊ Ê()/
+parentColumnorg.schemaspy.model.TableColumn"__id*
+""*
+15
+6*•
+8e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÓ Ó(-£ 
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÓ Ó(=
+%18boolean"&java.util.Set#add(Ljava/lang/Object;)Z*,
+*
+skippedImpliedConstraintsjava.util.Set*8
+6
+
+constraint(org.schemaspy.model.ForeignKeyConstraint2add(Ljava/lang/Object;)*
+7*ƒ
+9e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÑ Ñ("‘Ž
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÑ Ñ(4
+%17boolean"&java.util.Set#add(Ljava/lang/Object;)Z*!
+
+relatedColumnsjava.util.Set*1
+/
+parentColumnorg.schemaspy.model.TableColumn2add(Ljava/lang/Object;)*
+7*ä
+30e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaº º(éæ
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaº º(&
+%3boolean"0org.schemaspy.model.TableColumn#isAllExcluded()Z*+
+)
+columnorg.schemaspy.model.TableColumn2isAllExcluded()*
+26
+6
+28*ï
+20e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÄ' Ä(1÷ô
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÄ' Ä(=
+%9boolean"5org.schemaspy.model.ForeignKeyConstraint#isImplied()Z*8
+6
+
+constraint(org.schemaspy.model.ForeignKeyConstraint2isImplied()*
+18
+19*ß
+31e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java¹" ¹('ìé
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java¹" ¹(4
+%2java.util.List"6org.schemaspy.model.Table#getColumns()Ljava/util/List;*$
+"
+tableorg.schemaspy.model.Table2getColumns()*
+6*†
+21e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÃ2 Ã(8±®
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÃ2 Ã(X.
+%8(org.schemaspy.model.ForeignKeyConstraint"org.schemaspy.model.TableColumn#getChildConstraint(Lorg/schemaspy/model/TableColumn;)Lorg/schemaspy/model/ForeignKeyConstraint;*+
+)
+columnorg.schemaspy.model.TableColumn*0
+.
+childColumnorg.schemaspy.model.TableColumn25getChildConstraint(Lorg/schemaspy/model/TableColumn;)Ú
+×
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÃ Ã(Y6
+
+constraint(org.schemaspy.model.ForeignKeyConstraint"__id*0
+.
+%8(org.schemaspy.model.ForeignKeyConstraint*
+19
+20*î
+10e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÐ' Ð(1øõ
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÐ' Ð(=
+%16boolean"5org.schemaspy.model.ForeignKeyConstraint#isImplied()Z*8
+6
+
+constraint(org.schemaspy.model.ForeignKeyConstraint2isImplied()*
+8
+9*ä
+32e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java·* ·(9–“
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java·. ·(7
+%0java.util.HashSet"java.util.HashSet¨
+¥
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java·* ·(9
+%1"java.util.HashSet#<init>()V*
+
+%0java.util.HashSet¬
+©
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.java· ·(:
+relatedColumnsjava.util.Set"__id*
+
+%0java.util.HashSet*
+31*‹
+11e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÏ2 Ï(8¶³
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÏ2 Ï(Z/
+%15(org.schemaspy.model.ForeignKeyConstraint"€org.schemaspy.model.TableColumn#getParentConstraint(Lorg/schemaspy/model/TableColumn;)Lorg/schemaspy/model/ForeignKeyConstraint;*+
+)
+columnorg.schemaspy.model.TableColumn*1
+/
+parentColumnorg.schemaspy.model.TableColumn26getParentConstraint(Lorg/schemaspy/model/TableColumn;)Û
+Ø
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotFormatter.javaÏ Ï([6
+
+constraint(org.schemaspy.model.ForeignKeyConstraint"__id*1
+/
+%15(org.schemaspy.model.ForeignKeyConstraint*
+9
+10:"
+tableorg.schemaspy.model.Table:
+"":
+"":*
+skippedImpliedConstraintsjava.util.SetB#"!
+org.schemaspy.view.DotFormatter

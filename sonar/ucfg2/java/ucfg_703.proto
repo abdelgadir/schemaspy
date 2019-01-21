@@ -1,0 +1,46 @@
+
+Vorg.schemaspy.service.SqlService#quoteIdentifier(Ljava/lang/String;)Ljava/lang/String;
+__unknown_file ("1*Ü
+
+1f
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/service/SqlService.java’ ’(…
+∆
+f
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/service/SqlService.java’ ’("
+%0org.schemaspy.model.DbmsMeta"__id*2*0"
+ org.schemaspy.service.SqlService"
+
+dbmsMetaêç
+f
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/service/SqlService.java’ ’(:
+%1java.lang.String"Iorg.schemaspy.model.DbmsMeta#getIdentifierQuoteString()Ljava/lang/String;*$
+"
+%0org.schemaspy.model.DbmsMeta2getIdentifierQuoteString()¶
+£
+f
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/service/SqlService.java’ ’(;
+quotejava.lang.String"__id*
+
+%1java.lang.Stringƒ
+¡
+f
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/service/SqlService.java÷ ÷(
+%2java.lang.String"__concat*
+
+quotejava.lang.String*
+
+idjava.lang.Stringƒ
+¡
+f
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/service/SqlService.java÷ ÷(!
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+
+quotejava.lang.String"Ç
+f
+Z/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/service/SqlService.java÷ ÷("
+
+%3java.lang.String:
+idjava.lang.StringB$"
+ org.schemaspy.service.SqlService

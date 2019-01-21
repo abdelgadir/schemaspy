@@ -1,0 +1,26 @@
+
+Eorg.schemaspy.model.Catalog#compareTo(Lorg/schemaspy/model/Catalog;)I
+__unknown_file ("1*ê
+1_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Catalog.java: :(·ﬁ
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Catalog.java: :(
+%0java.lang.String"7org.schemaspy.model.Catalog#getName()Ljava/lang/String;*
+org.schemaspy.model.Catalog2	getName()‰·
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Catalog.java:% :(0
+%1java.lang.String"7org.schemaspy.model.Catalog#getName()Ljava/lang/String;*"
+ 
+iorg.schemaspy.model.Catalog2	getName()Û
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Catalog.java: :(1	
+%2int"/java.lang.String#compareTo(Ljava/lang/String;)I*
+
+%0java.lang.String*
+
+%1java.lang.String2compareTo(Ljava/lang/String;)"i
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Catalog.java: :(2
+"": 
+iorg.schemaspy.model.CatalogB
+org.schemaspy.model.Catalog

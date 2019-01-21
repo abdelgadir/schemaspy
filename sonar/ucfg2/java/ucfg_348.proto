@@ -1,0 +1,19 @@
+
+=org.schemaspy.model.ForeignKeyConstraint#isCascadeOnDelete()Z
+__unknown_file ("1*¦
+1n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.java¼ ¼(øõ
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.java¼ ¼(	
+%0int"9org.schemaspy.model.ForeignKeyConstraint#getDeleteRule()I*,*
+(org.schemaspy.model.ForeignKeyConstraint2getDeleteRule()»
+¸
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.java¼" ¼(4	
+%1int"__id*5*3
+java.sql.DatabaseMetaData"
+importedKeyCascade"x
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.java¼ ¼(5
+""B,*
+(org.schemaspy.model.ForeignKeyConstraint

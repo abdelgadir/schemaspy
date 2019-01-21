@@ -1,0 +1,28 @@
+
+@org.schemaspy.model.Table#getForeignKeys()Ljava/util/Collection;
+__unknown_file ("1*´
+1]
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java\ \(≈
+¬
+]
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java\2 \(=+
+%0%org.schemaspy.util.CaseInsensitiveMap"__id*.*,
+org.schemaspy.model.Table"
+foreignKeysÈÊ
+]
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java\2 \(F
+%1java.util.Collection"0java.util.HashMap#values()Ljava/util/Collection;*-
++
+%0%org.schemaspy.util.CaseInsensitiveMap2values()ì
+ê
+]
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java\ \(G
+%2java.util.Collection"Zjava.util.Collections#unmodifiableCollection(Ljava/util/Collection;)Ljava/util/Collection;*"
+java.util.Collections*
+
+%1java.util.Collection"}
+]
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java\ \(H
+
+%2java.util.CollectionB
+org.schemaspy.model.Table

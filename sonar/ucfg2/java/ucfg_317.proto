@@ -1,0 +1,16 @@
+
+Corg.schemaspy.model.ForeignKey#getFKCOLUMN_NAME()Ljava/lang/String;
+__unknown_file ("1*¦
+1b
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKey.java/ /(¼
+¹
+b
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKey.java/ /(
+%0java.lang.String"__id*5*3 
+org.schemaspy.model.ForeignKey"
+FKCOLUMN_NAME"~
+b
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKey.java/ /(
+
+%0java.lang.StringB" 
+org.schemaspy.model.ForeignKey

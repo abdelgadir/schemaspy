@@ -1,0 +1,28 @@
+
+Lorg.schemaspy.output.xml.dom.XmlTableFormatter#isBinary(Ljava/lang/String;)Z
+__unknown_file ("1*ä
+1t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaè è(Â
+‚
+t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaè è(
+%0java.util.regex.Pattern"__id*E*C0
+.org.schemaspy.output.xml.dom.XmlTableFormatter"
+validXmlCharsÀ»
+t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaè è(*
+%1java.util.regex.Matcher"Rjava.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;*
+
+%0java.util.regex.Pattern*
+
+strjava.lang.String2!matcher(Ljava/lang/CharSequence;)ÿ’
+t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaè è(4
+%2boolean""java.util.regex.Matcher#matches()Z*
+
+%1java.util.regex.Matcher2	matches()"~
+t
+h/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/output/xml/dom/XmlTableFormatter.javaè è(5
+"":
+strjava.lang.StringB2"0
+.org.schemaspy.output.xml.dom.XmlTableFormatter

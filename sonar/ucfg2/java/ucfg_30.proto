@@ -1,0 +1,66 @@
+
+,org.schemaspy.Config#getMaxDetailedTables()I
+__unknown_file ("9*˜
+1Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÕ Õ( Ø
+¨
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÕ Õ( 
+%7java.lang.Integer"__id*/*-
+org.schemaspy.Config"
+maxDetailedTables"d
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÕ Õ(!
+""*É
+2Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java    (#ú
+ô
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java   (#-
+org.schemaspy.Config"
+maxDetailedTables"__id*
+""*
+1*∂
+6Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java≈ ≈(!œ
+Ã
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java≈ ≈(1	
+%3int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+paramjava.lang.String*
+2*ù
+8Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¡ ¡(5Ø
+¨
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¡ ¡(5	
+%1int"__id*=*;
+org.schemaspy.Config"!
+DEFAULT_TABLE_DETAILS_THRESHOLD‰
+·
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¬ ¬(/
+%2java.lang.String"Dorg.schemaspy.Config#pullParam(Ljava/lang/String;)Ljava/lang/String;*
+org.schemaspy.Config*	
+-maxdetö
+ó
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¬ ¬(0
+paramjava.lang.String"__id*
+
+%2java.lang.String*
+2
+6*ô
+9Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¿ ¿(Ø
+¨
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¿ ¿(
+%0java.lang.Integer"__id*/*-
+org.schemaspy.Config"
+maxDetailedTables*
+8
+1B
+org.schemaspy.Config

@@ -1,0 +1,20 @@
+
+Lorg.schemaspy.Config#pullRequiredParam(Ljava/lang/String;)Ljava/lang/String;
+__unknown_file ("1*â
+1Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÒ	 Ò	(ˆ
+…
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÒ	 Ò	(.
+%0java.lang.String"Forg.schemaspy.Config#pullParam(Ljava/lang/String;ZZ)Ljava/lang/String;*
+org.schemaspy.Config*
+
+paramIdjava.lang.String*
+""*
+"""v
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaÒ	 Ò	(/
+
+%0java.lang.String:
+paramIdjava.lang.StringB
+org.schemaspy.Config

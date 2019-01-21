@@ -1,0 +1,17 @@
+
+…org.schemaspy.model.InvalidConfigurationException#setParamName(Ljava/lang/String;)Lorg/schemaspy/model/InvalidConfigurationException;
+__unknown_file ("1*“
+1u
+k/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/InvalidConfigurationException.javaB B("å
+â
+u
+k/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/InvalidConfigurationException.javaB B("B3
+1org.schemaspy.model.InvalidConfigurationException"
+	paramName"__id*
+
+	paramNamejava.lang.String"®
+u
+k/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/InvalidConfigurationException.javaC C(53
+1org.schemaspy.model.InvalidConfigurationException:
+	paramNamejava.lang.StringB53
+1org.schemaspy.model.InvalidConfigurationException

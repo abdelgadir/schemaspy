@@ -1,0 +1,23 @@
+
+Korg.schemaspy.model.ForeignKeyConstraint#getParentColumns()Ljava/util/List;
+__unknown_file ("1*Ú
+1n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.java– –(Ð
+Í
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.java–, –(9
+%0java.util.List"__id*?*=*
+(org.schemaspy.model.ForeignKeyConstraint"
+parentColumns†
+ƒ
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.java– –(:
+%1java.util.List"Hjava.util.Collections#unmodifiableList(Ljava/util/List;)Ljava/util/List;*"
+java.util.Collections*
+
+%0java.util.List"ˆ
+n
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/ForeignKeyConstraint.java– –(;
+
+%1java.util.ListB,*
+(org.schemaspy.model.ForeignKeyConstraint

@@ -1,0 +1,24 @@
+
+Torg.schemaspy.Config#determineDbProperties(Ljava/lang/String;)Ljava/util/Properties;
+__unknown_file ("1*€
+1Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¢	 ¢	(!É
+Æ
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¢	 ¢	(!0
+%0*org.schemaspy.db.config.PropertiesResolver"__id*0*.
+org.schemaspy.Config"
+propertiesResolverÖÓ
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¢	 ¢	(7
+%1java.util.Properties"dorg.schemaspy.db.config.PropertiesResolver#getDbProperties(Ljava/lang/String;)Ljava/util/Properties;*2
+0
+%0*org.schemaspy.db.config.PropertiesResolver*
+
+typejava.lang.String2#getDbProperties(Ljava/lang/String;)"z
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¢	 ¢	(8
+
+%1java.util.Properties:
+typejava.lang.StringB
+org.schemaspy.Config

@@ -1,0 +1,55 @@
+
+7org.schemaspy.model.Catalog#equals(Ljava/lang/Object;)Z
+__unknown_file ("paramAnnotations*Ï
+1_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Catalog.javaF
+ F("i
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Catalog.javaF F(
+""*Ï
+2_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Catalog.javaD D(ÙÖ
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Catalog.javaD
+ D( 
+%1java.lang.String"7org.schemaspy.model.Catalog#getName()Ljava/lang/String;*
+
+ojava.lang.Object2	getName()­
+ª
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Catalog.javaD( D(,
+%2java.lang.String"__id*)*'
+org.schemaspy.model.Catalog"
+nameñî
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Catalog.javaD
+ D(-
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%1java.lang.String*
+
+%2java.lang.String2equals(Ljava/lang/Object;)"i
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Catalog.javaD D(.
+""*¹
+paramAnnotations_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Catalog.javaB B( §
+¤
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Catalog.javaA A(
+
+%0"
+__annotate*
+java.lang.Override*
+
+ojava.lang.Object‘
+Ž
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Catalog.javaB B(
+ojava.lang.Object"__annotation*
+
+%0*
+2
+1:
+ojava.lang.ObjectB
+org.schemaspy.model.Catalog

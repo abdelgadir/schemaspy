@@ -1,0 +1,26 @@
+
+Dorg.schemaspy.cli.DefaultProviderFactory#exists(Ljava/lang/String;)Z
+__unknown_file ("1*û
+1l
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/cli/DefaultProviderFactory.java/ /(*ìê
+l
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/cli/DefaultProviderFactory.java/ /(
+%0java.io.File"java.io.File·
+ﬁ
+l
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/cli/DefaultProviderFactory.java/ /(+
+%1"(java.io.File#<init>(Ljava/lang/String;)V*
+
+%0java.io.File*(
+&
+propertiesFilenamejava.lang.String∏µ
+l
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/cli/DefaultProviderFactory.java/ /(4
+%2boolean"java.io.File#exists()Z*
+
+%0java.io.File2exists()"v
+l
+b/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/cli/DefaultProviderFactory.java/ /(5
+"":&
+propertiesFilenamejava.lang.StringB,"*
+(org.schemaspy.cli.DefaultProviderFactory

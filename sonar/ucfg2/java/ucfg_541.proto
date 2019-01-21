@@ -1,0 +1,38 @@
+
+Corg.schemaspy.model.xml.ForeignKeyMeta#toString()Ljava/lang/String;
+__unknown_file ("1*ç
+1j
+`/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/ForeignKeyMeta.javaQ Q(»
+≈
+j
+`/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/ForeignKeyMeta.javaQ Q(
+%0java.lang.String"__id*9*7(
+&org.schemaspy.model.xml.ForeignKeyMeta"
+	tableName≥
+∞
+j
+`/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/ForeignKeyMeta.javaQ Q(
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+""…
+∆
+j
+`/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/ForeignKeyMeta.javaQ! Q(+
+%2java.lang.String"__id*:*8(
+&org.schemaspy.model.xml.ForeignKeyMeta"
+
+columnName≈
+¬
+j
+`/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/ForeignKeyMeta.javaQ Q(+
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2java.lang.String"Ü
+j
+`/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/xml/ForeignKeyMeta.javaQ Q(,
+
+%3java.lang.StringB*(
+&org.schemaspy.model.xml.ForeignKeyMeta

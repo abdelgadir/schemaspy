@@ -1,0 +1,46 @@
+
+/org.schemaspy.Config#isHtmlGenerationEnabled()Z
+__unknown_file ("3*Ú
+1Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¬ ¬(™
+ß
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¬ ¬(
+%3java.lang.Boolean"__id***(
+org.schemaspy.Config"
+generateHtml"d
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¬ ¬(
+""*Å
+2Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¿ ¿(#¢
+ü
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¿ ¿(#
+%1java.util.List"__id*%*#
+org.schemaspy.Config"	
+options€ÿ
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¿ ¿(5
+%2boolean"*java.util.List#remove(Ljava/lang/Object;)Z*
+
+%1java.util.List*	
+-nohtml2remove(Ljava/lang/Object;)ó
+î
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.java¿ ¿(5(
+org.schemaspy.Config"
+generateHtml"__id*
+""*
+1*î
+3Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaø ø(™
+ß
+Z
+N/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/Config.javaø ø(
+%0java.lang.Boolean"__id***(
+org.schemaspy.Config"
+generateHtml*
+2
+1B
+org.schemaspy.Config

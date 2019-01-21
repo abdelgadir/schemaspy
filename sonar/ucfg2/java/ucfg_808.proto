@@ -1,0 +1,39 @@
+
+;org.schemaspy.view.DotConnector#equals(Ljava/lang/Object;)Z
+__unknown_file ("paramAnnotations*’
+1e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotConnector.java£ £(´±
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotConnector.java£ £(-	
+%1int"Morg.schemaspy.view.DotConnector#compareTo(Lorg/schemaspy/view/DotConnector;)I*#!
+org.schemaspy.view.DotConnector*
+
+otherjava.lang.Object2,compareTo(Lorg/schemaspy/view/DotConnector;)"o
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotConnector.java£ £(3
+""*Û
+2e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotConnector.java¢ ¢("o
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotConnector.java¢ ¢(
+""*Ó
+paramAnnotationse
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotConnector.java   ('±
+®
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotConnector.javaŸ Ÿ(
+%0"
+__annotate*
+java.lang.Override*
+
+otherjava.lang.Object›
+˜
+e
+Y/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/DotConnector.java !  (&
+otherjava.lang.Object"__annotation*
+
+%0*
+2
+1:
+otherjava.lang.ObjectB#!
+org.schemaspy.view.DotConnector

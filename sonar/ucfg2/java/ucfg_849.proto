@@ -1,0 +1,258 @@
+
+corg.schemaspy.view.HtmlAnomaliesPage#write(Ljava/util/Collection;Ljava/util/List;Ljava/io/Writer;)V
+__unknown_file ("3*◊
+2h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaR R(ﬂ
+‹
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaR R(*
+%31#org.schemaspy.view.MustacheCompiler"__id*>*<&
+$org.schemaspy.view.HtmlAnomaliesPage"
+mustacheCompilerÄ˝
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaR R(4
+%32void"Yorg.schemaspy.view.MustacheCompiler#write(Lorg/schemaspy/view/PageData;Ljava/io/Writer;)V*,
+*
+%31#org.schemaspy.view.MustacheCompiler*)
+'
+pageDataorg.schemaspy.view.PageData*
+
+writerjava.io.Writer24write(Lorg/schemaspy/view/PageData;Ljava/io/Writer;)*
+0*ƒQ
+3h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.java@& @(0ôñ
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.java@M @([
+%0java.util.HashSet"java.util.HashSet„
+‡
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.java@I @(c
+%1"1java.util.HashSet#<init>(Ljava/util/Collection;)V*
+
+%0java.util.HashSet* 
+
+tablesjava.util.Collectionñ
+ì
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.java@& @(d
+%2java.util.List"Xorg.schemaspy.DbAnalyzer#getTablesWithoutIndexes(Ljava/util/Collection;)Ljava/util/List;*"
+org.schemaspy.DbAnalyzer*
+
+%0java.util.HashSetÆ
+´
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.java@ @(e!
+unIndexedTablesjava.util.List"__id*
+
+%2java.util.ListˆÛ
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaA> A(Y
+%3java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*&
+$
+impliedConstraintsjava.util.List2stream()∑¥
+i
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaA> A(Ç
+%4java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*
+
+%3java.util.stream.Stream*
+""2&filter(Ljava/util/function/Predicate;)Ù
+Ò
+j
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaAã A(û 
+%5java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.Collectors¡æ
+i
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaA> A(ü
+%6java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%4java.util.stream.Stream*"
+ 
+%5java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)∏
+µ
+i
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaA A(†*
+impliedConstraintColumnsjava.util.List"__id*
+
+%6java.util.Listú
+ô
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaB& B(O
+%7java.util.List"Worg.schemaspy.DbAnalyzer#getTablesWithOneColumn(Ljava/util/Collection;)Ljava/util/List;*"
+org.schemaspy.DbAnalyzer* 
+
+tablesjava.util.CollectionÊ„
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaB& B(X
+%8java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%7java.util.List2stream()∂≥
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaB& B(q
+%9java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*
+
+%8java.util.stream.Stream*
+""2&filter(Ljava/util/function/Predicate;)Ù
+Ò
+i
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaBz B(ç!
+%10java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.Collectors√¿
+i
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaB& B(é
+%11java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%9java.util.stream.Stream*#
+!
+%10java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)∞
+≠
+i
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaB B(è!
+oneColumnTablesjava.util.List"__id*
+
+%11java.util.List´
+®
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaC/ C(f
+%12java.util.List"eorg.schemaspy.DbAnalyzer#getTablesWithIncrementingColumnNames(Ljava/util/Collection;)Ljava/util/List;*"
+org.schemaspy.DbAnalyzer* 
+
+tablesjava.util.CollectionËÂ
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaC/ C(o
+%13java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%12java.util.List2stream()π∂
+i
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaC/ C(à
+%14java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;* 
+
+%13java.util.stream.Stream*
+""2&filter(Ljava/util/function/Predicate;)ı
+Ú
+j
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaCë C(§!
+%15java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.Collectorsƒ¡
+i
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaC/ C(•
+%16java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;* 
+
+%14java.util.stream.Stream*#
+!
+%15java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)∏
+µ
+i
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaC C(¶)
+incrementingColumnNamesjava.util.List"__id*
+
+%16java.util.Listöó
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaDW D(e
+%17java.util.HashSet"java.util.HashSetÂ
+‚
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaDS D(m
+%18"1java.util.HashSet#<init>(Ljava/util/Collection;)V*
+
+%17java.util.HashSet* 
+
+tablesjava.util.Collectionú
+ô
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaD, D(n
+%19java.util.List"\org.schemaspy.DbAnalyzer#getDefaultNullStringColumns(Ljava/util/Collection;)Ljava/util/List;*"
+org.schemaspy.DbAnalyzer*
+
+%17java.util.HashSetØ
+¨
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaD D(o!
+uniqueNullablesjava.util.List"__id*
+
+%19java.util.Listæª
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaF  F(0*
+%20#org.schemaspy.view.PageData$Builder"#org.schemaspy.view.PageData$Builder—
+Œ
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaF F(2
+%21"-org.schemaspy.view.PageData$Builder#<init>()V*,
+*
+%20#org.schemaspy.view.PageData$BuilderËÂ
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaF G(/*
+%22#org.schemaspy.view.PageData$Builder"iorg.schemaspy.view.PageData$Builder#templateName(Ljava/lang/String;)Lorg/schemaspy/view/PageData$Builder;*,
+*
+%20#org.schemaspy.view.PageData$Builder*
+anomalies.html2 templateName(Ljava/lang/String;)‚ﬂ
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaF H(+*
+%23#org.schemaspy.view.PageData$Builder"gorg.schemaspy.view.PageData$Builder#scriptName(Ljava/lang/String;)Lorg/schemaspy/view/PageData$Builder;*,
+*
+%22#org.schemaspy.view.PageData$Builder*
+anomalies.js2scriptName(Ljava/lang/String;)∫∑
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaF I(K*
+%24#org.schemaspy.view.PageData$Builder"yorg.schemaspy.view.PageData$Builder#addToScope(Ljava/lang/String;Ljava/lang/Object;)Lorg/schemaspy/view/PageData$Builder;*,
+*
+%23#org.schemaspy.view.PageData$Builder*
+impliedConstraints*,
+*
+impliedConstraintColumnsjava.util.List20addToScope(Ljava/lang/String;Ljava/lang/Object;)Æ´
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaF J(?*
+%25#org.schemaspy.view.PageData$Builder"yorg.schemaspy.view.PageData$Builder#addToScope(Ljava/lang/String;Ljava/lang/Object;)Lorg/schemaspy/view/PageData$Builder;*,
+*
+%24#org.schemaspy.view.PageData$Builder*
+unIndexedTables*#
+!
+unIndexedTablesjava.util.List20addToScope(Ljava/lang/String;Ljava/lang/Object;)Æ´
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaF K(?*
+%26#org.schemaspy.view.PageData$Builder"yorg.schemaspy.view.PageData$Builder#addToScope(Ljava/lang/String;Ljava/lang/Object;)Lorg/schemaspy/view/PageData$Builder;*,
+*
+%25#org.schemaspy.view.PageData$Builder*
+oneColumnTables*#
+!
+oneColumnTablesjava.util.List20addToScope(Ljava/lang/String;Ljava/lang/Object;)æª
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaF L(O*
+%27#org.schemaspy.view.PageData$Builder"yorg.schemaspy.view.PageData$Builder#addToScope(Ljava/lang/String;Ljava/lang/Object;)Lorg/schemaspy/view/PageData$Builder;*,
+*
+%26#org.schemaspy.view.PageData$Builder*
+incrementingColumnNames*+
+)
+incrementingColumnNamesjava.util.List20addToScope(Ljava/lang/String;Ljava/lang/Object;)Æ´
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaF M(?*
+%28#org.schemaspy.view.PageData$Builder"yorg.schemaspy.view.PageData$Builder#addToScope(Ljava/lang/String;Ljava/lang/Object;)Lorg/schemaspy/view/PageData$Builder;*,
+*
+%27#org.schemaspy.view.PageData$Builder*
+uniqueNullables*#
+!
+uniqueNullablesjava.util.List20addToScope(Ljava/lang/String;Ljava/lang/Object;)®•
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaF N(*
+%29#org.schemaspy.view.PageData$Builder"Qorg.schemaspy.view.PageData$Builder#depth(I)Lorg/schemaspy/view/PageData$Builder;*,
+*
+%28#org.schemaspy.view.PageData$Builder*2 2depth(I)ûõ
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaF O("
+%30org.schemaspy.view.PageData"Norg.schemaspy.view.PageData$Builder#getPageData()Lorg/schemaspy/view/PageData;*,
+*
+%29#org.schemaspy.view.PageData$Builder2getPageData()¬
+ø
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaF O('
+pageDataorg.schemaspy.view.PageData"__id*$
+"
+%30org.schemaspy.view.PageData*
+2*Ü
+0 "
+h
+^/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/HtmlAnomaliesPage.javaV V(
+implicit return:
+tablesjava.util.Collection:$
+impliedConstraintsjava.util.List:
+writerjava.io.WriterB(&
+$org.schemaspy.view.HtmlAnomaliesPage

@@ -1,0 +1,26 @@
+
+Corg.schemaspy.model.Schema#compareTo(Lorg/schemaspy/model/Schema;)I
+__unknown_file ("1*‡
+1^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Schema.java: :(ÞÛ
+^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Schema.java: :(
+%0java.lang.String"6org.schemaspy.model.Schema#getName()Ljava/lang/String;*
+org.schemaspy.model.Schema2	getName()áÞ
+^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Schema.java:% :(0
+%1java.lang.String"6org.schemaspy.model.Schema#getName()Ljava/lang/String;*!
+
+iorg.schemaspy.model.Schema2	getName()òï
+^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Schema.java: :(1	
+%2int"/java.lang.String#compareTo(Ljava/lang/String;)I*
+
+%0java.lang.String*
+
+%1java.lang.String2compareTo(Ljava/lang/String;)"h
+^
+T/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Schema.java: :(2
+"":
+iorg.schemaspy.model.SchemaB
+org.schemaspy.model.Schema

@@ -1,0 +1,70 @@
+
+@org.schemaspy.view.MustacheTableIndex#getKey()Ljava/lang/String;
+__unknown_file ("6*˚
+1i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableIndex.java2 2("ä
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableIndex.java2 2(
+
+keyTypejava.lang.String*ù
+2i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableIndex.java0 0((ß
+§
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableIndex.java0 0((
+keyTypejava.lang.String"__id*
+ title='Indexed'*
+1*≤
+3i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableIndex.java. .(=º
+π
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableIndex.java. .(=
+keyTypejava.lang.String"__id*)'
+% class='uniqueKey' title='Unique Key'*
+1*©
+4i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableIndex.java- -(–
+Õ
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableIndex.java- -($
+%2org.schemaspy.model.TableIndex"__id*4*2'
+%org.schemaspy.view.MustacheTableIndex"
+index›⁄
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableIndex.java- -(#
+%3boolean"*org.schemaspy.model.TableIndex#isUnique()Z*&
+$
+%2org.schemaspy.model.TableIndex2
+isUnique()*
+2
+3*¥
+5i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableIndex.java, ,(?æ
+ª
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableIndex.java, ,(?
+keyTypejava.lang.String"__id*+)
+' class='primaryKey' title='Primary Key'*
+1*Õ
+6i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableIndex.java) )(ô
+ñ
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableIndex.java) )(
+keyTypejava.lang.String"__id*
+""–
+Õ
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableIndex.java+ +($
+%0org.schemaspy.model.TableIndex"__id*4*2'
+%org.schemaspy.view.MustacheTableIndex"
+indexÂ‚
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/view/MustacheTableIndex.java+ +( 
+%1boolean".org.schemaspy.model.TableIndex#isPrimaryKey()Z*&
+$
+%0org.schemaspy.model.TableIndex2isPrimaryKey()*
+4
+5B)'
+%org.schemaspy.view.MustacheTableIndex

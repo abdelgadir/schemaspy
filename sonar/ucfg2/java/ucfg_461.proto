@@ -1,0 +1,31 @@
+
+Aorg.schemaspy.model.Table#compareTo(Lorg/schemaspy/model/Table;)I
+__unknown_file ("2"1*°
+1_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaÀ À(åâ
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaÀ À(
+%0java.lang.String"9org.schemaspy.model.Table#getFullName()Ljava/lang/String;*
+org.schemaspy.model.Table2getFullName()ìé
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaÀ1 À(D
+%1java.lang.String"9org.schemaspy.model.Table#getFullName()Ljava/lang/String;*$
+"
+otherorg.schemaspy.model.Table2getFullName()‡„
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaÀ À(E	
+%2int"9java.lang.String#compareToIgnoreCase(Ljava/lang/String;)I*
+
+%0java.lang.String*
+
+%1java.lang.String2'compareToIgnoreCase(Ljava/lang/String;)"i
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.javaÀ À(F
+""*Ï
+2_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java¾ ¾("i
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java¾ ¾(
+"":"
+otherorg.schemaspy.model.TableB
+org.schemaspy.model.Table

@@ -1,0 +1,84 @@
+
+Zorg.schemaspy.util.Markdown#toHtml(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+__unknown_file ("3*ã
+1_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.java> >("}
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.java> >(
+
+textjava.lang.String*Ã
+2_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.java9 9(#¿
+¼
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.java9 9(3
+%0java.lang.String"dorg.schemaspy.util.Markdown#addReferenceLink(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*"
+org.schemaspy.util.Markdown*
+
+textjava.lang.String*
+
+rootPathjava.lang.Stringž
+›
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.java9 9(3
+textjava.lang.String"__id*
+
+%0java.lang.StringÁ
+¾
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.java: :(!(
+%1"com.vladsch.flexmark.parser.Parser"__id*+*)
+org.schemaspy.util.Markdown"
+PARSERÑÎ
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.java: :(-'
+%2!com.vladsch.flexmark.ast.Document"_com.vladsch.flexmark.parser.Parser#parse(Ljava/lang/String;)Lcom/vladsch/flexmark/ast/Document;**
+(
+%1"com.vladsch.flexmark.parser.Parser*
+
+textjava.lang.String2parse(Ljava/lang/String;)¿
+¼
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.java: :(.(
+contentcom.vladsch.flexmark.ast.Node"__id*)
+'
+%2!com.vladsch.flexmark.ast.DocumentÇ
+Ä
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.java; ;(,
+%3&com.vladsch.flexmark.html.HtmlRenderer"__id*-*+
+org.schemaspy.util.Markdown"
+
+RENDERERãà
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.java; ;(+
+%4java.lang.String"`com.vladsch.flexmark.html.HtmlRenderer#render(Lcom/vladsch/flexmark/ast/Node;)Ljava/lang/String;*.
+,
+%3&com.vladsch.flexmark.html.HtmlRenderer**
+(
+contentcom.vladsch.flexmark.ast.Node2'render(Lcom/vladsch/flexmark/ast/Node;)ÉÆ
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.java; ;(2
+%5java.lang.String")java.lang.String#trim()Ljava/lang/String;*
+
+%4java.lang.String2trim()ž
+›
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.java; ;(2
+textjava.lang.String"__id*
+
+%5java.lang.String*
+1*—
+3_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.java6 6("¨
+¥
+_
+U/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/util/Markdown.java6 6(#
+textjava.lang.String"__id*"
+ 
+markdownTextjava.lang.String*
+2
+1: 
+markdownTextjava.lang.String:
+rootPathjava.lang.StringB"
+org.schemaspy.util.Markdown

@@ -1,0 +1,23 @@
+
+;org.schemaspy.model.TableIndex#getColumns()Ljava/util/List;
+__unknown_file ("1*¡
+1d
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableIndex.javaŠ Š(¶
+³
+d
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableIndex.javaŠ, Š(3
+%0java.util.List"__id*/*- 
+org.schemaspy.model.TableIndex"	
+columnsü
+ù
+d
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableIndex.javaŠ Š(4
+%1java.util.List"Hjava.util.Collections#unmodifiableList(Ljava/util/List;)Ljava/util/List;*"
+java.util.Collections*
+
+%0java.util.List"~
+d
+X/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/TableIndex.javaŠ Š(5
+
+%1java.util.ListB" 
+org.schemaspy.model.TableIndex

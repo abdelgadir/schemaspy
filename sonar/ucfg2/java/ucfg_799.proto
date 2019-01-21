@@ -1,0 +1,185 @@
+
+Torg.schemaspy.validator.NameValidator#isValid(Ljava/lang/String;Ljava/lang/String;)Z
+__unknown_file ("8*ã
+1i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaW W("s
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaW W(
+""*ê
+2i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaU U(Ä
+Á
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaU U(
+%17org.slf4j.Logger"__id*5*3'
+%org.schemaspy.validator.NameValidator"
+LOGGERÃ
+À
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaUR U(W
+%18java.lang.String"__id*4*2'
+%org.schemaspy.validator.NameValidator"
+clazzÌ
+É
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaU_ U(f
+%19java.util.regex.Pattern"__id*6*4'
+%org.schemaspy.validator.NameValidator"	
+include˜•
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaU U(g
+%20void">org.slf4j.Logger#debug(Ljava/lang/String;[Ljava/lang/Object;)V*
+
+%17org.slf4j.Logger*97
+5Excluding {} {}: doesn't match inclusion pattern '{}'*
+
+%18java.lang.String*
+
+namejava.lang.String* 
+
+%19java.util.regex.Pattern2,debug(Ljava/lang/String;[Ljava/lang/Object;)*
+1*ä
+3i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaS S(Ä
+Á
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaS S(
+%13org.slf4j.Logger"__id*5*3'
+%org.schemaspy.validator.NameValidator"
+LOGGERÃ
+À
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaSL S(Q
+%14java.lang.String"__id*4*2'
+%org.schemaspy.validator.NameValidator"
+clazzÌ
+É
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaSY S(`
+%15java.util.regex.Pattern"__id*6*4'
+%org.schemaspy.validator.NameValidator"	
+include’
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaS S(a
+%16void">org.slf4j.Logger#debug(Ljava/lang/String;[Ljava/lang/Object;)V*
+
+%13org.slf4j.Logger*31
+/Including {} {}: matches inclusion pattern '{}'*
+
+%14java.lang.String*
+
+namejava.lang.String* 
+
+%15java.util.regex.Pattern2,debug(Ljava/lang/String;[Ljava/lang/Object;)*
+1*Ý
+4i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaQ Q(Ì
+É
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaQ Q(
+%10java.util.regex.Pattern"__id*6*4'
+%org.schemaspy.validator.NameValidator"	
+includeÃÀ
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaQ Q(-
+%11java.util.regex.Matcher"Rjava.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;* 
+
+%10java.util.regex.Pattern*
+
+namejava.lang.String2!matcher(Ljava/lang/CharSequence;)ÏÌ
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaQ Q(7
+%12boolean""java.util.regex.Matcher#matches()Z* 
+
+%11java.util.regex.Matcher2	matches()*
+2
+3*Í	
+5i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaM M(Ã
+À
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaM M(
+%6org.slf4j.Logger"__id*5*3'
+%org.schemaspy.validator.NameValidator"
+LOGGERÂ
+¿
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaML M(Q
+%7java.lang.String"__id*4*2'
+%org.schemaspy.validator.NameValidator"
+clazzË
+È
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaMY M(`
+%8java.util.regex.Pattern"__id*6*4'
+%org.schemaspy.validator.NameValidator"	
+excludeŽ‹
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaM M(a
+
+%9void">org.slf4j.Logger#debug(Ljava/lang/String;[Ljava/lang/Object;)V*
+
+%6org.slf4j.Logger*31
+/Excluding {} {}: matches exclusion pattern '{}'*
+
+%7java.lang.String*
+
+namejava.lang.String*
+
+%8java.util.regex.Pattern2,debug(Ljava/lang/String;[Ljava/lang/Object;)"s
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaN N(
+""*Ø
+6i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaL L(Ë
+È
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaL L(
+%3java.util.regex.Pattern"__id*6*4'
+%org.schemaspy.validator.NameValidator"	
+excludeÁ¾
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaL L(!
+%4java.util.regex.Matcher"Rjava.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;*
+
+%3java.util.regex.Pattern*
+
+namejava.lang.String2!matcher(Ljava/lang/CharSequence;)ÍÊ
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaL L(+
+%5boolean""java.util.regex.Matcher#matches()Z*
+
+%4java.util.regex.Matcher2	matches()*
+4
+5*ã
+7i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaJ J("s
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaJ J(
+""*Ÿ
+8i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaI I(Ä
+Á
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaI I(
+%0java.util.Set"__id*9*7'
+%org.schemaspy.validator.NameValidator"
+
+validTypesãà
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaI! I(3
+%1java.lang.String"0java.lang.String#toUpperCase()Ljava/lang/String;*
+
+typejava.lang.String2toUpperCase()ùö
+i
+_/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/validator/NameValidator.javaI I(4
+%2boolean"+java.util.Set#contains(Ljava/lang/Object;)Z*
+
+%0java.util.Set*
+
+%1java.lang.String2contains(Ljava/lang/Object;)*
+6
+7:
+namejava.lang.String:
+typejava.lang.StringB)'
+%org.schemaspy.validator.NameValidator

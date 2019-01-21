@@ -1,0 +1,26 @@
+
+Xorg.schemaspy.model.Table#getColumn(Ljava/lang/String;)Lorg/schemaspy/model/TableColumn;
+__unknown_file ("1*€
+1_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java¥ ¥(Ã
+À
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java¥ ¥(+
+%0%org.schemaspy.util.CaseInsensitiveMap"__id***(
+org.schemaspy.model.Table"	
+columnsÆÃ
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java¥ ¥(&%
+%1org.schemaspy.model.TableColumn"Oorg.schemaspy.util.CaseInsensitiveMap#get(Ljava/lang/Object;)Ljava/lang/Object;*-
++
+%0%org.schemaspy.util.CaseInsensitiveMap* 
+
+
+columnNamejava.lang.String2get(Ljava/lang/Object;)"Š
+_
+S/home/travis/build/schemaspy/schemaspy/src/main/java/org/schemaspy/model/Table.java¥ ¥(''
+%
+%1org.schemaspy.model.TableColumn:
+
+columnNamejava.lang.StringB
+org.schemaspy.model.Table
