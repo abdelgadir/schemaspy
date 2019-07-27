@@ -31,10 +31,12 @@ import org.schemaspy.DotConfigUsingConfig;
 import org.schemaspy.cli.CommandLineArguments;
 import org.schemaspy.input.dbms.service.DatabaseService;
 import org.schemaspy.input.dbms.service.SqlService;
+import org.schemaspy.input.dbms.xml.GeneratedValueMeta;
 import org.schemaspy.input.dbms.xml.SchemaMeta;
 import org.schemaspy.model.Database;
 import org.schemaspy.model.DbmsMeta;
 import org.schemaspy.model.ProgressListener;
+import org.schemaspy.model.TableColumn;
 import org.schemaspy.output.dot.schemaspy.DotFormatter;
 import org.schemaspy.testing.H2MemoryRule;
 import org.schemaspy.view.WriteStats;
@@ -108,6 +110,23 @@ public class SchemaMetaIT {
         dbmsMeta = sqlService.getDbmsMeta();
         schema = h2MemoryRule.getConnection().getSchema();
         catalog = h2MemoryRule.getConnection().getCatalog();
+    }
+
+    @Test
+    public void columnGeneratedValue() throws Exception {
+
+        SchemaMeta schemaMeta = new SchemaMeta("src/test/resources/integrationTesting/schemaMetaIT/input/columnGeneratedValueSequence.xml","SchemaMetaIT", schema);
+        Database databaseWithSchemaMeta = new Database(
+                dbmsMeta,
+                "SchemaMetaIT",
+                catalog,
+                schema
+        );
+        databaseService.gatherSchemaDetails(config, databaseWithSchemaMeta, schemaMeta, progressListener);
+        TableColumn accountidColumn = databaseWithSchemaMeta.getTablesMap().get("ACCOUNT").getColumn("accountId");
+        assertThat(accountidColumn.getGeneratedValueMeta()).isNotNull();
+        assertThat(accountidColumn.getGeneratedValueMeta().getStrategy()).isEqualTo(GeneratedValueMeta.GeneratedValueStrategy.SEQUENCE);
+        assertThat(accountidColumn.getGeneratedValueMeta().getGenerator()).isEqualTo("some_seq");
     }
 
     @Test

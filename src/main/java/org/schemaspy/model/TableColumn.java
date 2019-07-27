@@ -22,6 +22,7 @@
  */
 package org.schemaspy.model;
 
+import org.schemaspy.input.dbms.xml.GeneratedValueMeta;
 import org.schemaspy.input.dbms.xml.TableColumnMeta;
 
 import java.sql.DatabaseMetaData;
@@ -55,6 +56,7 @@ public class TableColumn {
     private boolean allowImpliedChildren = true;
     private boolean isExcluded = false;
     private boolean isAllExcluded = false;
+    private GeneratedValueMeta generatedValueMeta = null;
 
     /**
      * Create a column associated with a table.
@@ -90,6 +92,7 @@ public class TableColumn {
         isAutoUpdated = colMeta.isAutoUpdated();
         defaultValue = colMeta.getDefaultValue();
         comments = colMeta.getComments();
+        generatedValueMeta = colMeta.getGeneratedValueMeta();
     }
 
 
@@ -361,6 +364,10 @@ public class TableColumn {
         isAllExcluded = allExcluded;
     }
 
+    public GeneratedValueMeta getGeneratedValueMeta() {
+        return generatedValueMeta;
+    }
+
     /**
      * Add a parent column (PK) to this column (FK) via the associated constraint
      *
@@ -513,6 +520,7 @@ public class TableColumn {
         allowImpliedChildren = !colMeta.isImpliedChildrenDisabled();
         isExcluded |= colMeta.isExcluded();
         isAllExcluded |= colMeta.isAllExcluded();
+        generatedValueMeta = colMeta.getGeneratedValueMeta();
     }
 
     /**

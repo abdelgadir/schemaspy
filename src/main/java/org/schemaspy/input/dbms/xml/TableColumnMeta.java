@@ -60,6 +60,7 @@ public class TableColumnMeta {
     private final boolean isAllExcluded;
     private final boolean isImpliedParentsDisabled;
     private final boolean isImpliedChildrenDisabled;
+    private final GeneratedValueMeta generatedValueMeta;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
@@ -160,6 +161,17 @@ public class TableColumnMeta {
             Node fkNode = fkNodes.item(i);
             foreignKeys.add(new ForeignKeyMeta(fkNode));
         }
+
+        NodeList generatedValueNodes = ((Element) colNode.getChildNodes()).getElementsByTagName("generatedValue");
+        if (generatedValueNodes.getLength() > 0) {
+            if (generatedValueNodes.getLength() > 1) {
+                throw new IllegalStateException("column meta data can only define ONE generatedValue element - multiple found");
+            }
+            Node genValNode = generatedValueNodes.item(0);
+            generatedValueMeta = new GeneratedValueMeta(genValNode);
+        } else {
+            generatedValueMeta = null;
+        }
     }
 
     private boolean evalBoolean(String exp) {
@@ -228,5 +240,9 @@ public class TableColumnMeta {
 
     public boolean isImpliedChildrenDisabled() {
         return isImpliedChildrenDisabled;
+    }
+
+    public GeneratedValueMeta getGeneratedValueMeta() {
+        return generatedValueMeta;
     }
 }
