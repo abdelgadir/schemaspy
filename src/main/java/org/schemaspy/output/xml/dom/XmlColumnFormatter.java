@@ -21,6 +21,7 @@
  */
 package org.schemaspy.output.xml.dom;
 
+import org.schemaspy.input.dbms.xml.GeneratedValueMeta;
 import org.schemaspy.model.ForeignKeyConstraint;
 import org.schemaspy.model.Table;
 import org.schemaspy.model.TableColumn;
@@ -107,6 +108,10 @@ public class XmlColumnFormatter {
             appendForeignKeyAttributes(parentNode, parentColumn, column.getParentConstraint(parentColumn));
         }
 
+        if(column.getGeneratedValueMeta() != null){
+            appendGeneratedValue(columnNode, column.getGeneratedValueMeta());
+        }
+
         return columnNode;
     }
 
@@ -119,6 +124,14 @@ public class XmlColumnFormatter {
         DOMUtil.appendAttribute(node, COLUMN, column.getName());
         DOMUtil.appendAttribute(node, "implied", String.valueOf(foreignKeyConstraint.isImplied()));
         DOMUtil.appendAttribute(node, "onDeleteCascade", String.valueOf(foreignKeyConstraint.isCascadeOnDelete()));
+    }
+
+    private static void appendGeneratedValue(Node columnNode, GeneratedValueMeta generatedValueMeta) {
+        Document document = columnNode.getOwnerDocument();
+        Node generatedValueNode = document.createElement("generatedValue");
+        columnNode.appendChild(generatedValueNode);
+        DOMUtil.appendAttribute(generatedValueNode, "strategy", generatedValueMeta.getStrategy().name());
+        DOMUtil.appendAttribute(generatedValueNode, "generator", generatedValueMeta.getGenerator());
     }
 
     /**
