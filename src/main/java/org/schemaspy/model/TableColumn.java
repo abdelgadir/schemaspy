@@ -93,6 +93,18 @@ public class TableColumn {
         defaultValue = colMeta.getDefaultValue();
         comments = colMeta.getComments();
         generatedValueMeta = colMeta.getGeneratedValueMeta();
+        validateGeneratedValueMeta();
+    }
+
+    private void validateGeneratedValueMeta() {
+        if (generatedValueMeta != null && generatedValueMeta.getStrategy() ==
+                GeneratedValueMeta.GeneratedValueStrategy.SEQUENCE) {
+            String seqName = generatedValueMeta.getGenerator();
+            Sequence sequence = table.db.getSequencesMap().get(seqName);
+            if (sequence == null) {
+                throw new IllegalStateException("column meta data references non-existing sequence '" + seqName + "'");
+            }
+        }
     }
 
 
@@ -521,6 +533,7 @@ public class TableColumn {
         isExcluded |= colMeta.isExcluded();
         isAllExcluded |= colMeta.isAllExcluded();
         generatedValueMeta = colMeta.getGeneratedValueMeta();
+        validateGeneratedValueMeta();
     }
 
     /**
