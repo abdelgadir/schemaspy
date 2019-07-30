@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017, 2018 Nils Petzaell
+ * Copyright (C) 2019 AE Ibrahim
  *
  * This file is part of SchemaSpy.
  *
@@ -58,6 +59,7 @@ import static org.mockito.BDDMockito.given;
 
 /**
  * @author Nils Petzaell
+ * @author AE Ibrahim
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest

@@ -3,6 +3,7 @@
  * Copyright (C) 2017 Wojciech Kasa
  * Copyright (C) 2017 Daniel Watt
  * Copyright (C) 2017 Nils Petzaell
+ * Copyright (C) 2019 AE Ibrahim
  *
  * This file is a part of the SchemaSpy project (http://schemaspy.org).
  *
@@ -43,6 +44,7 @@ import java.util.Objects;
  * @author Wojciech Kasa
  * @author Daniel Watt
  * @author Nils Petzaell
+ * @author AE Ibrahim
  */
 public class TableColumnMeta {
     private final String name;

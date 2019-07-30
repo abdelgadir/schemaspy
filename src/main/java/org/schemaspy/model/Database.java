@@ -4,6 +4,7 @@
  * Copyright (C) 2017 Ismail Simsek
  * Copyright (C) 2017, 2018 Nils Petzaell
  * Copyright (C) 2017 Daniel Watt
+ * Copyright (C) 2019 AE Ibrahim
  *
  * This file is a part of the SchemaSpy project (http://schemaspy.org).
  *
@@ -39,6 +40,7 @@ import java.util.Map;
  * @author Ismail Simsek
  * @author Nils Petzaell
  * @author Daniel Watt
+ * @author AE Ibrahim
  *
  */
 public class Database {

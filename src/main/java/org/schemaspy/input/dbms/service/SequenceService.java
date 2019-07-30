@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 Nils Petzaell
+ * Copyright (C) 2019 AE Ibrahim
  *
  * This file is part of SchemaSpy.
  *
@@ -20,8 +20,6 @@ package org.schemaspy.input.dbms.service;
 
 import org.schemaspy.Config;
 import org.schemaspy.model.Database;
-import org.schemaspy.model.Routine;
-import org.schemaspy.model.RoutineParameter;
 import org.schemaspy.model.Sequence;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

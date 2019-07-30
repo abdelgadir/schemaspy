@@ -3,6 +3,7 @@
  * Copyright (C) 2017 Wojciech Kasa
  * Copyright (C) 2017 Daniel Watt
  * Copyright (C) 2017, 2018 Nils Petzaell
+ * Copyright (C) 2019 AE Ibrahim
  *
  * This file is a part of the SchemaSpy project (http://schemaspy.org).
  *
@@ -56,6 +57,7 @@ import java.util.List;
  * @author Wojciech Kasa
  * @author Daniel Watt
  * @author Nils Petzaell
+ * @author AE Ibrahim
  */
 public class SchemaMeta {
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());

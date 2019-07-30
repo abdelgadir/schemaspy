@@ -5,6 +5,7 @@
  * Copyright (C) 2017 Thomas Traude
  * Copyright (C) 2017 Daniel Watt
  * Copyright (C) 2017, 2018 Nils Petzaell
+ * Copyright (C) 2019, AE Ibrahim
  *
  * This file is part of SchemaSpy.
  *
@@ -55,6 +56,7 @@ import static org.schemaspy.input.dbms.service.ColumnLabel.TABLE_NAME;
  * @author Thomas Traude
  * @author Daniel Watt
  * @author Nils Petzaell
+ * @author AE Ibrahim
  */
 public class DatabaseService {
 

@@ -55,6 +55,7 @@ import java.util.Objects;
  * @author John Currier
  * @author Wojciech Kasa
  * @author Nils Petzaell
+ * @author AE Ibrahim
  */
 public class XmlProducerUsingDOM implements XmlProducer {
 

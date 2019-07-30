@@ -1,6 +1,5 @@
 /*
- * Copyright (C) 2004 - 2011 AE Ibrahim
- * Copyright (C) 2017 Daniel Watt
+ * Copyright (C) 2019 AE Ibrahim
  *
  * This file is a part of the SchemaSpy project (http://schemaspy.org).
  *
