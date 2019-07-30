@@ -33,6 +33,7 @@ import org.schemaspy.input.dbms.service.DatabaseService;
 import org.schemaspy.input.dbms.service.SqlService;
 import org.schemaspy.input.dbms.xml.GeneratedValueMeta;
 import org.schemaspy.input.dbms.xml.SchemaMeta;
+import org.schemaspy.input.dbms.xml.TableGeneratorMeta;
 import org.schemaspy.model.Database;
 import org.schemaspy.model.DbmsMeta;
 import org.schemaspy.model.ProgressListener;
@@ -127,6 +128,28 @@ public class SchemaMetaIT {
         assertThat(accountidColumn.getGeneratedValueMeta()).isNotNull();
         assertThat(accountidColumn.getGeneratedValueMeta().getStrategy()).isEqualTo(GeneratedValueMeta.GeneratedValueStrategy.SEQUENCE);
         assertThat(accountidColumn.getGeneratedValueMeta().getGenerator()).isEqualTo("some_seq");
+    }
+
+    @Test
+    public void tableGenerators() throws Exception {
+
+        SchemaMeta schemaMeta = new SchemaMeta("src/test/resources/integrationTesting/schemaMetaIT/input/tableGenerators.xml","SchemaMetaIT", schema);
+        Database databaseWithSchemaMeta = new Database(
+                dbmsMeta,
+                "SchemaMetaIT",
+                catalog,
+                schema
+        );
+        databaseService.gatherSchemaDetails(config, databaseWithSchemaMeta, schemaMeta, progressListener);
+        assertThat(databaseWithSchemaMeta.getTableGenerators()).isNotNull();
+        assertThat(databaseWithSchemaMeta.getTableGenerators().size()).isEqualTo(1);
+        TableGeneratorMeta tableGeneratorMeta = databaseWithSchemaMeta.getTableGenerators().get(0);
+
+        assertThat(tableGeneratorMeta.getName()).isEqualTo("myunique_name");
+        assertThat(tableGeneratorMeta.getTableName()).isEqualTo("pkeys_sequences_table");
+        assertThat(tableGeneratorMeta.getPkColumnName()).isEqualTo("pkcol");
+        assertThat(tableGeneratorMeta.getValueColumnName()).isEqualTo("valcol");
+        assertThat(tableGeneratorMeta.getPkColumnValue()).isEqualTo("accounts_pks");
     }
 
     @Test

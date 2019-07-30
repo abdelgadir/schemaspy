@@ -23,11 +23,14 @@
  */
 package org.schemaspy.model;
 
+import org.schemaspy.input.dbms.xml.TableGeneratorMeta;
 import org.schemaspy.util.CaseInsensitiveMap;
 
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -51,6 +54,7 @@ public class Database {
     private final Map<String, Routine> routines = new CaseInsensitiveMap<>();
     private final ZonedDateTime connectTime = ZonedDateTime.now();
     private final Map<String, Sequence> sequences = new CaseInsensitiveMap<>();
+    private final List<TableGeneratorMeta> tableGenerators = new LinkedList<>();
 
     public Database(
             DbmsMeta dbmsMeta,
@@ -126,6 +130,10 @@ public class Database {
 
     public Map<String, Sequence> getSequencesMap() {
         return sequences;
+    }
+
+    public List<TableGeneratorMeta> getTableGenerators() {
+        return tableGenerators;
     }
 
     /**

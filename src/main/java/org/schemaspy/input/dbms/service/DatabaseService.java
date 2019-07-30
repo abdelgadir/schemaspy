@@ -27,6 +27,7 @@ import org.schemaspy.Config;
 import org.schemaspy.input.dbms.service.helper.BasicTableMeta;
 import org.schemaspy.input.dbms.service.helper.RemoteTableIdentifier;
 import org.schemaspy.input.dbms.xml.SchemaMeta;
+import org.schemaspy.input.dbms.xml.TableGeneratorMeta;
 import org.schemaspy.input.dbms.xml.TableMeta;
 import org.schemaspy.model.*;
 import org.schemaspy.validator.NameValidator;
@@ -248,6 +249,8 @@ public class DatabaseService {
         if (Objects.nonNull(schemaMeta.getComments())) {
             db.getSchema().setComment(schemaMeta.getComments());
         }
+
+        db.getTableGenerators().addAll(schemaMeta.getTableGenerators());
 
         // done in three passes:
         // 1: create any new tables

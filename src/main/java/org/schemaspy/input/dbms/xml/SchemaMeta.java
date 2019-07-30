@@ -61,6 +61,7 @@ public class SchemaMeta {
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
     private final List<TableMeta> tables = new ArrayList<>();
+    private final List<TableGeneratorMeta> tableGenerators = new ArrayList<>();
     private final String comments;
     private final File metaFile;
 
@@ -105,6 +106,17 @@ public class SchemaMeta {
                 tables.add(tableMeta);
             }
         }
+
+        NodeList tableGeneratorsNodes = doc.getElementsByTagName("tableGenerators");
+        if (tableGeneratorsNodes != null) {
+            NodeList tableGenNodes = ((Element)tableGeneratorsNodes.item(0)).getElementsByTagName("tableGenerator");
+
+            for (int i = 0; i < tableGenNodes.getLength(); ++i) {
+                Node tableGenNode = tableGenNodes.item(i);
+                TableGeneratorMeta tableGeneratorMeta = new TableGeneratorMeta(tableGenNode);
+                tableGenerators.add(tableGeneratorMeta);
+            }
+        }
     }
 
     /**
@@ -120,6 +132,10 @@ public class SchemaMeta {
 
     public List<TableMeta> getTables() {
         return tables;
+    }
+
+    public List<TableGeneratorMeta> getTableGenerators() {
+        return tableGenerators;
     }
 
     private void validate(Document document) throws SAXException, IOException {

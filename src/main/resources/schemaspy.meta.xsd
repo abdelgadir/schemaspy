@@ -5,6 +5,7 @@
             <xs:sequence>
                 <xs:element ref="comments" minOccurs="0"/>
                 <xs:element ref="tables"/>
+                <xs:element ref="tableGenerators" minOccurs="0" maxOccurs="1"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -185,6 +186,13 @@
                 </xs:simpleType>
             </xs:attribute>
             <xs:attribute name="generator" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tableGenerators">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tableGenerator" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
         </xs:complexType>
     </xs:element>
     <xs:element name="tableGenerator">

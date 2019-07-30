@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004 - 2011 John Currier
+ * Copyright (C) 2004 - 2011 AE Ibrahim
  * Copyright (C) 2017 Daniel Watt
  *
  * This file is a part of the SchemaSpy project (http://schemaspy.org).
@@ -31,8 +31,6 @@ import java.lang.invoke.MethodHandles;
 /**
  * Additional metadata (as expressed in XML instead of from the database) about a column regarding how
  * its values are generated if applicable.
- *
- * @author Abdelgadir Ibrahim
  */
 public class GeneratedValueMeta {
     public enum GeneratedValueStrategy {TABLE, SEQUENCE}
