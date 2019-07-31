@@ -110,7 +110,7 @@ public class SchemaMeta {
         }
 
         NodeList tableGeneratorsNodes = doc.getElementsByTagName("tableGenerators");
-        if (tableGeneratorsNodes != null) {
+        if (tableGeneratorsNodes != null && tableGeneratorsNodes.getLength() > 0) {
             NodeList tableGenNodes = ((Element)tableGeneratorsNodes.item(0)).getElementsByTagName("tableGenerator");
 
             for (int i = 0; i < tableGenNodes.getLength(); ++i) {
