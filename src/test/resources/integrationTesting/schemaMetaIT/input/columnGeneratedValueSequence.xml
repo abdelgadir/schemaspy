@@ -2,7 +2,7 @@
 <schemaMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schemaspy.org/xsd/schemaMeta.xsd" >
     <tables>
         <table name="ACCOUNT">
-            <column name="accountId" type="INT">
+            <column name="accountId">
                 <generatedValue strategy="SEQUENCE" generator="some_seq"/>
             </column>
         </table>
