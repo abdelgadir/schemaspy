@@ -42,7 +42,7 @@ import static org.schemaspy.output.xml.dom.XmlConstants.*;
  * @author Nils Petzaell
  */
 public class XmlColumnFormatter {
-    private static final int DEFAULT_JDBC_TYPE_CODE = Types.VARCHAR;
+    private static final int DEFAULT_JDBC_TYPE_CODE = Types.OTHER;
 
     // valid chars came from http://www.w3.org/TR/REC-xml/#charsets
     // and attempting to match 0x10000-0x10FFFF with the \p Unicode escapes
