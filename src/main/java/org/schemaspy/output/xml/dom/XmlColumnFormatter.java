@@ -77,6 +77,9 @@ public class XmlColumnFormatter {
         DOMUtil.appendAttribute(columnNode, "id", String.valueOf(column.getId()));
         DOMUtil.appendAttribute(columnNode, "name", column.getName());
         DOMUtil.appendAttribute(columnNode, "type", column.getTypeName());
+        if(column.getHbmType() != null ) {
+            DOMUtil.appendAttribute(columnNode, "hbmType", column.getHbmType());
+        }
         DOMUtil.appendAttribute(columnNode, "typeCode", String.valueOf(column.getType() == null ?
                 DEFAULT_JDBC_TYPE_CODE : column.getType()));
         DOMUtil.appendAttribute(columnNode, "defaultValue", String.valueOf(column.getDefaultValue()));

@@ -63,6 +63,7 @@ public class TableColumnMeta {
     private final boolean isImpliedParentsDisabled;
     private final boolean isImpliedChildrenDisabled;
     private final GeneratedValueMeta generatedValueMeta;
+    private final String hbmType;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
@@ -88,6 +89,9 @@ public class TableColumnMeta {
 
         node = attribs.getNamedItem("type");
         type = node == null ? "Unknown" : node.getNodeValue();
+
+        node = attribs.getNamedItem("hbmType");
+        hbmType = node == null ? null : node.getNodeValue();
 
         node = attribs.getNamedItem("id");
         id = node == null ? null : node.getNodeValue();
@@ -246,5 +250,9 @@ public class TableColumnMeta {
 
     public GeneratedValueMeta getGeneratedValueMeta() {
         return generatedValueMeta;
+    }
+
+    public String getHbmType() {
+        return hbmType;
     }
 }

@@ -57,6 +57,7 @@ public class TableColumn {
     private boolean isExcluded = false;
     private boolean isAllExcluded = false;
     private GeneratedValueMeta generatedValueMeta = null;
+    private String hbmType;
 
     /**
      * Create a column associated with a table.
@@ -79,6 +80,7 @@ public class TableColumn {
         name = colMeta.getName();
         id = colMeta.getId();
         typeName = colMeta.getType();
+        hbmType = colMeta.getHbmType();
         length = colMeta.getSize();
         decimalDigits = colMeta.getDigits();
         StringBuilder buf = new StringBuilder();
@@ -156,7 +158,11 @@ public class TableColumn {
     public void setType(Integer type) {
     	this.type = type;
     }
-    
+
+    public String getHbmType() {
+        return hbmType;
+    }
+
     /**
      * Type of the column.
      * See {@link DatabaseMetaData#getColumns(String, String, String, String)}'s <code>TYPE_NAME</code>.
@@ -533,6 +539,7 @@ public class TableColumn {
         isExcluded |= colMeta.isExcluded();
         isAllExcluded |= colMeta.isAllExcluded();
         generatedValueMeta = colMeta.getGeneratedValueMeta();
+        hbmType = colMeta.getHbmType();
         validateGeneratedValueMeta();
     }
 
