@@ -183,6 +183,7 @@
                     <xs:restriction base="xs:string">
                         <xs:enumeration value="TABLE" />
                         <xs:enumeration value="SEQUENCE" />
+                        <xs:enumeration value="GENERIC" />
                     </xs:restriction>
                 </xs:simpleType>
             </xs:attribute>

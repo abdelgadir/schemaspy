@@ -32,7 +32,7 @@ import java.lang.invoke.MethodHandles;
  * its values are generated if applicable.
  */
 public class GeneratedValueMeta {
-    public enum GeneratedValueStrategy {TABLE, SEQUENCE}
+    public enum GeneratedValueStrategy {TABLE, SEQUENCE, GENERIC}
 
     private final GeneratedValueStrategy strategy;
     private final String generator;
