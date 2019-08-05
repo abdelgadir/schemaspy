@@ -38,6 +38,8 @@ public class TableGeneratorMeta {
     private final String pkColumnName;
     private final String valueColumnName;
     private final String pkColumnValue;
+    private final int startValue;
+    private final int increment;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
@@ -69,6 +71,16 @@ public class TableGeneratorMeta {
             throw new IllegalStateException("XML generatedValue definition requires 'pkColumnValue' attribute");
         pkColumnValue = node.getNodeValue();
 
+        node = attribs.getNamedItem("startValue");
+        if (node == null)
+            throw new IllegalStateException("XML generatedValue definition requires 'startValue' attribute");
+        startValue = Integer.valueOf(node.getNodeValue());
+
+        node = attribs.getNamedItem("increment");
+        if (node == null)
+            throw new IllegalStateException("XML generatedValue definition requires 'increment' attribute");
+        increment = Integer.valueOf(node.getNodeValue());
+
         LOGGER.debug("Found XML tableGenerator metadata: name={}, tableName={}, pkColumnName={}, valueColumnNam={}, " +
                 "pkColumnValue={} ", name, tableName, pkColumnName, valueColumnName, pkColumnValue);
     }
@@ -91,6 +103,14 @@ public class TableGeneratorMeta {
 
     public String getPkColumnValue() {
         return pkColumnValue;
+    }
+
+    public int getStartValue() {
+        return startValue;
+    }
+
+    public int getIncrement() {
+        return increment;
     }
 
     @Override

@@ -5,6 +5,6 @@
     <tables></tables>
     <tableGenerators>
         <tableGenerator name="myunique_name" tableName="pkeys_sequences_table" pkColumnName="pkcol"
-                        valueColumnName="valcol" pkColumnValue="accounts_pks"/>
+                        valueColumnName="valcol" pkColumnValue="accounts_pks" startValue="1" increment="5"/>
     </tableGenerators>
 </schemaMeta>

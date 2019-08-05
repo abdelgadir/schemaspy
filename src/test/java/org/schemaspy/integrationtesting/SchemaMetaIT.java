@@ -152,6 +152,8 @@ public class SchemaMetaIT {
         assertThat(tableGeneratorMeta.getPkColumnName()).isEqualTo("pkcol");
         assertThat(tableGeneratorMeta.getValueColumnName()).isEqualTo("valcol");
         assertThat(tableGeneratorMeta.getPkColumnValue()).isEqualTo("accounts_pks");
+        assertThat(tableGeneratorMeta.getStartValue()).isEqualTo(1);
+        assertThat(tableGeneratorMeta.getIncrement()).isEqualTo(5);
     }
 
     @Test

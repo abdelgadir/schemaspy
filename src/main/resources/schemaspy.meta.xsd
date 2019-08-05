@@ -216,6 +216,8 @@
             <xs:attribute name="pkColumnName" type="xs:string" use="required"/>
             <xs:attribute name="valueColumnName" type="xs:string" use="required"/>
             <xs:attribute name="pkColumnValue" type="xs:string" use="required"/>
+            <xs:attribute name="startValue" type="xs:string" use="required"/>
+            <xs:attribute name="increment" type="xs:string" use="required"/>
         </xs:complexType>
     </xs:element>
 </xs:schema>

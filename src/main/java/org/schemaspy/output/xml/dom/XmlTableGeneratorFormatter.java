@@ -49,5 +49,7 @@ public class XmlTableGeneratorFormatter {
         DOMUtil.appendAttribute(generatorElement, "pkColumnName", tableGenMeta.getPkColumnName());
         DOMUtil.appendAttribute(generatorElement, "valueColumnName", tableGenMeta.getValueColumnName());
         DOMUtil.appendAttribute(generatorElement, "pkColumnValue", tableGenMeta.getPkColumnValue());
+        DOMUtil.appendAttribute(generatorElement, "startValue", String.valueOf(tableGenMeta.getStartValue()));
+        DOMUtil.appendAttribute(generatorElement, "increment", String.valueOf(tableGenMeta.getIncrement()));
     }
 }
