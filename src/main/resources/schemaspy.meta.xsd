@@ -174,7 +174,7 @@
         <xs:annotation>
             <xs:documentation>
                 Associates a column with a given generator for value generation.
-                The strategy must be one of: 'TABLE', 'SEQUENCE'.
+                The strategy must be one of: 'TABLE', 'SEQUENCE', 'GENERIC'
             </xs:documentation>
         </xs:annotation>
         <xs:complexType>
@@ -204,10 +204,14 @@
                 a value representing the generated key. If the same generator table is used to generate keys for
                 multiple tables, then the generator table will hold more than one row.
 
+                name: an app level unique name for the generator.
+                tableName: the name of the database table.
                 pkColumnName: name of the column that holds the pk.
                 valueColumnName: name of the column that holds the generated key.
                 pkColumnValue: a pk value to look up a row in the table and subsequntly use that row's 'valueColumnName'
                 column to obtain a generated key.
+                startValue: the initial generated value.
+                increment: the generated value increment.
             </xs:documentation>
         </xs:annotation>
         <xs:complexType>
