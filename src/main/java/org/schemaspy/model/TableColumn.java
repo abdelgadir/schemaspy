@@ -22,6 +22,7 @@
  */
 package org.schemaspy.model;
 
+import org.schemaspy.input.dbms.xml.GeneratedValueMeta;
 import org.schemaspy.input.dbms.xml.TableColumnMeta;
 
 import java.sql.DatabaseMetaData;
@@ -55,6 +56,8 @@ public class TableColumn {
     private boolean allowImpliedChildren = true;
     private boolean isExcluded = false;
     private boolean isAllExcluded = false;
+    private GeneratedValueMeta generatedValueMeta = null;
+    private String hbmType;
 
     /**
      * Create a column associated with a table.
@@ -77,6 +80,7 @@ public class TableColumn {
         name = colMeta.getName();
         id = colMeta.getId();
         typeName = colMeta.getType();
+        hbmType = colMeta.getHbmType();
         length = colMeta.getSize();
         decimalDigits = colMeta.getDigits();
         StringBuilder buf = new StringBuilder();
@@ -90,6 +94,19 @@ public class TableColumn {
         isAutoUpdated = colMeta.isAutoUpdated();
         defaultValue = colMeta.getDefaultValue();
         comments = colMeta.getComments();
+        generatedValueMeta = colMeta.getGeneratedValueMeta();
+        validateGeneratedValueMeta();
+    }
+
+    private void validateGeneratedValueMeta() {
+        if (generatedValueMeta != null && generatedValueMeta.getStrategy() ==
+                GeneratedValueMeta.GeneratedValueStrategy.SEQUENCE) {
+            String seqName = generatedValueMeta.getGenerator();
+            Sequence sequence = table.db.getSequencesMap().get(seqName);
+            if (sequence == null) {
+                throw new IllegalStateException("column meta data references non-existing sequence '" + seqName + "'");
+            }
+        }
     }
 
 
@@ -141,7 +158,11 @@ public class TableColumn {
     public void setType(Integer type) {
     	this.type = type;
     }
-    
+
+    public String getHbmType() {
+        return hbmType;
+    }
+
     /**
      * Type of the column.
      * See {@link DatabaseMetaData#getColumns(String, String, String, String)}'s <code>TYPE_NAME</code>.
@@ -361,6 +382,10 @@ public class TableColumn {
         isAllExcluded = allExcluded;
     }
 
+    public GeneratedValueMeta getGeneratedValueMeta() {
+        return generatedValueMeta;
+    }
+
     /**
      * Add a parent column (PK) to this column (FK) via the associated constraint
      *
@@ -513,6 +538,9 @@ public class TableColumn {
         allowImpliedChildren = !colMeta.isImpliedChildrenDisabled();
         isExcluded |= colMeta.isExcluded();
         isAllExcluded |= colMeta.isAllExcluded();
+        generatedValueMeta = colMeta.getGeneratedValueMeta();
+        hbmType = colMeta.getHbmType();
+        validateGeneratedValueMeta();
     }
 
     /**

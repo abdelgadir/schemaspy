@@ -55,6 +55,7 @@ import java.util.Objects;
  * @author John Currier
  * @author Wojciech Kasa
  * @author Nils Petzaell
+ * @author AE Ibrahim
  */
 public class XmlProducerUsingDOM implements XmlProducer {
 
@@ -63,6 +64,7 @@ public class XmlProducerUsingDOM implements XmlProducer {
     private final XmlTableFormatter xmlTableFormatter = new XmlTableFormatter();
     private final XmlRoutineFormatter xmlRoutineFormatter = new XmlRoutineFormatter();
     private final XmlSequenceFormatter xmlSequenceFormatter = new XmlSequenceFormatter();
+    private final XmlTableGeneratorFormatter xmlTableGeneratorFormatter = new XmlTableGeneratorFormatter();
 
     @Override
     public void generate(Database database, File outputDir) {
@@ -96,6 +98,7 @@ public class XmlProducerUsingDOM implements XmlProducer {
         DOMUtil.appendAttribute(rootNode, "type", database.getDatabaseProduct());
 
         xmlSequenceFormatter.appendSequences(rootNode, database.getSequences());
+        xmlTableGeneratorFormatter.appendTableGenerators(rootNode, database.getTableGenerators());
         xmlTableFormatter.appendTables(rootNode, tables);
         xmlRoutineFormatter.appendRoutines(rootNode, database.getRoutines());
 

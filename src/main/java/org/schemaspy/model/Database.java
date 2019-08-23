@@ -4,6 +4,7 @@
  * Copyright (C) 2017 Ismail Simsek
  * Copyright (C) 2017, 2018 Nils Petzaell
  * Copyright (C) 2017 Daniel Watt
+ * Copyright (C) 2019 AE Ibrahim
  *
  * This file is a part of the SchemaSpy project (http://schemaspy.org).
  *
@@ -23,11 +24,14 @@
  */
 package org.schemaspy.model;
 
+import org.schemaspy.input.dbms.xml.TableGeneratorMeta;
 import org.schemaspy.util.CaseInsensitiveMap;
 
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -36,6 +40,7 @@ import java.util.Map;
  * @author Ismail Simsek
  * @author Nils Petzaell
  * @author Daniel Watt
+ * @author AE Ibrahim
  *
  */
 public class Database {
@@ -51,6 +56,7 @@ public class Database {
     private final Map<String, Routine> routines = new CaseInsensitiveMap<>();
     private final ZonedDateTime connectTime = ZonedDateTime.now();
     private final Map<String, Sequence> sequences = new CaseInsensitiveMap<>();
+    private final List<TableGeneratorMeta> tableGenerators = new LinkedList<>();
 
     public Database(
             DbmsMeta dbmsMeta,
@@ -126,6 +132,10 @@ public class Database {
 
     public Map<String, Sequence> getSequencesMap() {
         return sequences;
+    }
+
+    public List<TableGeneratorMeta> getTableGenerators() {
+        return tableGenerators;
     }
 
     /**

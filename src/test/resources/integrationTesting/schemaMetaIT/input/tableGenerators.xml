@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schemaMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://schemaspy.org/xsd/schemaMeta.xsd">
+    <!--tables is mandatory as min=1-->
+    <tables></tables>
+    <tableGenerators>
+        <tableGenerator name="myunique_name" tableName="pkeys_sequences_table" pkColumnName="pkcol"
+                        valueColumnName="valcol" pkColumnValue="accounts_pks" startValue="1" increment="5"/>
+    </tableGenerators>
+</schemaMeta>

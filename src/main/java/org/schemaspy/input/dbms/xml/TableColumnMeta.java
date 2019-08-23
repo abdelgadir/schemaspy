@@ -3,6 +3,7 @@
  * Copyright (C) 2017 Wojciech Kasa
  * Copyright (C) 2017 Daniel Watt
  * Copyright (C) 2017 Nils Petzaell
+ * Copyright (C) 2019 AE Ibrahim
  *
  * This file is a part of the SchemaSpy project (http://schemaspy.org).
  *
@@ -43,6 +44,7 @@ import java.util.Objects;
  * @author Wojciech Kasa
  * @author Daniel Watt
  * @author Nils Petzaell
+ * @author AE Ibrahim
  */
 public class TableColumnMeta {
     private final String name;
@@ -60,6 +62,8 @@ public class TableColumnMeta {
     private final boolean isAllExcluded;
     private final boolean isImpliedParentsDisabled;
     private final boolean isImpliedChildrenDisabled;
+    private final GeneratedValueMeta generatedValueMeta;
+    private final String hbmType;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
@@ -85,6 +89,9 @@ public class TableColumnMeta {
 
         node = attribs.getNamedItem("type");
         type = node == null ? "Unknown" : node.getNodeValue();
+
+        node = attribs.getNamedItem("hbmType");
+        hbmType = node == null ? null : node.getNodeValue();
 
         node = attribs.getNamedItem("id");
         id = node == null ? null : node.getNodeValue();
@@ -160,6 +167,17 @@ public class TableColumnMeta {
             Node fkNode = fkNodes.item(i);
             foreignKeys.add(new ForeignKeyMeta(fkNode));
         }
+
+        NodeList generatedValueNodes = ((Element) colNode.getChildNodes()).getElementsByTagName("generatedValue");
+        if (generatedValueNodes.getLength() > 0) {
+            if (generatedValueNodes.getLength() > 1) {
+                throw new IllegalStateException("column meta data can only define ONE generatedValue element - multiple found");
+            }
+            Node genValNode = generatedValueNodes.item(0);
+            generatedValueMeta = new GeneratedValueMeta(genValNode);
+        } else {
+            generatedValueMeta = null;
+        }
     }
 
     private boolean evalBoolean(String exp) {
@@ -228,5 +246,13 @@ public class TableColumnMeta {
 
     public boolean isImpliedChildrenDisabled() {
         return isImpliedChildrenDisabled;
+    }
+
+    public GeneratedValueMeta getGeneratedValueMeta() {
+        return generatedValueMeta;
+    }
+
+    public String getHbmType() {
+        return hbmType;
     }
 }

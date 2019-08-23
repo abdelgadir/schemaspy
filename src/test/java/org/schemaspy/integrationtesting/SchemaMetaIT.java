@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017, 2018 Nils Petzaell
+ * Copyright (C) 2019 AE Ibrahim
  *
  * This file is part of SchemaSpy.
  *
@@ -31,10 +32,13 @@ import org.schemaspy.DotConfigUsingConfig;
 import org.schemaspy.cli.CommandLineArguments;
 import org.schemaspy.input.dbms.service.DatabaseService;
 import org.schemaspy.input.dbms.service.SqlService;
+import org.schemaspy.input.dbms.xml.GeneratedValueMeta;
 import org.schemaspy.input.dbms.xml.SchemaMeta;
+import org.schemaspy.input.dbms.xml.TableGeneratorMeta;
 import org.schemaspy.model.Database;
 import org.schemaspy.model.DbmsMeta;
 import org.schemaspy.model.ProgressListener;
+import org.schemaspy.model.TableColumn;
 import org.schemaspy.output.dot.schemaspy.DotFormatter;
 import org.schemaspy.testing.H2MemoryRule;
 import org.schemaspy.view.WriteStats;
@@ -55,6 +59,7 @@ import static org.mockito.BDDMockito.given;
 
 /**
  * @author Nils Petzaell
+ * @author AE Ibrahim
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -108,6 +113,47 @@ public class SchemaMetaIT {
         dbmsMeta = sqlService.getDbmsMeta();
         schema = h2MemoryRule.getConnection().getSchema();
         catalog = h2MemoryRule.getConnection().getCatalog();
+    }
+
+    @Test
+    public void columnGeneratedValue() throws Exception {
+
+        SchemaMeta schemaMeta = new SchemaMeta("src/test/resources/integrationTesting/schemaMetaIT/input/columnGeneratedValueSequence.xml","SchemaMetaIT", schema);
+        Database databaseWithSchemaMeta = new Database(
+                dbmsMeta,
+                "SchemaMetaIT",
+                catalog,
+                schema
+        );
+        databaseService.gatherSchemaDetails(config, databaseWithSchemaMeta, schemaMeta, progressListener);
+        TableColumn accountidColumn = databaseWithSchemaMeta.getTablesMap().get("ACCOUNT").getColumn("accountId");
+        assertThat(accountidColumn.getGeneratedValueMeta()).isNotNull();
+        assertThat(accountidColumn.getGeneratedValueMeta().getStrategy()).isEqualTo(GeneratedValueMeta.GeneratedValueStrategy.SEQUENCE);
+        assertThat(accountidColumn.getGeneratedValueMeta().getGenerator()).isEqualTo("some_seq");
+    }
+
+    @Test
+    public void tableGenerators() throws Exception {
+
+        SchemaMeta schemaMeta = new SchemaMeta("src/test/resources/integrationTesting/schemaMetaIT/input/tableGenerators.xml","SchemaMetaIT", schema);
+        Database databaseWithSchemaMeta = new Database(
+                dbmsMeta,
+                "SchemaMetaIT",
+                catalog,
+                schema
+        );
+        databaseService.gatherSchemaDetails(config, databaseWithSchemaMeta, schemaMeta, progressListener);
+        assertThat(databaseWithSchemaMeta.getTableGenerators()).isNotNull();
+        assertThat(databaseWithSchemaMeta.getTableGenerators().size()).isEqualTo(1);
+        TableGeneratorMeta tableGeneratorMeta = databaseWithSchemaMeta.getTableGenerators().get(0);
+
+        assertThat(tableGeneratorMeta.getName()).isEqualTo("myunique_name");
+        assertThat(tableGeneratorMeta.getTableName()).isEqualTo("pkeys_sequences_table");
+        assertThat(tableGeneratorMeta.getPkColumnName()).isEqualTo("pkcol");
+        assertThat(tableGeneratorMeta.getValueColumnName()).isEqualTo("valcol");
+        assertThat(tableGeneratorMeta.getPkColumnValue()).isEqualTo("accounts_pks");
+        assertThat(tableGeneratorMeta.getStartValue()).isEqualTo(1);
+        assertThat(tableGeneratorMeta.getIncrement()).isEqualTo(5);
     }
 
     @Test

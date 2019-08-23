@@ -21,6 +21,7 @@
  */
 package org.schemaspy.output.xml.dom;
 
+import org.schemaspy.input.dbms.xml.GeneratedValueMeta;
 import org.schemaspy.model.ForeignKeyConstraint;
 import org.schemaspy.model.Table;
 import org.schemaspy.model.TableColumn;
@@ -41,7 +42,7 @@ import static org.schemaspy.output.xml.dom.XmlConstants.*;
  * @author Nils Petzaell
  */
 public class XmlColumnFormatter {
-    private static final int DEFAULT_JDBC_TYPE_CODE = Types.VARCHAR;
+    private static final int DEFAULT_JDBC_TYPE_CODE = Types.OTHER;
 
     // valid chars came from http://www.w3.org/TR/REC-xml/#charsets
     // and attempting to match 0x10000-0x10FFFF with the \p Unicode escapes
@@ -76,6 +77,9 @@ public class XmlColumnFormatter {
         DOMUtil.appendAttribute(columnNode, "id", String.valueOf(column.getId()));
         DOMUtil.appendAttribute(columnNode, "name", column.getName());
         DOMUtil.appendAttribute(columnNode, "type", column.getTypeName());
+        if(column.getHbmType() != null ) {
+            DOMUtil.appendAttribute(columnNode, "hbmType", column.getHbmType());
+        }
         DOMUtil.appendAttribute(columnNode, "typeCode", String.valueOf(column.getType() == null ?
                 DEFAULT_JDBC_TYPE_CODE : column.getType()));
         DOMUtil.appendAttribute(columnNode, "size", String.valueOf(column.getLength()));
@@ -106,6 +110,10 @@ public class XmlColumnFormatter {
             appendForeignKeyAttributes(parentNode, parentColumn, column.getParentConstraint(parentColumn));
         }
 
+        if(column.getGeneratedValueMeta() != null){
+            appendGeneratedValue(columnNode, column.getGeneratedValueMeta());
+        }
+
         return columnNode;
     }
 
@@ -118,6 +126,14 @@ public class XmlColumnFormatter {
         DOMUtil.appendAttribute(node, COLUMN, column.getName());
         DOMUtil.appendAttribute(node, "implied", String.valueOf(foreignKeyConstraint.isImplied()));
         DOMUtil.appendAttribute(node, "onDeleteCascade", String.valueOf(foreignKeyConstraint.isCascadeOnDelete()));
+    }
+
+    private static void appendGeneratedValue(Node columnNode, GeneratedValueMeta generatedValueMeta) {
+        Document document = columnNode.getOwnerDocument();
+        Node generatedValueNode = document.createElement("generatedValue");
+        columnNode.appendChild(generatedValueNode);
+        DOMUtil.appendAttribute(generatedValueNode, "strategy", generatedValueMeta.getStrategy().name());
+        DOMUtil.appendAttribute(generatedValueNode, "generator", generatedValueMeta.getGenerator());
     }
 
     /**

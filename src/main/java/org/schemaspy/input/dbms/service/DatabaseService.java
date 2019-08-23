@@ -5,6 +5,7 @@
  * Copyright (C) 2017 Thomas Traude
  * Copyright (C) 2017 Daniel Watt
  * Copyright (C) 2017, 2018 Nils Petzaell
+ * Copyright (C) 2019, AE Ibrahim
  *
  * This file is part of SchemaSpy.
  *
@@ -27,6 +28,7 @@ import org.schemaspy.Config;
 import org.schemaspy.input.dbms.service.helper.BasicTableMeta;
 import org.schemaspy.input.dbms.service.helper.RemoteTableIdentifier;
 import org.schemaspy.input.dbms.xml.SchemaMeta;
+import org.schemaspy.input.dbms.xml.TableGeneratorMeta;
 import org.schemaspy.input.dbms.xml.TableMeta;
 import org.schemaspy.model.*;
 import org.schemaspy.validator.NameValidator;
@@ -54,6 +56,7 @@ import static org.schemaspy.input.dbms.service.ColumnLabel.TABLE_NAME;
  * @author Thomas Traude
  * @author Daniel Watt
  * @author Nils Petzaell
+ * @author AE Ibrahim
  */
 public class DatabaseService {
 
@@ -248,6 +251,8 @@ public class DatabaseService {
         if (Objects.nonNull(schemaMeta.getComments())) {
             db.getSchema().setComment(schemaMeta.getComments());
         }
+
+        db.getTableGenerators().addAll(schemaMeta.getTableGenerators());
 
         // done in three passes:
         // 1: create any new tables

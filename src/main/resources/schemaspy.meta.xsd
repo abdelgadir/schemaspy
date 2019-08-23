@@ -5,6 +5,7 @@
             <xs:sequence>
                 <xs:element ref="comments" minOccurs="0"/>
                 <xs:element ref="tables"/>
+                <xs:element ref="tableGenerators" minOccurs="0" maxOccurs="1"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -62,9 +63,11 @@
         	<xs:sequence>
         		<xs:element ref="foreignKey" minOccurs="0"
         			maxOccurs="unbounded" />
+                <xs:element ref="generatedValue" minOccurs="0" maxOccurs="1"/>
         	</xs:sequence>
-        	<xs:attribute name="name" type="xs:string" use="required" />
+            <xs:attribute name="name" type="xs:string" use="required" />
         	<xs:attribute name="type" type="xs:string"/>
+        	<xs:attribute name="hbmType" type="xs:string"/>
         	<xs:attribute name="id" type="xs:string"/>
         	<xs:attribute name="size" type="xs:int"/>
         	<xs:attribute name="digits" type="xs:int"/>
@@ -165,6 +168,60 @@
         	</xs:attribute>
         	<xs:attribute name="table" type="xs:string" use="required" />
         	<xs:attribute name="column" type="xs:string" use="required" />
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="generatedValue">
+        <xs:annotation>
+            <xs:documentation>
+                Associates a column with a given generator for value generation.
+                The strategy must be one of: 'TABLE', 'SEQUENCE', 'GENERIC'
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:attribute name="strategy" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="TABLE" />
+                        <xs:enumeration value="SEQUENCE" />
+                        <xs:enumeration value="GENERIC" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="generator" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tableGenerators">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tableGenerator" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tableGenerator">
+        <xs:annotation>
+            <xs:documentation>
+                A table generator consists of at least two columns one holding a pk and the other holds
+                a value representing the generated key. If the same generator table is used to generate keys for
+                multiple tables, then the generator table will hold more than one row.
+
+                name: an app level unique name for the generator.
+                tableName: the name of the database table.
+                pkColumnName: name of the column that holds the pk.
+                valueColumnName: name of the column that holds the generated key.
+                pkColumnValue: a pk value to look up a row in the table and subsequntly use that row's 'valueColumnName'
+                column to obtain a generated key.
+                startValue: the initial generated value.
+                increment: the generated value increment.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:attribute name="name" type="xs:string" use="required"/>
+            <xs:attribute name="tableName" type="xs:string" use="required"/>
+            <xs:attribute name="pkColumnName" type="xs:string" use="required"/>
+            <xs:attribute name="valueColumnName" type="xs:string" use="required"/>
+            <xs:attribute name="pkColumnValue" type="xs:string" use="required"/>
+            <xs:attribute name="startValue" type="xs:string" use="required"/>
+            <xs:attribute name="increment" type="xs:string" use="required"/>
         </xs:complexType>
     </xs:element>
 </xs:schema>

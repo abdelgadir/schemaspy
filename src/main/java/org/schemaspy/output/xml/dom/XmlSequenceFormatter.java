@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 AE Ibrahim
+ * Copyright (C) 2019 AE  Ibrahim
  *
  * This file is part of SchemaSpy.
  *
