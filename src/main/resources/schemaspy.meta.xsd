@@ -26,7 +26,8 @@
     <xs:element name="table">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="column" minOccurs="0" maxOccurs="unbounded"/>
+              <xs:element ref="column" minOccurs="0" maxOccurs="unbounded"/>
+              <xs:element ref="beanValidations" minOccurs="0" maxOccurs="1"/>
             </xs:sequence>
             <xs:attribute name="name" type="xs:string" use="required"/>
             <xs:attribute name="comments" type="xs:string">
@@ -64,6 +65,7 @@
         		<xs:element ref="foreignKey" minOccurs="0"
         			maxOccurs="unbounded" />
                 <xs:element ref="generatedValue" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="beanValidations" minOccurs="0" maxOccurs="1"/>
         	</xs:sequence>
             <xs:attribute name="name" type="xs:string" use="required" />
         	<xs:attribute name="type" type="xs:string"/>
@@ -224,4 +226,20 @@
             <xs:attribute name="increment" type="xs:string" use="required"/>
         </xs:complexType>
     </xs:element>
+  <xs:element name="beanValidations">
+    <xs:annotation>
+      <xs:documentation>
+        bean validation annotations to apply to given element.
+        supported for tables [entity class level] and columns [field level].
+        the "inferNullabilityAndLength" attribute flags whether the system should attempt
+        to workout the @NotNull and @Length validations.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="beanV" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="inferNullabilityAndLength" type="xs:boolean"/>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>
