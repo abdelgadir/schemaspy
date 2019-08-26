@@ -83,6 +83,8 @@ public class MetaTemplateProducerUsingDOM implements XmlProducer {
 
     Document document = builder.newDocument();
     Element rootNode = document.createElement("schemaMeta");
+    rootNode.setAttribute("xmlns:xsi","http://www.w3.org/2001/XMLSchema-instance");
+    rootNode.setAttribute("xsi:noNamespaceSchemaLocation", "http://schemaspy.org/xsd/schemaMeta.xsd");
     document.appendChild(rootNode);
 
     metaTableFormatter.appendTables(rootNode, tables);
