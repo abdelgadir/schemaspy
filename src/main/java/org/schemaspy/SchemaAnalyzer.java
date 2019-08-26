@@ -45,6 +45,7 @@ import org.schemaspy.output.diagram.vizjs.VizJSDot;
 import org.schemaspy.output.dot.DotConfig;
 import org.schemaspy.output.dot.schemaspy.DotFormatter;
 import org.schemaspy.output.html.mustache.diagrams.*;
+import org.schemaspy.output.schemameta.MetaTemplateProducerUsingDOM;
 import org.schemaspy.output.xml.dom.XmlProducerUsingDOM;
 import org.schemaspy.util.ManifestUtils;
 import org.schemaspy.util.Markdown;
@@ -209,6 +210,10 @@ public class SchemaAnalyzer {
 
     public Database analyze(String schema, Config config, File outputDir, ProgressListener progressListener) throws SQLException, IOException {
         try {
+            if(config.isGenMetaTemplate()) {
+                addOutputProducer(new MetaTemplateProducerUsingDOM());
+            }
+
             LOGGER.info("Starting schema analysis");
 
             FileUtils.forceMkdir(outputDir);

@@ -122,6 +122,8 @@ public final class Config implements HtmlConfig, GraphvizConfig {
     private String imageFormat;
     private String renderer;
     private Boolean paginationEnabled;
+    private Boolean genMetaTemplate;
+
     /**      
      * @deprecated replaced by -dp expanding folders
      */
@@ -261,6 +263,13 @@ public final class Config implements HtmlConfig, GraphvizConfig {
             exportedKeysEnabled = !options.remove("-noexportedkeys");
         }
         return exportedKeysEnabled;
+    }
+
+    public boolean isGenMetaTemplate() {
+        if (Objects.isNull(genMetaTemplate)) {
+            genMetaTemplate = options.remove("-genMetaTemplate");
+        }
+        return genMetaTemplate;
     }
 
     public String getTemplateDirectory() {
@@ -1504,6 +1513,8 @@ public final class Config implements HtmlConfig, GraphvizConfig {
             params.add("-rails");
         if (isSingleSignOn())
             params.add("-sso");
+        if (isGenMetaTemplate())
+            params.add("-genMetaTemplate");
 
         String value = getDriverPath();
         if (value != null) {

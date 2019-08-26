@@ -1,0 +1,98 @@
+/*
+ * Copyright (C) 2019 AE Ibrahim
+ *
+ * This file is a part of the SchemaSpy project (http://schemaspy.org).
+ *
+ * SchemaSpy is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * SchemaSpy is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ */
+package org.schemaspy.output.schemameta;
+
+import static org.schemaspy.output.xml.dom.XmlConstants.COLUMN;
+
+import org.schemaspy.model.Table;
+import org.schemaspy.model.TableColumn;
+import org.schemaspy.output.xml.dom.DOMUtil;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+
+/**
+ * Formats {@link TableColumn}s into an XML DOM tree compatible with schema meta.
+ *
+ * @author Abdelgadir Ibrahim
+ */
+public class MetaColumnFormatter {
+
+  private static final String PLACE_HOLDER = "TODO";
+
+  /**
+   * Append all columns in the table to the XML node
+   *
+   * @param tableNode
+   * @param table
+   */
+  public void appendColumns(Element tableNode, Table table) {
+    for (TableColumn column : table.getColumns()) {
+      appendColumn(tableNode, column);
+    }
+  }
+
+  /**
+   * Append column details to the XML node
+   *
+   * @param tableNode
+   * @param column
+   * @return
+   */
+  public Node appendColumn(Node tableNode, TableColumn column) {
+    Document document = tableNode.getOwnerDocument();
+    Node columnNode = document.createElement(COLUMN);
+    tableNode.appendChild(columnNode);
+
+    DOMUtil.appendAttribute(columnNode, "name", column.getName());
+
+    //a pk join column is most likely derived hence no need to have them as generatedValue.
+    //auto updated keys are handled separately hence again not assigned a generatedValue.
+    if (hasSimplePK(column.getTable()) && column.isPrimary() && !(
+        column.isForeignKey() || column
+            .isAutoUpdated())) {
+      appendGeneratedValue(columnNode);
+    }
+    appendAppAnnotations(columnNode, column);
+    return columnNode;
+  }
+
+  private static void appendGeneratedValue(Node columnNode) {
+    Document document = columnNode.getOwnerDocument();
+    Node generatedValueNode = document.createElement("generatedValue");
+    columnNode.appendChild(generatedValueNode);
+    DOMUtil.appendAttribute(generatedValueNode, "strategy", PLACE_HOLDER);
+    DOMUtil.appendAttribute(generatedValueNode, "generator", PLACE_HOLDER);
+  }
+
+  private static void appendAppAnnotations(Node columnNode, TableColumn column) {
+    Document document = columnNode.getOwnerDocument();
+    Node appAnnotations = document.createElement("appAnnotations");
+    columnNode.appendChild(appAnnotations);
+
+    Element beanValidation = document.createElement("beanValidation");
+    beanValidation.setTextContent(PLACE_HOLDER);
+    appAnnotations.appendChild(beanValidation);
+  }
+
+  private boolean hasSimplePK(Table table) {
+    return table.getPrimaryColumns().size() == 1;
+  }
+}
