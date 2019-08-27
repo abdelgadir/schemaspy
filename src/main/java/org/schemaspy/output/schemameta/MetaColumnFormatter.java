@@ -76,7 +76,7 @@ public class MetaColumnFormatter {
             .isAutoUpdated())) {
       appendGeneratedValue(columnNode);
     }
-    appendAppAnnotations(columnNode, column);
+    appendAnnotations(columnNode, column);
     return columnNode;
   }
 
@@ -88,19 +88,19 @@ public class MetaColumnFormatter {
     DOMUtil.appendAttribute(generatedValueNode, "generator", PLACE_HOLDER);
   }
 
-  private static void appendAppAnnotations(Node columnNode, TableColumn column) {
+  private static void appendAnnotations(Node columnNode, TableColumn column) {
     Document document = columnNode.getOwnerDocument();
-    Node appAnnotations = document.createElement("appAnnotations");
-    columnNode.appendChild(appAnnotations);
+    Node annotations = document.createElement("annotations");
+    columnNode.appendChild(annotations);
 
     Element beanValidation = document.createElement("beanValidation");
     beanValidation.setTextContent(column.isNullable() ? "@NotNull" : PLACE_HOLDER);
-    appAnnotations.appendChild(beanValidation);
+    annotations.appendChild(beanValidation);
 
     if (isTextualType(column)) {
       Element beanValidation2 = document.createElement("beanValidation");
       beanValidation2.setTextContent("@Size(max=" + column.getLength() + ")");
-      appAnnotations.appendChild(beanValidation2);
+      annotations.appendChild(beanValidation2);
     }
   }
 

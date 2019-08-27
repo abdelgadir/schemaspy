@@ -21,6 +21,7 @@
  */
 package org.schemaspy.output.xml.dom;
 
+import org.schemaspy.input.dbms.xml.AnnotationsMeta;
 import org.schemaspy.input.dbms.xml.GeneratedValueMeta;
 import org.schemaspy.model.ForeignKeyConstraint;
 import org.schemaspy.model.Table;
@@ -114,6 +115,10 @@ public class XmlColumnFormatter {
             appendGeneratedValue(columnNode, column.getGeneratedValueMeta());
         }
 
+        if(column.getAnnotationsMeta() != null){
+            appendAnnotationsMeta(columnNode, column.getAnnotationsMeta());
+        }
+
         return columnNode;
     }
 
@@ -134,6 +139,18 @@ public class XmlColumnFormatter {
         columnNode.appendChild(generatedValueNode);
         DOMUtil.appendAttribute(generatedValueNode, "strategy", generatedValueMeta.getStrategy().name());
         DOMUtil.appendAttribute(generatedValueNode, "generator", generatedValueMeta.getGenerator());
+    }
+
+    private static void appendAnnotationsMeta(Node columnNode, AnnotationsMeta annotationsMeta) {
+        Document document = columnNode.getOwnerDocument();
+        Node annotationsNode = document.createElement("annotations");
+        columnNode.appendChild(annotationsNode);
+
+        annotationsMeta.getBeanValidations().stream().forEachOrdered( bv -> {
+            Node bvNode = document.createElement("beanValidation");
+            bvNode.setTextContent(bv.getContent());
+            annotationsNode.appendChild(bvNode);
+        });
     }
 
     /**

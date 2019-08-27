@@ -64,6 +64,7 @@ public class TableColumnMeta {
     private final boolean isImpliedChildrenDisabled;
     private final GeneratedValueMeta generatedValueMeta;
     private final String hbmType;
+    private final AnnotationsMeta annotationsMeta;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
@@ -178,6 +179,17 @@ public class TableColumnMeta {
         } else {
             generatedValueMeta = null;
         }
+
+        NodeList annotationsNodes = ((Element) colNode.getChildNodes()).getElementsByTagName("annotations");
+        if (annotationsNodes.getLength() > 0) {
+            if (annotationsNodes.getLength() > 1) {
+                throw new IllegalStateException("column annotations metadata can only define ONE annotations element - multiple found");
+            }
+            Node annotationsNode = annotationsNodes.item(0);
+            annotationsMeta = new AnnotationsMeta(annotationsNode);
+        } else {
+            annotationsMeta = null;
+        }
     }
 
     private boolean evalBoolean(String exp) {
@@ -254,5 +266,9 @@ public class TableColumnMeta {
 
     public String getHbmType() {
         return hbmType;
+    }
+
+    public AnnotationsMeta getAnnotationsMeta() {
+        return annotationsMeta;
     }
 }

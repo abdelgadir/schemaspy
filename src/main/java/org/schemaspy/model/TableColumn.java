@@ -22,6 +22,7 @@
  */
 package org.schemaspy.model;
 
+import org.schemaspy.input.dbms.xml.AnnotationsMeta;
 import org.schemaspy.input.dbms.xml.GeneratedValueMeta;
 import org.schemaspy.input.dbms.xml.TableColumnMeta;
 
@@ -57,6 +58,7 @@ public class TableColumn {
     private boolean isExcluded = false;
     private boolean isAllExcluded = false;
     private GeneratedValueMeta generatedValueMeta = null;
+    private AnnotationsMeta annotationsMeta = null;
     private String hbmType;
 
     /**
@@ -95,6 +97,7 @@ public class TableColumn {
         defaultValue = colMeta.getDefaultValue();
         comments = colMeta.getComments();
         generatedValueMeta = colMeta.getGeneratedValueMeta();
+        annotationsMeta = colMeta.getAnnotationsMeta();
         validateGeneratedValueMeta();
     }
 
@@ -386,6 +389,10 @@ public class TableColumn {
         return generatedValueMeta;
     }
 
+    public AnnotationsMeta getAnnotationsMeta() {
+        return annotationsMeta;
+    }
+
     /**
      * Add a parent column (PK) to this column (FK) via the associated constraint
      *
@@ -539,6 +546,7 @@ public class TableColumn {
         isExcluded |= colMeta.isExcluded();
         isAllExcluded |= colMeta.isAllExcluded();
         generatedValueMeta = colMeta.getGeneratedValueMeta();
+        annotationsMeta = colMeta.getAnnotationsMeta();
         hbmType = colMeta.getHbmType();
         validateGeneratedValueMeta();
     }

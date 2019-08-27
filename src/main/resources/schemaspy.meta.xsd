@@ -27,7 +27,7 @@
         <xs:complexType>
             <xs:sequence>
               <xs:element ref="column" minOccurs="0" maxOccurs="unbounded"/>
-              <xs:element ref="appAnnotations" minOccurs="0" maxOccurs="1"/>
+              <xs:element ref="annotations" minOccurs="0" maxOccurs="1"/>
             </xs:sequence>
             <xs:attribute name="name" type="xs:string" use="required"/>
             <xs:attribute name="comments" type="xs:string">
@@ -65,7 +65,7 @@
         		<xs:element ref="foreignKey" minOccurs="0"
         			maxOccurs="unbounded" />
                 <xs:element ref="generatedValue" minOccurs="0" maxOccurs="1"/>
-            <xs:element ref="appAnnotations" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="annotations" minOccurs="0" maxOccurs="1"/>
         	</xs:sequence>
             <xs:attribute name="name" type="xs:string" use="required" />
         	<xs:attribute name="type" type="xs:string"/>
@@ -226,7 +226,7 @@
             <xs:attribute name="increment" type="xs:string" use="required"/>
         </xs:complexType>
     </xs:element>
-  <xs:element name="appAnnotations">
+  <xs:element name="annotations">
     <xs:annotation>
       <xs:documentation>
         custom annotations to apply to given element.
