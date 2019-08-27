@@ -99,7 +99,7 @@ public class MetaColumnFormatter {
 
     if (isTextualType(column)) {
       Element beanValidation2 = document.createElement("beanValidation");
-      beanValidation2.setTextContent("@Size (max" + column.getLength() + ")");
+      beanValidation2.setTextContent("@Size(max=" + column.getLength() + ")");
       appAnnotations.appendChild(beanValidation2);
     }
   }
