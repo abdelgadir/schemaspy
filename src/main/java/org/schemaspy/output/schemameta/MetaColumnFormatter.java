@@ -21,6 +21,9 @@ package org.schemaspy.output.schemameta;
 
 import static org.schemaspy.output.xml.dom.XmlConstants.COLUMN;
 
+import java.sql.JDBCType;
+import java.util.Arrays;
+import java.util.List;
 import org.schemaspy.model.Table;
 import org.schemaspy.model.TableColumn;
 import org.schemaspy.output.xml.dom.DOMUtil;
@@ -35,7 +38,10 @@ import org.w3c.dom.Node;
  */
 public class MetaColumnFormatter {
 
-  private static final String PLACE_HOLDER = "TODO";
+  private static final String PLACE_HOLDER = "";
+  private static List<JDBCType> TEXTUAL_TYPES = Arrays
+      .asList(JDBCType.CHAR, JDBCType.VARCHAR, JDBCType.LONGVARCHAR, JDBCType.NCHAR,
+          JDBCType.NVARCHAR, JDBCType.LONGNVARCHAR);
 
   /**
    * Append all columns in the table to the XML node
@@ -88,11 +94,21 @@ public class MetaColumnFormatter {
     columnNode.appendChild(appAnnotations);
 
     Element beanValidation = document.createElement("beanValidation");
-    beanValidation.setTextContent(PLACE_HOLDER);
+    beanValidation.setTextContent(column.isNullable() ? "@NotNull" : PLACE_HOLDER);
     appAnnotations.appendChild(beanValidation);
+
+    if (isTextualType(column)) {
+      Element beanValidation2 = document.createElement("beanValidation");
+      beanValidation2.setTextContent("@Size (max" + column.getLength() + ")");
+      appAnnotations.appendChild(beanValidation2);
+    }
   }
 
   private boolean hasSimplePK(Table table) {
     return table.getPrimaryColumns().size() == 1;
+  }
+
+  private static boolean isTextualType(TableColumn column) {
+    return TEXTUAL_TYPES.contains(JDBCType.valueOf(column.getType()));
   }
 }
