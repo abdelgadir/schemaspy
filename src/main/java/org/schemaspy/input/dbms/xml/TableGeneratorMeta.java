@@ -43,8 +43,8 @@ public class TableGeneratorMeta {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
-    public TableGeneratorMeta(Node generatedValueNode) {
-        NamedNodeMap attribs = generatedValueNode.getAttributes();
+    public TableGeneratorMeta(Node tableGeneratorNode) {
+        NamedNodeMap attribs = tableGeneratorNode.getAttributes();
 
         Node node = attribs.getNamedItem("name");
         if (node == null)
