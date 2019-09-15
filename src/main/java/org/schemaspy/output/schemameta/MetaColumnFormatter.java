@@ -94,7 +94,7 @@ public class MetaColumnFormatter {
     columnNode.appendChild(annotations);
 
     Element beanValidation = document.createElement("beanValidation");
-    beanValidation.setTextContent(column.isNullable() ? "@NotNull" : PLACE_HOLDER);
+    beanValidation.setTextContent(!column.isNullable() ? "@NotNull" : PLACE_HOLDER);
     annotations.appendChild(beanValidation);
 
     if (isTextualType(column)) {
