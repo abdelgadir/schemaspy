@@ -91,7 +91,6 @@ public class MetaColumnFormatter {
   private static void appendAnnotations(Node columnNode, TableColumn column) {
     Document document = columnNode.getOwnerDocument();
     Node annotations = document.createElement("annotations");
-    columnNode.appendChild(annotations);
 
     if(!column.isNullable()) {
       Element beanValidation = document.createElement("beanValidation");
@@ -103,6 +102,11 @@ public class MetaColumnFormatter {
       Element beanValidation2 = document.createElement("beanValidation");
       beanValidation2.setTextContent("@Size(max=" + column.getLength() + ")");
       annotations.appendChild(beanValidation2);
+    }
+
+    //avoid outputting empty annotations element e.g., <annotations/>
+    if(annotations.hasChildNodes()) {
+      columnNode.appendChild(annotations);
     }
   }
 
