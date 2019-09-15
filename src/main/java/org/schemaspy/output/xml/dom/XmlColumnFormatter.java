@@ -142,15 +142,17 @@ public class XmlColumnFormatter {
     }
 
     private static void appendAnnotationsMeta(Node columnNode, AnnotationsMeta annotationsMeta) {
-        Document document = columnNode.getOwnerDocument();
-        Node annotationsNode = document.createElement("annotations");
-        columnNode.appendChild(annotationsNode);
+        if(annotationsMeta.hasAnnotations()) {
+            Document document = columnNode.getOwnerDocument();
+            Node annotationsNode = document.createElement("annotations");
+            columnNode.appendChild(annotationsNode);
 
-        annotationsMeta.getBeanValidations().stream().forEachOrdered( bv -> {
-            Node bvNode = document.createElement("beanValidation");
-            bvNode.setTextContent(bv.getContent());
-            annotationsNode.appendChild(bvNode);
-        });
+            annotationsMeta.getBeanValidations().stream().forEachOrdered(bv -> {
+                Node bvNode = document.createElement("beanValidation");
+                bvNode.setTextContent(bv.getContent());
+                annotationsNode.appendChild(bvNode);
+            });
+        }
     }
 
     /**

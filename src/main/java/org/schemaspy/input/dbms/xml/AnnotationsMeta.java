@@ -55,4 +55,8 @@ public class AnnotationsMeta {
   public List<BeanValidationAnnotationMeta> getBeanValidations() {
     return beanValidations;
   }
+
+  public boolean hasAnnotations() {
+    return !beanValidations.isEmpty();
+  }
 }
